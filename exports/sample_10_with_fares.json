@@ -1,0 +1,258 @@
+[
+  {
+    "routeId": "classic-5-4-1",
+    "origin": "Ketapang",
+    "destination": "Gilimanuk",
+    "shipClass": "Reguler",
+    "source": "ferizy.com",
+    "originHarbourId": "classic-5",
+    "destinationProvince": "Bali",
+    "fares": [
+      {
+        "vehicleClass": "GOLONGAN VA",
+        "departDate": "2026-08-20",
+        "departTime": "01:00:00-02:00:00",
+        "kuota": 600,
+        "fareAmount": 420400,
+        "totalFare": 420400,
+        "currency": "IDR"
+      }
+    ],
+    "scheduleType": "hourly_window",
+    "note": "live fare 2026-08-20 via POST ferizy.com/schedule (encrypted window.searchData)"
+  },
+  {
+    "routeId": "5434",
+    "origin": "Larantuka",
+    "destination": "Lewoleba",
+    "shipClass": null,
+    "source": "trip.ferizy.com",
+    "originHarbourId": "173",
+    "destinationProvince": "Nusa Tenggara Timur",
+    "fares": null,
+    "fareNote": "dynamic — price/quota via ticket/ship/schedule per date/serviceId/vehicleId; no static fare in trip.ferizy.com masters",
+    "serviceTypesSample": [
+      {
+        "serviceCategory": null,
+        "serviceName": "Dewasa Ekonomi",
+        "serviceDesc": ">2 Tahun"
+      },
+      {
+        "serviceCategory": null,
+        "serviceName": "Anak - Anak Ekonomi",
+        "serviceDesc": "2 - 5 Tahun"
+      }
+    ],
+    "dynamicFarePointer": {
+      "exampleRoute": "Lembar(198)->Padang Bai",
+      "sampleFile": "data/ship_schedule_25_sample.json"
+    }
+  },
+  {
+    "routeId": "classic-2-3-1",
+    "origin": "Merak",
+    "destination": "Bakauheni",
+    "shipClass": "Reguler",
+    "source": "ferizy.com",
+    "originHarbourId": "classic-2",
+    "destinationProvince": "Lampung",
+    "fares": [
+      {
+        "vehicleClass": "GOLONGAN VA",
+        "departDate": "2026-08-20",
+        "departTime": "01:00:00-02:00:00",
+        "kuota": 1000,
+        "fareAmount": 963800,
+        "totalFare": 963800,
+        "currency": "IDR"
+      }
+    ],
+    "scheduleType": "hourly_window",
+    "note": "live fare 2026-08-20 via POST ferizy.com/schedule (encrypted window.searchData)"
+  },
+  {
+    "routeId": "5641005",
+    "origin": "Jangkar",
+    "destination": "Raas",
+    "shipClass": null,
+    "source": "trip.ferizy.com",
+    "originHarbourId": "564",
+    "destinationProvince": "Jawa Timur",
+    "fares": null,
+    "fareNote": "dynamic — price/quota via ticket/ship/schedule per date/serviceId/vehicleId; no static fare in trip.ferizy.com masters",
+    "serviceTypesSample": [
+      {
+        "serviceCategory": null,
+        "serviceName": "Dewasa Ekonomi",
+        "serviceDesc": ">2 Tahun"
+      },
+      {
+        "serviceCategory": null,
+        "serviceName": "Bayi Ekonomi",
+        "serviceDesc": "0 - 2 Tahun"
+      }
+    ],
+    "dynamicFarePointer": {
+      "exampleRoute": "Lembar(198)->Padang Bai",
+      "sampleFile": "data/ship_schedule_25_sample.json"
+    }
+  },
+  {
+    "routeId": "classic-3-2-2",
+    "origin": "Bakauheni",
+    "destination": "Merak",
+    "shipClass": "Express",
+    "source": "ferizy.com",
+    "originHarbourId": "classic-3",
+    "destinationProvince": "Banten",
+    "fares": [
+      {
+        "vehicleClass": "GOLONGAN VA",
+        "departDate": "2026-08-20",
+        "departTime": "00:18:00-00:18:00",
+        "kuota": 400,
+        "fareAmount": 1225928,
+        "totalFare": 1225928,
+        "currency": "IDR"
+      },
+      {
+        "vehicleClass": "GOLONGAN VB",
+        "departDate": "2026-08-20",
+        "departTime": "00:18:00-00:18:00",
+        "kuota": 400,
+        "fareAmount": 904923,
+        "totalFare": 904923,
+        "currency": "IDR"
+      }
+    ],
+    "scheduleType": "discrete",
+    "note": "live fare 2026-08-20 via POST ferizy.com/schedule (encrypted window.searchData)"
+  },
+  {
+    "routeId": "classic-2-3-2",
+    "origin": "Merak",
+    "destination": "Bakauheni",
+    "shipClass": "Express",
+    "source": "ferizy.com",
+    "originHarbourId": "classic-2",
+    "destinationProvince": "Lampung",
+    "fares": [
+      {
+        "vehicleClass": "GOLONGAN VA",
+        "departDate": "2026-08-20",
+        "departTime": "00:54:00-00:54:00",
+        "kuota": 400,
+        "fareAmount": 1225928,
+        "totalFare": 1225928,
+        "currency": "IDR"
+      },
+      {
+        "vehicleClass": "GOLONGAN VB",
+        "departDate": "2026-08-20",
+        "departTime": "00:54:00-00:54:00",
+        "kuota": 400,
+        "fareAmount": 904923,
+        "totalFare": 904923,
+        "currency": "IDR"
+      }
+    ],
+    "scheduleType": "discrete",
+    "note": "live fare 2026-08-20 via POST ferizy.com/schedule (encrypted window.searchData)"
+  },
+  {
+    "routeId": "classic-4-5-1",
+    "origin": "Gilimanuk",
+    "destination": "Ketapang",
+    "shipClass": "Reguler",
+    "source": "ferizy.com",
+    "originHarbourId": "classic-4",
+    "destinationProvince": "Jawa Timur",
+    "fares": [
+      {
+        "vehicleClass": "GOLONGAN VA",
+        "departDate": "2026-08-20",
+        "departTime": "01:00:00-02:00:00",
+        "kuota": 399,
+        "fareAmount": 420400,
+        "totalFare": 420400,
+        "currency": "IDR"
+      }
+    ],
+    "scheduleType": "hourly_window",
+    "note": "live fare 2026-08-20 via POST ferizy.com/schedule (encrypted window.searchData)"
+  },
+  {
+    "routeId": "33",
+    "origin": "Bastiong",
+    "destination": "Rum",
+    "shipClass": null,
+    "source": "trip.ferizy.com",
+    "originHarbourId": "106",
+    "destinationProvince": "Maluku Utara",
+    "fares": null,
+    "fareNote": "dynamic — price/quota via ticket/ship/schedule per date/serviceId/vehicleId; no static fare in trip.ferizy.com masters",
+    "serviceTypesSample": [
+      {
+        "serviceCategory": null,
+        "serviceName": "Dewasa Ekonomi",
+        "serviceDesc": ">2 Tahun"
+      },
+      {
+        "serviceCategory": null,
+        "serviceName": "Bayi Ekonomi",
+        "serviceDesc": "0 - 2 Tahun"
+      }
+    ],
+    "dynamicFarePointer": {
+      "exampleRoute": "Lembar(198)->Padang Bai",
+      "sampleFile": "data/ship_schedule_25_sample.json"
+    }
+  },
+  {
+    "routeId": "1023206",
+    "origin": "Pulau Balang Lompo",
+    "destination": "Maccini Baji",
+    "shipClass": null,
+    "source": "trip.ferizy.com",
+    "originHarbourId": "1023",
+    "destinationProvince": "",
+    "fares": null,
+    "fareNote": "dynamic — price/quota via ticket/ship/schedule per date/serviceId/vehicleId; no static fare in trip.ferizy.com masters",
+    "serviceTypesSample": [],
+    "dynamicFarePointer": {
+      "exampleRoute": "Lembar(198)->Padang Bai",
+      "sampleFile": "data/ship_schedule_25_sample.json"
+    }
+  },
+  {
+    "routeId": "classic-3-2-1",
+    "origin": "Bakauheni",
+    "destination": "Merak",
+    "shipClass": "Reguler",
+    "source": "ferizy.com",
+    "originHarbourId": "classic-3",
+    "destinationProvince": "Banten",
+    "fares": [
+      {
+        "vehicleClass": "GOLONGAN VA",
+        "departDate": "2026-08-20",
+        "departTime": "01:00:00-02:00:00",
+        "kuota": 1000,
+        "fareAmount": 963800,
+        "totalFare": 963800,
+        "currency": "IDR"
+      },
+      {
+        "vehicleClass": "GOLONGAN VB",
+        "departDate": "2026-08-20",
+        "departTime": "01:00:00-02:00:00",
+        "kuota": 1000,
+        "fareAmount": 835300,
+        "totalFare": 835300,
+        "currency": "IDR"
+      }
+    ],
+    "scheduleType": "hourly_window",
+    "note": "live fare 2026-08-20 via POST ferizy.com/schedule (encrypted window.searchData)"
+  }
+]
