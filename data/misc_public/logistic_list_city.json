@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/logistic/list-city",
+    "headers_extra": {}
+  },
+  "status": 400,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:47:48.248350+07:00",
+  "body": {
+    "responseCode": "400",
+    "responseMessage": "Bad Request",
+    "responseReferenceNo": "e6a529324d714c5b9a0208f5df7ee26e",
+    "data": {
+      "AIFSignToken": "AIFSignToken cannot be empty",
+      "AIFEmail": "AIFEmail cannot be empty"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/ticket/parameter",
+    "parameter": "popup_banner_link",
+    "headers_extra": {
+      "AIFParameterName": "popup_banner_link"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:38:01.438770+07:00",
+  "body": {
+    "responseCode": "200",
+    "responseMessage": "Success",
+    "responseReferenceNo": "217361f67cd24f64ab0b6f05d00980b7",
+    "data": [
+      {
+        "parameterName": "popup_banner_link",
+        "parameterValue": "https://lh3.googleusercontent.com/rd-d/ALs6j_ElNAQi9AwHz9s92ieqgQj_E9kCaMPFEorpyqNjGD-xcCeOPs1V935NNFsCHiQAtPzYL218ZJ-3QRvvPf_TLBw2mA-Z6Aw0rlvhDPIpfiqLVaDtxoGyxBXOMkWETUjHOWekA4ClnyqWcsT9OT369IPe_vL4cyK5IkvHzljfvJwd1kVWYE4X5cStvxgFcBuMuH9yoTzGWZxZCeHoA2KgkiSEWEvI2te-MUBkCLjsEyeZ-QyH36vFUG8zFOuoJSknVMmiUCQoTH3uJjyqLkD5hWgX-7nLGJQaXiN5hkuVfhAwEjXvIr9jzxKgfdcfAPEoD_L8akzAP5jcH3V7Qu-xmSqWPzXbhmNOiw0L92CawZjSc3mzF4WVKXiwH49OX8YU9qCJWVaCG2-4sLG4sAvFAQZvSU1rjOGopIYUB2WNjkmx43asY6uMyN6xJ-Hq7ey6eb__ZNYziOsX3vgcVhaiawDxKzV32BqUItjjaPEdHP3Xj_BCr0D6bz0Evhwu6bJz5HPoJcoSY2E8ZgxEE2q2BZN5Kqub0Edo7qrnaSRfd4DWprBmowBOSrRD-1I8iwaCbABxWDLvOR0DIGrzev-_lzr_m3f6Wmp0GZrzWN-rJPYJk4ixGC_aIKD2noS76zo8bxxZnaRuzdoCojbDdjhzP_ZkEwrr1r_5P90tZmv2-QE_WE-yKUF4wXPwzmueVc1kFJitynKbzkdRBVsgvGeCwGPTQ_PS9iFONlbYxeVM8GmJB05aNaNASJE8ftfxetf0L7jDwO7o3hXIpf8scBqoGLCUtG8GPSkt2WHGFZco0n5pVMJmtql7Ar2kOi5LoLGWn5RIt0fyIgrNh7G7rGR3OAaycx_AnhI8kWX7o7aMA3CbBxXeFcWzYNiDP5lcjwP0i4xsewfFmfAM9uzmkUjD9Z3R2C9ajs_CkdxaeDeAbVXcmnLuofFM-2hojMZaj45fZawUGZmwSZJmrn4PLHDmJeBwaY_sCudLxB--JGKBcnxn3ZB7oMyZprHmL-A8rzfqpHj2Leb_Gd20kiJmRQoeXGEsIfmjD-Ve0j7i1ttS_il9hSBIkr17w0SOokfADAuP60oOOkT2mJ3j7V-JmNQ42j76Uh5iEKrdrg=w1920-h877?auditContext=forDisplay",
+        "parameterDescription": "popup"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/logistic/list-cargo-type",
+    "headers_extra": {}
+  },
+  "status": 400,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:47:47.348297+07:00",
+  "body": {
+    "responseCode": "400",
+    "responseMessage": "Bad Request",
+    "responseReferenceNo": "1db8e67dbec342708c5533a6d8d32cda",
+    "data": {
+      "AIFSignToken": "AIFSignToken cannot be empty",
+      "AIFEmail": "AIFEmail cannot be empty"
+    }
+  }
+}

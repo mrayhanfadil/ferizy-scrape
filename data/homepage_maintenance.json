@@ -1,0 +1,23 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/maintenance",
+    "headers_extra": {}
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:13:51.398203+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpMaintenanceRf - Success",
+    "ResponseReferenceNo": "3216d176611f4095ad4b49bfa89b47f6",
+    "maintenance": {
+      "id": "maintenance",
+      "name": "Maintenance",
+      "data": {
+        "maintenanceActive": "false",
+        "maintenanceUrl": "https://toba.ferizy.com/maintenance/index.html"
+      }
+    }
+  }
+}

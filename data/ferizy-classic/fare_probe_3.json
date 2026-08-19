@@ -1,0 +1,21 @@
+{
+  "params": {
+    "origin": "3",
+    "destination": "2",
+    "ship_class": "2",
+    "depart_date": "2026-08-20",
+    "depart_time_start": "00:15:00",
+    "depart_time_end": "00:15:00",
+    "kuota": "400",
+    "service_id": "2",
+    "vehicle_class_id": "11",
+    "adult": "1",
+    "child": "0",
+    "infant": "0"
+  },
+  "status": 200,
+  "body": {
+    "code": 102,
+    "message": "<p>The origin field is required.</p>\n<p>The destination field is required.</p>\n<p>The depart_date field is required.</p>\n<p>The service_id field is required.</p>\n<p>The ship class field is required.</p>\n<p>The depart time start field is required.</p>\n<p>The depart time end field is required.</p>\n<p>The Total penumpang field is required.</p>\n"
+  }
+}

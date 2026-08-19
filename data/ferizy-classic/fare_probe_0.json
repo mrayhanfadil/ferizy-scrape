@@ -1,0 +1,17 @@
+{
+  "params": {
+    "origin": "3",
+    "destination": "2",
+    "ship_class": "2",
+    "depart_date": "2026-08-20",
+    "depart_time_start": "00:15:00",
+    "depart_time_end": "00:15:00",
+    "service": "2",
+    "vehicle_class": "11"
+  },
+  "status": 400,
+  "body": {
+    "code": 400,
+    "message": "Bad request"
+  }
+}

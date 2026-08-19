@@ -1,0 +1,25 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/ticket/parameter",
+    "parameter": "expired_option_payment",
+    "headers_extra": {
+      "AIFParameterName": "expired_option_payment"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:37:31.956393+07:00",
+  "body": {
+    "responseCode": "200",
+    "responseMessage": "Success",
+    "responseReferenceNo": "9eb9fec47ec54670a1b3635e4ee8ca26",
+    "data": [
+      {
+        "parameterName": "expired_option_payment",
+        "parameterValue": "10",
+        "parameterDescription": "maksimal waktu tunggu pemilihan payment"
+      }
+    ]
+  }
+}

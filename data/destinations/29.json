@@ -1,0 +1,34 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/destination",
+    "origin": {
+      "harbourId": "29",
+      "harbourName": "Padang",
+      "province": "Sumatera Barat"
+    },
+    "headers_extra": {
+      "AIFHarbourOriginId": "29"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:15:15.498652+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpDestinationRf - Success",
+    "ResponseReferenceNo": "d65845597b90430495ce038eb1c1d261",
+    "destinationHarbour": {
+      "id": "destination-harbour",
+      "name": "Destination Harbour",
+      "data": [
+        {
+          "routeId": "122",
+          "origin": "Padang",
+          "destination": "Tua Pejat",
+          "destinationProvince": "Sumatera Barat"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "status": 200,
+  "body": {
+    "code": 1,
+    "message": "1 data found.",
+    "count": 1,
+    "port_destination": [
+      {
+        "id": "",
+        "text": ""
+      },
+      {
+        "id": "5",
+        "text": "Ketapang, Jawa Timur",
+        "city": "JAWA TIMUR"
+      }
+    ]
+  }
+}

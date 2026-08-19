@@ -1,0 +1,34 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/destination",
+    "origin": {
+      "harbourId": "217",
+      "harbourName": "Kendari",
+      "province": "Sulawesi Tenggara"
+    },
+    "headers_extra": {
+      "AIFHarbourOriginId": "217"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:15:00.828361+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpDestinationRf - Success",
+    "ResponseReferenceNo": "ee594cf2393745b89ffd0bcb74077506",
+    "destinationHarbour": {
+      "id": "destination-harbour",
+      "name": "Destination Harbour",
+      "data": [
+        {
+          "routeId": "217218",
+          "origin": "Kendari",
+          "destination": "Langara",
+          "destinationProvince": "Sulawesi Tenggara"
+        }
+      ]
+    }
+  }
+}

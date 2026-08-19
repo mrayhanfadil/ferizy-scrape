@@ -1,0 +1,10 @@
+origin,destination,shipClass,vehicleClass,departDate,departTime,kuota,fareAmount,totalFare,currency,sourceFile
+Bakauheni,Merak,Express,GOLONGAN VA,2026-08-20,00:18:00-00:18:00,400,1225928,1225928,IDR,fare_3_2_2_vc11_2026-08-20.json
+Bakauheni,Merak,Express,GOLONGAN VB,2026-08-20,00:18:00-00:18:00,400,904923,904923,IDR,fare_3_2_2_vc12_2026-08-20.json
+Bakauheni,Merak,Reguler,GOLONGAN VA,2026-08-20,01:00:00-02:00:00,1000,963800,963800,IDR,fare_3_2_1_vc11_2026-08-20.json
+Bakauheni,Merak,Reguler,GOLONGAN VB,2026-08-20,01:00:00-02:00:00,1000,835300,835300,IDR,fare_3_2_1_vc12_2026-08-20.json
+Gilimanuk,Ketapang,Reguler,GOLONGAN VA,2026-08-20,01:00:00-02:00:00,399,420400,420400,IDR,fare_4_5_1_vc11_2026-08-20.json
+Ketapang,Gilimanuk,Reguler,GOLONGAN VA,2026-08-20,01:00:00-02:00:00,600,420400,420400,IDR,fare_5_4_1_vc11_2026-08-20.json
+Merak,Bakauheni,Express,GOLONGAN VA,2026-08-20,00:54:00-00:54:00,400,1225928,1225928,IDR,fare_2_3_2_vc11_2026-08-20.json
+Merak,Bakauheni,Express,GOLONGAN VB,2026-08-20,00:54:00-00:54:00,400,904923,904923,IDR,fare_2_3_2_vc12_2026-08-20.json
+Merak,Bakauheni,Reguler,GOLONGAN VA,2026-08-20,01:00:00-02:00:00,1000,963800,963800,IDR,fare_2_3_1_vc11_2026-08-20.json

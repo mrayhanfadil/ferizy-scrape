@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/layanan",
+    "headers_extra": {},
+    "retry": true
+  },
+  "status": 404,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:48:50.489216+07:00",
+  "body": {
+    "ResponseCode": "404",
+    "ResponseMessage": "HomePage HpHpLayananRf - Data not found",
+    "ResponseReferenceNo": "bae5a7dde551423d9507694c07162b79"
+  }
+}

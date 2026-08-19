@@ -1,0 +1,70 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/destination",
+    "origin": {
+      "harbourId": "173",
+      "harbourName": "Larantuka",
+      "province": "Nusa Tenggara Timur"
+    },
+    "headers_extra": {
+      "AIFHarbourOriginId": "173"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:15:08.318382+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpDestinationRf - Success",
+    "ResponseReferenceNo": "ce4d253562ae41c28d3c8046e9c3d40c",
+    "destinationHarbour": {
+      "id": "destination-harbour",
+      "name": "Destination Harbour",
+      "data": [
+        {
+          "routeId": "5476",
+          "origin": "Larantuka",
+          "destination": "Waiwerang",
+          "destinationProvince": "Nusa Tenggara Timur"
+        },
+        {
+          "routeId": "5434",
+          "origin": "Larantuka",
+          "destination": "Lewoleba",
+          "destinationProvince": "Nusa Tenggara Timur"
+        },
+        {
+          "routeId": "5433",
+          "origin": "Larantuka",
+          "destination": "Baranusa",
+          "destinationProvince": "Nusa Tenggara Timur"
+        },
+        {
+          "routeId": "5432",
+          "origin": "Larantuka",
+          "destination": "Solor",
+          "destinationProvince": "Nusa Tenggara Timur"
+        },
+        {
+          "routeId": "5431",
+          "origin": "Larantuka",
+          "destination": "Adonara",
+          "destinationProvince": "Nusa Tenggara Timur"
+        },
+        {
+          "routeId": "5427",
+          "origin": "Larantuka",
+          "destination": "Kalabahi",
+          "destinationProvince": "Nusa Tenggara Timur"
+        },
+        {
+          "routeId": "1407",
+          "origin": "Larantuka",
+          "destination": "Kupang",
+          "destinationProvince": "Nusa Tenggara Timur"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/ticket/parameter",
+    "parameter": "expired_verification",
+    "headers_extra": {
+      "AIFParameterName": "expired_verification"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:37:34.205359+07:00",
+  "body": {
+    "responseCode": "200",
+    "responseMessage": "Success",
+    "responseReferenceNo": "856c88d044234d3292bdc15e08ab32c5",
+    "data": [
+      {
+        "parameterName": "expired_verification",
+        "parameterValue": "10",
+        "parameterDescription": "Batas waktu untuk masa tunggu transaksi sampai ke pemilihan metode pembayaran"
+      }
+    ]
+  }
+}

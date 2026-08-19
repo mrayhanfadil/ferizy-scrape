@@ -1,0 +1,25 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/ticket/parameter",
+    "parameter": "halaman_pencarian_jadwal_kebijakan",
+    "headers_extra": {
+      "AIFParameterName": "halaman_pencarian_jadwal_kebijakan"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:37:52.521533+07:00",
+  "body": {
+    "responseCode": "200",
+    "responseMessage": "Success",
+    "responseReferenceNo": "bf3b009f889c40068cfcdadb8d3a5c99",
+    "data": [
+      {
+        "parameterName": "halaman_pencarian_jadwal_kebijakan",
+        "parameterValue": "<ol><li>Anda sudah dapat <strong>Masuk Pelabuhan (Check In) mulai dari 2 (dua) jam sebelum</strong> Jadwal Masuk Pelabuhan yang Anda pilih.</li><li>Tiket akan <strong>hangus (expired)</strong> apabila Anda belum Masuk Pelabuhan (Check In) <strong>hingga melewati batas waktu</strong> Jadwal Masuk Pelabuhan yang Anda pilih</li><li><strong>Nama Penumpang harus sesuai</strong> dengan <strong>Kartu Identitas</strong> (KTP/SIM/Passpor/Dll)</li><li><strong>Jumlah Penumpang</strong> dan <strong>Nomor Polisi Kendaraan</strong> <strong>harus sesuai</strong> dengan Jumlah Penumpang dan Nomor Polisi Kendaraan yang akan <strong>menyeberang</strong></li><li>Jadwal dan nama kapal keberangkatan dapat berubah sewaktu-waktu mengikuti kondisi cuaca dan operasional pelabuhan tanpa pemberitahuan terlebih dahulu.</li></ol>",
+        "parameterDescription": "narasi jadwal kebijakan"
+      }
+    ]
+  }
+}

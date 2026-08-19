@@ -1,0 +1,40 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/destination",
+    "origin": {
+      "harbourId": "296",
+      "harbourName": "Biak",
+      "province": "Papua"
+    },
+    "headers_extra": {
+      "AIFHarbourOriginId": "296"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:14:19.594256+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpDestinationRf - Success",
+    "ResponseReferenceNo": "2e018a63d9794fa3b904fece9cb76752",
+    "destinationHarbour": {
+      "id": "destination-harbour",
+      "name": "Destination Harbour",
+      "data": [
+        {
+          "routeId": "296300",
+          "origin": "Biak",
+          "destination": "Nabire",
+          "destinationProvince": "Papua Tengah"
+        },
+        {
+          "routeId": "296284",
+          "origin": "Biak",
+          "destination": "Manokwari",
+          "destinationProvince": "Papua Barat"
+        }
+      ]
+    }
+  }
+}

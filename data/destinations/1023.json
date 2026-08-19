@@ -1,0 +1,34 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/destination",
+    "origin": {
+      "harbourId": "1023",
+      "harbourName": "Pulau Balang Lompo",
+      "province": "Sulawesi Selatan"
+    },
+    "headers_extra": {
+      "AIFHarbourOriginId": "1023"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:15:40.750903+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpDestinationRf - Success",
+    "ResponseReferenceNo": "b88ceca2189d425b9ad55e324c25bd0d",
+    "destinationHarbour": {
+      "id": "destination-harbour",
+      "name": "Destination Harbour",
+      "data": [
+        {
+          "routeId": "1023206",
+          "origin": "Pulau Balang Lompo",
+          "destination": "Maccini Baji",
+          "destinationProvince": ""
+        }
+      ]
+    }
+  }
+}

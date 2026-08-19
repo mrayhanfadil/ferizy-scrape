@@ -1,0 +1,98 @@
+{
+  "3": {
+    "origin": {
+      "id": "3",
+      "text": "Bakauheni, Lampung",
+      "city": "LAMPUNG",
+      "is_redirect": false
+    },
+    "resp": {
+      "code": 1,
+      "message": "1 data found.",
+      "count": 1,
+      "port_destination": [
+        {
+          "id": "",
+          "text": ""
+        },
+        {
+          "id": "2",
+          "text": "Merak, Banten",
+          "city": "BANTEN"
+        }
+      ]
+    }
+  },
+  "4": {
+    "origin": {
+      "id": "4",
+      "text": "Gilimanuk, Bali",
+      "city": "BALI",
+      "is_redirect": false
+    },
+    "resp": {
+      "code": 1,
+      "message": "1 data found.",
+      "count": 1,
+      "port_destination": [
+        {
+          "id": "",
+          "text": ""
+        },
+        {
+          "id": "5",
+          "text": "Ketapang, Jawa Timur",
+          "city": "JAWA TIMUR"
+        }
+      ]
+    }
+  },
+  "5": {
+    "origin": {
+      "id": "5",
+      "text": "Ketapang, Jawa Timur",
+      "city": "JAWA TIMUR",
+      "is_redirect": false
+    },
+    "resp": {
+      "code": 1,
+      "message": "1 data found.",
+      "count": 1,
+      "port_destination": [
+        {
+          "id": "",
+          "text": ""
+        },
+        {
+          "id": "4",
+          "text": "Gilimanuk, Bali",
+          "city": "BALI"
+        }
+      ]
+    }
+  },
+  "2": {
+    "origin": {
+      "id": "2",
+      "text": "Merak, Banten",
+      "city": "BANTEN",
+      "is_redirect": false
+    },
+    "resp": {
+      "code": 1,
+      "message": "1 data found.",
+      "count": 1,
+      "port_destination": [
+        {
+          "id": "",
+          "text": ""
+        },
+        {
+          "id": "3",
+          "text": "Bakauheni, Lampung",
+          "city": "LAMPUNG"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/destination",
+    "origin": {
+      "harbourId": "344",
+      "harbourName": "Mamuju",
+      "province": "Sulawesi Barat"
+    },
+    "headers_extra": {
+      "AIFHarbourOriginId": "344"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:15:10.538258+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpDestinationRf - Success",
+    "ResponseReferenceNo": "6f26a82d96324f02934ab5104461cfdc",
+    "destinationHarbour": {
+      "id": "destination-harbour",
+      "name": "Destination Harbour",
+      "data": [
+        {
+          "routeId": "344049",
+          "origin": "Mamuju",
+          "destination": "Balikpapan",
+          "destinationProvince": "Kalimantan Timur"
+        }
+      ]
+    }
+  }
+}

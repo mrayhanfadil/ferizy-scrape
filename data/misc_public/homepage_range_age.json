@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/range/age",
+    "headers_extra": {}
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:46:45.202445+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "Success",
+    "ResponseReferenceNo": "2969dfb5ddba42318b6eb08e173ecbc5",
+    "content": {
+      "anak": {},
+      "bayi": {},
+      "dewasa": {}
+    }
+  }
+}

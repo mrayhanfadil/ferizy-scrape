@@ -1,0 +1,34 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/destination",
+    "origin": {
+      "harbourId": "234",
+      "harbourName": "Pagimana",
+      "province": "Sulawesi Tengah"
+    },
+    "headers_extra": {
+      "AIFHarbourOriginId": "234"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:15:18.198305+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpDestinationRf - Success",
+    "ResponseReferenceNo": "ead4df0696e64647bc5d87fa4e531e99",
+    "destinationHarbour": {
+      "id": "destination-harbour",
+      "name": "Destination Harbour",
+      "data": [
+        {
+          "routeId": "234228",
+          "origin": "Pagimana",
+          "destination": "Gorontalo",
+          "destinationProvince": "Gorontalo"
+        }
+      ]
+    }
+  }
+}

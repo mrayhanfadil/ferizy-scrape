@@ -1,0 +1,147 @@
+routeId,origin,destination,shipClass,source,originHarbourId,destinationProvince
+classic-3-2-2,Bakauheni,Merak,Express,ferizy.com,classic-3,Banten
+classic-3-2-1,Bakauheni,Merak,Reguler,ferizy.com,classic-3,Banten
+classic-4-5-1,Gilimanuk,Ketapang,Reguler,ferizy.com,classic-4,Jawa Timur
+classic-5-4-1,Ketapang,Gilimanuk,Reguler,ferizy.com,classic-5,Bali
+classic-2-3-2,Merak,Bakauheni,Express,ferizy.com,classic-2,Lampung
+classic-2-3-1,Merak,Bakauheni,Reguler,ferizy.com,classic-2,Lampung
+5488,Aimere,Kupang,,trip.ferizy.com,175,Nusa Tenggara Timur
+5439,Aimere,Waingapu,,trip.ferizy.com,175,Nusa Tenggara Timur
+5510,Ajibata,Ambarita,,trip.ferizy.com,348,Sumatera Utara
+5511,Ambarita,Ajibata,,trip.ferizy.com,349,Sumatera Utara
+203202,Bajoe,Kolaka,,trip.ferizy.com,203,Sulawesi Tenggara
+1516,Balohan,Ulee Lheue,,trip.ferizy.com,14,Aceh
+58,Bastiong,Babang,,trip.ferizy.com,106,Maluku Utara
+42,Bastiong,Batang Dua,,trip.ferizy.com,106,Maluku Utara
+106521,Bastiong,Bitung,,trip.ferizy.com,106,Sulawesi Utara
+106113,Bastiong,Kayoa,,trip.ferizy.com,106,Maluku Utara
+46,Bastiong,Makian,,trip.ferizy.com,106,Maluku Utara
+40,Bastiong,Moti,,trip.ferizy.com,106,Maluku Utara
+33,Bastiong,Rum,,trip.ferizy.com,106,Maluku Utara
+36,Bastiong,Sidangole,,trip.ferizy.com,106,Maluku Utara
+38,Bastiong,Sofifi,,trip.ferizy.com,106,Maluku Utara
+83313,Batulicin,Garongkong,,trip.ferizy.com,83,Sulawesi Selatan
+8384,Batulicin,Tanjung Serdang,,trip.ferizy.com,83,Kalimantan Selatan
+208211,Baubau,Waara,,trip.ferizy.com,208,Sulawesi Tenggara
+18,Bawean,Gresik,,trip.ferizy.com,10,Jawa Timur
+21,Bawean,Paciran,,trip.ferizy.com,10,Jawa Timur
+296284,Biak,Manokwari,,trip.ferizy.com,296,Papua Barat
+296300,Biak,Nabire,,trip.ferizy.com,296,Papua Tengah
+120,Bira,Pamatata,,trip.ferizy.com,239,Sulawesi Selatan
+91,Bitung,Melonguane,,trip.ferizy.com,105,Sulawesi Utara
+93,Bitung,Ternate,,trip.ferizy.com,105,Maluku Utara
+96,Bitung,Tobelo,,trip.ferizy.com,105,Maluku Utara
+429427,Dwikora Pontianak,Patimban,,trip.ferizy.com,429,Jawa Barat
+5486,Galala,Namlea,,trip.ferizy.com,88,Maluku
+31383,Garongkong,Batulicin,,trip.ferizy.com,313,Kalimantan Selatan
+228225,Gorontalo,Ampana,,trip.ferizy.com,228,Sulawesi Tengah
+228234,Gorontalo,Pagimana,,trip.ferizy.com,228,Sulawesi Tengah
+228229,Gorontalo,Wakai,,trip.ferizy.com,228,Sulawesi Tengah
+19,Gresik,Bawean,,trip.ferizy.com,11,Jawa Timur
+4140,Gunungsitoli,Sibolga,,trip.ferizy.com,41,Sumatera Utara
+5484,Hunimua,Waipirit,,trip.ferizy.com,94,Maluku
+5641002,Jangkar,Kalianget,,trip.ferizy.com,564,Jawa Timur
+5641003,Jangkar,Kangean,,trip.ferizy.com,564,Jawa Timur
+564565,Jangkar,Lembar,,trip.ferizy.com,564,Nusa Tenggara Barat
+5641005,Jangkar,Raas,,trip.ferizy.com,564,Jawa Timur
+5641004,Jangkar,Sapudi,,trip.ferizy.com,564,Jawa Timur
+3002,Jepara,Karimun Jawa,,trip.ferizy.com,3,Jawa Tengah
+5417,Kalabahi,Adonara,,trip.ferizy.com,174,Nusa Tenggara Timur
+5471,Kalabahi,Bakalang,,trip.ferizy.com,174,Nusa Tenggara Timur
+5438,Kalabahi,Baranusa,,trip.ferizy.com,174,Nusa Tenggara Timur
+5409,Kalabahi,Kupang,,trip.ferizy.com,174,Nusa Tenggara Timur
+5426,Kalabahi,Larantuka,,trip.ferizy.com,174,Nusa Tenggara Timur
+5437,Kalabahi,Lewoleba,,trip.ferizy.com,174,Nusa Tenggara Timur
+174191,Kalabahi,Naikliu,,trip.ferizy.com,174,Nusa Tenggara Timur
+174531,Kalabahi,Pura,,trip.ferizy.com,174,Nusa Tenggara Timur
+5436,Kalabahi,Solor,,trip.ferizy.com,174,Nusa Tenggara Timur
+5418,Kalabahi,Teluk Gurita,,trip.ferizy.com,174,Nusa Tenggara Timur
+441440,Kalianget,Jangkar,,trip.ferizy.com,441,Jawa Timur
+441442,Kalianget,Kangean,,trip.ferizy.com,441,Jawa Timur
+23,Kamal,Ujung,,trip.ferizy.com,13,Jawa Timur
+2003,Karimun Jawa,Jepara,,trip.ferizy.com,2,Jawa Tengah
+29,Kayangan,Pototano,,trip.ferizy.com,195,Nusa Tenggara Barat
+217218,Kendari,Langara,,trip.ferizy.com,217,Sulawesi Tenggara
+202203,Kolaka,Bajoe,,trip.ferizy.com,202,Sulawesi Selatan
+202204,Kolaka,Siwa,,trip.ferizy.com,202,Sulawesi Selatan
+5369,Kupang,Adonara,,trip.ferizy.com,171,Nusa Tenggara Timur
+5412,Kupang,Aimere,,trip.ferizy.com,171,Nusa Tenggara Timur
+5378,Kupang,Ende,,trip.ferizy.com,171,Nusa Tenggara Timur
+5422,Kupang,Hansisi,,trip.ferizy.com,171,Nusa Tenggara Timur
+5408,Kupang,Kalabahi,,trip.ferizy.com,171,Nusa Tenggara Timur
+1406,Kupang,Larantuka,,trip.ferizy.com,171,Nusa Tenggara Timur
+5363,Kupang,Lewoleba,,trip.ferizy.com,171,Nusa Tenggara Timur
+5430,Kupang,Naikliu,,trip.ferizy.com,171,Nusa Tenggara Timur
+5373,Kupang,Ndao,,trip.ferizy.com,171,Nusa Tenggara Timur
+5435,Kupang,Raijua,,trip.ferizy.com,171,Nusa Tenggara Timur
+5355,Kupang,Rote,,trip.ferizy.com,171,Nusa Tenggara Timur
+5410,Kupang,Sabu,,trip.ferizy.com,171,Nusa Tenggara Timur
+5414,Kupang,Waingapu,,trip.ferizy.com,171,Nusa Tenggara Timur
+199478,Labuan Bajo,Bira ,,trip.ferizy.com,199,Sulawesi Selatan
+199477,Labuan Bajo,Jampea ,,trip.ferizy.com,199,Sulawesi Selatan
+199559,Labuan Bajo,Pulau Rinca,,trip.ferizy.com,199,Nusa Tenggara Timur
+5514,Labuan Bajo,Sape,,trip.ferizy.com,199,Nusa Tenggara Barat
+199436,Labuan Bajo,Waingapu,,trip.ferizy.com,199,Nusa Tenggara Timur
+218217,Langara,Kendari,,trip.ferizy.com,218,Sulawesi Tenggara
+5431,Larantuka,Adonara,,trip.ferizy.com,173,Nusa Tenggara Timur
+5433,Larantuka,Baranusa,,trip.ferizy.com,173,Nusa Tenggara Timur
+5427,Larantuka,Kalabahi,,trip.ferizy.com,173,Nusa Tenggara Timur
+1407,Larantuka,Kupang,,trip.ferizy.com,173,Nusa Tenggara Timur
+5434,Larantuka,Lewoleba,,trip.ferizy.com,173,Nusa Tenggara Timur
+5432,Larantuka,Solor,,trip.ferizy.com,173,Nusa Tenggara Timur
+5476,Larantuka,Waiwerang,,trip.ferizy.com,173,Nusa Tenggara Timur
+198563,Lembar,Jangkar,,trip.ferizy.com,198,Jawa Timur
+25,Lembar,Padang Bai,,trip.ferizy.com,198,Bali
+198568,Lembar,Probolinggo,,trip.ferizy.com,198,Jawa Timur
+344049,Mamuju,Balikpapan,,trip.ferizy.com,344,Kalimantan Timur
+284296,Manokwari,Biak,,trip.ferizy.com,284,Papua
+5487,Namlea,Galala,,trip.ferizy.com,89,Maluku
+182439,Paciran,Bahaur,,trip.ferizy.com,9,Kalimantan Tengah
+20,Paciran,Bawean,,trip.ferizy.com,9,Jawa Timur
+122,Padang,Tua Pejat,,trip.ferizy.com,29,Sumatera Barat
+26,Padang Bai,Lembar,,trip.ferizy.com,196,Nusa Tenggara Barat
+27,Padang Bai,Nusa Penida,,trip.ferizy.com,196,Bali
+234228,Pagimana,Gorontalo,,trip.ferizy.com,234,Gorontalo
+121,Pamatata,Bira,,trip.ferizy.com,244,Sulawesi Selatan
+5489,Penajam,Kariangau,,trip.ferizy.com,54,Kalimantan Timur
+30,Pototano,Kayangan,,trip.ferizy.com,194,Nusa Tenggara Barat
+201027,Probolinggo,Lembar,,trip.ferizy.com,566,Nusa Tenggara Barat
+1023206,Pulau Balang Lompo,Maccini Baji,,trip.ferizy.com,1023,
+5425,Rote,Hansisi,,trip.ferizy.com,172,Nusa Tenggara Timur
+5354,Rote,Kupang,,trip.ferizy.com,172,Nusa Tenggara Timur
+5350,Rote,Ndao,,trip.ferizy.com,172,Nusa Tenggara Timur
+34,Rum,Bastiong,,trip.ferizy.com,131,Maluku Utara
+5513,Sape,Labuan Bajo,,trip.ferizy.com,200,Nusa Tenggara Timur
+200201,Sape,Waikelo,,trip.ferizy.com,200,Nusa Tenggara Timur
+200436,Sape,Waingapu,,trip.ferizy.com,200,Nusa Tenggara Timur
+4041,Sibolga,Gunungsitoli,,trip.ferizy.com,40,Sumatera Utara
+35,Sidangole,Bastiong,,trip.ferizy.com,107,Maluku Utara
+479541,Soekarno-Hatta (Makassar),Tanjung Perak,,trip.ferizy.com,479,Jawa Timur
+569570,Tanjung Api Api,Tanjung Kalian,,trip.ferizy.com,569,Bangka Belitung
+3537,Tanjung Kalian,Tanjung Api Api,,trip.ferizy.com,35,Sumatera Selatan
+5411051,Tanjung Perak,Soekarno-Hatta (Makassar),,trip.ferizy.com,541,Sulawesi Selatan
+8483,Tanjung Serdang,Batulicin,,trip.ferizy.com,84,Kalimantan Selatan
+261032,Tanjung Uban,Letung,,trip.ferizy.com,26,Kepulauan Riau
+5515,Tanjung Uban,Matak,,trip.ferizy.com,26,Kepulauan Riau
+5516,Tanjung Uban,Tambelan,,trip.ferizy.com,26,Kepulauan Riau
+5505,Tanjung Uban,Telaga Punggur,,trip.ferizy.com,26,Kepulauan Riau
+55057,Tarakan,Nunukan,,trip.ferizy.com,55,Kalimantan Utara
+55052,Tarakan,Sebawang,,trip.ferizy.com,55,Kalimantan Utara
+55059,Tarakan,Toli Toli,,trip.ferizy.com,55,Sulawesi Tengah
+5493,Telaga Punggur,Dabo,,trip.ferizy.com,19,Kepulauan Riau
+198014,Telaga Punggur,Kuala Tungkal,,trip.ferizy.com,19,Jambi
+5496,Telaga Punggur,Mengkapan,,trip.ferizy.com,19,Riau
+5492,Telaga Punggur,Tanjung Balai Karimun,,trip.ferizy.com,19,Kepulauan Riau
+5491,Telaga Punggur,Tanjung Uban,,trip.ferizy.com,19,Kepulauan Riau
+127,Tua Pejat,Padang,,trip.ferizy.com,31,Sumatera Barat
+22,Ujung,Kamal,,trip.ferizy.com,12,Jawa Timur
+1514,Ulee Lheue,Balohan,,trip.ferizy.com,15,Aceh
+201200,Waikelo,Sape,,trip.ferizy.com,201,Nusa Tenggara Barat
+5442,Waingapu,Aimere,,trip.ferizy.com,177,Nusa Tenggara Timur
+5443,Waingapu,Ende,,trip.ferizy.com,177,Nusa Tenggara Timur
+5415,Waingapu,Kupang,,trip.ferizy.com,177,Nusa Tenggara Timur
+436199,Waingapu,Labuan Bajo,,trip.ferizy.com,436,Nusa Tenggara Timur
+177342,Waingapu,Raijua,,trip.ferizy.com,177,Nusa Tenggara Timur
+5335,Waingapu,Sabu,,trip.ferizy.com,177,Nusa Tenggara Timur
+436200,Waingapu,Sape,,trip.ferizy.com,436,Nusa Tenggara Barat
+5485,Waipirit,Hunimua,,trip.ferizy.com,95,Maluku

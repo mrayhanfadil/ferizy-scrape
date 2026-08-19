@@ -1,0 +1,34 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/destination",
+    "origin": {
+      "harbourId": "41",
+      "harbourName": "Gunungsitoli",
+      "province": "Sumatera Utara"
+    },
+    "headers_extra": {
+      "AIFHarbourOriginId": "41"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:14:46.548711+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpDestinationRf - Success",
+    "ResponseReferenceNo": "7e62e00e73f44ef9a04103f2f0f1081c",
+    "destinationHarbour": {
+      "id": "destination-harbour",
+      "name": "Destination Harbour",
+      "data": [
+        {
+          "routeId": "4140",
+          "origin": "Gunungsitoli",
+          "destination": "Sibolga",
+          "destinationProvince": "Sumatera Utara"
+        }
+      ]
+    }
+  }
+}

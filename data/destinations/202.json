@@ -1,0 +1,40 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/destination",
+    "origin": {
+      "harbourId": "202",
+      "harbourName": "Kolaka",
+      "province": "Sulawesi Tenggara"
+    },
+    "headers_extra": {
+      "AIFHarbourOriginId": "202"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:15:02.792999+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpDestinationRf - Success",
+    "ResponseReferenceNo": "4e8c58f1c03a41b383f2717c2d408d80",
+    "destinationHarbour": {
+      "id": "destination-harbour",
+      "name": "Destination Harbour",
+      "data": [
+        {
+          "routeId": "202204",
+          "origin": "Kolaka",
+          "destination": "Siwa",
+          "destinationProvince": "Sulawesi Selatan"
+        },
+        {
+          "routeId": "202203",
+          "origin": "Kolaka",
+          "destination": "Bajoe",
+          "destinationProvince": "Sulawesi Selatan"
+        }
+      ]
+    }
+  }
+}

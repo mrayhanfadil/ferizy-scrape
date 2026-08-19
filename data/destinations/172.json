@@ -1,0 +1,46 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/destination",
+    "origin": {
+      "harbourId": "172",
+      "harbourName": "Rote",
+      "province": "Nusa Tenggara Timur"
+    },
+    "headers_extra": {
+      "AIFHarbourOriginId": "172"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:15:41.884672+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpDestinationRf - Success",
+    "ResponseReferenceNo": "ebeaa6e2f9e84cac8653d14f73253b65",
+    "destinationHarbour": {
+      "id": "destination-harbour",
+      "name": "Destination Harbour",
+      "data": [
+        {
+          "routeId": "5425",
+          "origin": "Rote",
+          "destination": "Hansisi",
+          "destinationProvince": "Nusa Tenggara Timur"
+        },
+        {
+          "routeId": "5354",
+          "origin": "Rote",
+          "destination": "Kupang",
+          "destinationProvince": "Nusa Tenggara Timur"
+        },
+        {
+          "routeId": "5350",
+          "origin": "Rote",
+          "destination": "Ndao",
+          "destinationProvince": "Nusa Tenggara Timur"
+        }
+      ]
+    }
+  }
+}

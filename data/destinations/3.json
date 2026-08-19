@@ -1,0 +1,34 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/destination",
+    "origin": {
+      "harbourId": "3",
+      "harbourName": "Jepara",
+      "province": "Jawa Tengah"
+    },
+    "headers_extra": {
+      "AIFHarbourOriginId": "3"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:14:50.650623+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpDestinationRf - Success",
+    "ResponseReferenceNo": "a811b5313c0d434390dce60aa3ad58b2",
+    "destinationHarbour": {
+      "id": "destination-harbour",
+      "name": "Destination Harbour",
+      "data": [
+        {
+          "routeId": "3002",
+          "origin": "Jepara",
+          "destination": "Karimun Jawa",
+          "destinationProvince": "Jawa Tengah"
+        }
+      ]
+    }
+  }
+}

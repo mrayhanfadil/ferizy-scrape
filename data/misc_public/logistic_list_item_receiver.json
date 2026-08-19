@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/logistic/list-item-receiver",
+    "headers_extra": {}
+  },
+  "status": 400,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:47:54.036913+07:00",
+  "body": {
+    "responseCode": "400",
+    "responseMessage": "Bad Request",
+    "responseReferenceNo": "4bc2aa4e941b4ccda6b4d3a0da85bfd1",
+    "data": {
+      "AIFSignToken": "AIFSignToken cannot be empty",
+      "AIFEmail": "AIFEmail cannot be empty"
+    }
+  }
+}

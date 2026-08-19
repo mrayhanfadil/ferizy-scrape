@@ -1,0 +1,40 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/vaccine/reason",
+    "parameter": "alasan_belum_memenuhi_verifikasi_vaksin",
+    "headers_extra": {
+      "AIFParameterName": "alasan_belum_memenuhi_verifikasi_vaksin"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:37:27.251174+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpVaccineReasonRf - Success",
+    "ResponseReferenceNo": "779be65404d3483c8762adc896bc2a36",
+    "data": [
+      {
+        "name": "alasan_belum_memenuhi_verifikasi_vaksin_1",
+        "content": "Saya merupakan pelaku perjalanan dengan kondisi kesehatan khusus atau penyakit komorbid (dalam proses menyeberang wajib melampirkan surat keterangan dokter dari Rumah Sakit Pemerintah)"
+      },
+      {
+        "name": "alasan_belum_memenuhi_verifikasi_vaksin_2",
+        "content": "Saya merupakan pelaku perjalanan kendaraan logistik dan transportasi barang lainnya"
+      },
+      {
+        "name": "alasan_belum_memenuhi_verifikasi_vaksin_3",
+        "content": "Saya merupakan pelaku perjalanan anak-anak di bawah umur 6&nbsp;tahun"
+      },
+      {
+        "name": "alasan_belum_memenuhi_verifikasi_vaksin_4",
+        "content": "Saya merupakan pelaku perjalanan yang baru saja sembuh dari Covid-19 dan belum memenuhi syarat waktu minimal 3 bulan setelah dinyatakan sembuh (dalam proses menyeberang wajib melampirkan surat keterangan dokter)"
+      },
+      {
+        "name": "alasan_belum_memenuhi_verifikasi_vaksin_5",
+        "content": "Saya telah melakukan vaksinasi namun data vaksin saya belum tersedia di Aplikasi PeduliLindungi"
+      }
+    ]
+  }
+}

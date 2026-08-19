@@ -1,0 +1,27 @@
+{
+  "source": "https://trip.ferizy.com/",
+  "api_base": "https://api-gateway-1.ferizy.com",
+  "scope": "public portal/master data only; no authenticated account/order/payment data",
+  "started_at_wib": "2026-08-19T11:13:11.234983+07:00",
+  "finished_at_wib": "2026-08-19T11:16:39.310945+07:00",
+  "origins": 65,
+  "origin_responses": 65,
+  "route_records_raw": 140,
+  "unique_routes": 140,
+  "duplicate_route_records": 0,
+  "failed_origins": 0,
+  "files": {
+    "homepage_master": [
+      "homepage_origin.json",
+      "homepage_country.json",
+      "account_regency.json",
+      "ticket_service.json",
+      "homepage_carrousel.json",
+      "homepage_maintenance.json",
+      "parameter_bulk_identity.json"
+    ],
+    "per_origin_destinations": "data/destinations/<harbourId>.json",
+    "normalized_routes": "data/routes.json",
+    "failures": "data/crawl_failures.json"
+  }
+}

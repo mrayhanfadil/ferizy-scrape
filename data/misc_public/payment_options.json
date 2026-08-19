@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/payment/options",
+    "headers_extra": {}
+  },
+  "status": 400,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:48:06.082316+07:00",
+  "body": {
+    "responseCode": "400",
+    "responseMessage": "Bad Request",
+    "responseReferenceNo": "9f5c1bc062424d3ca5c20bbcabb4f130",
+    "content": {
+      "AIFSignToken": "AIFSignToken cannot be empty",
+      "AIFEmail": "AIFEmail cannot be empty"
+    }
+  }
+}

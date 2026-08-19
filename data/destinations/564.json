@@ -1,0 +1,58 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/destination",
+    "origin": {
+      "harbourId": "564",
+      "harbourName": "Jangkar",
+      "province": "Jawa Timur"
+    },
+    "headers_extra": {
+      "AIFHarbourOriginId": "564"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:14:49.536832+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpDestinationRf - Success",
+    "ResponseReferenceNo": "7b8a1e0e043e41cfb610d2c4c95509e1",
+    "destinationHarbour": {
+      "id": "destination-harbour",
+      "name": "Destination Harbour",
+      "data": [
+        {
+          "routeId": "5641005",
+          "origin": "Jangkar",
+          "destination": "Raas",
+          "destinationProvince": "Jawa Timur"
+        },
+        {
+          "routeId": "5641004",
+          "origin": "Jangkar",
+          "destination": "Sapudi",
+          "destinationProvince": "Jawa Timur"
+        },
+        {
+          "routeId": "5641003",
+          "origin": "Jangkar",
+          "destination": "Kangean",
+          "destinationProvince": "Jawa Timur"
+        },
+        {
+          "routeId": "5641002",
+          "origin": "Jangkar",
+          "destination": "Kalianget",
+          "destinationProvince": "Jawa Timur"
+        },
+        {
+          "routeId": "564565",
+          "origin": "Jangkar",
+          "destination": "Lembar",
+          "destinationProvince": "Nusa Tenggara Barat"
+        }
+      ]
+    }
+  }
+}

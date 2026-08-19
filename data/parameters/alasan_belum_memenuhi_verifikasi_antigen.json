@@ -1,0 +1,28 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/vaccine/reason",
+    "parameter": "alasan_belum_memenuhi_verifikasi_antigen",
+    "headers_extra": {
+      "AIFParameterName": "alasan_belum_memenuhi_verifikasi_antigen"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:37:26.135411+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpVaccineReasonRf - Success",
+    "ResponseReferenceNo": "7f4f271154f24c7ba91e45e3798fbe49",
+    "data": [
+      {
+        "name": "alasan_belum_memenuhi_verifikasi_antigen_1",
+        "content": "Saya sudah melakukan Tes Rapid Antigen dengan hasil Negatif, namun belum terupdate di aplikasi Peduli Lindungi"
+      },
+      {
+        "name": "alasan_belum_memenuhi_verifikasi_antigen_2",
+        "content": "Saya tes Rapid Antigen di Pelabuhan keberangkatan"
+      }
+    ]
+  }
+}

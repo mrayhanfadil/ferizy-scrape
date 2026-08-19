@@ -1,0 +1,106 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/destination",
+    "origin": {
+      "harbourId": "171",
+      "harbourName": "Kupang",
+      "province": "Nusa Tenggara Timur"
+    },
+    "headers_extra": {
+      "AIFHarbourOriginId": "171"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:15:03.929791+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpDestinationRf - Success",
+    "ResponseReferenceNo": "10d9f4122f894fdf92e20f3737f87acd",
+    "destinationHarbour": {
+      "id": "destination-harbour",
+      "name": "Destination Harbour",
+      "data": [
+        {
+          "routeId": "5435",
+          "origin": "Kupang",
+          "destination": "Raijua",
+          "destinationProvince": "Nusa Tenggara Timur"
+        },
+        {
+          "routeId": "5430",
+          "origin": "Kupang",
+          "destination": "Naikliu",
+          "destinationProvince": "Nusa Tenggara Timur"
+        },
+        {
+          "routeId": "5422",
+          "origin": "Kupang",
+          "destination": "Hansisi",
+          "destinationProvince": "Nusa Tenggara Timur"
+        },
+        {
+          "routeId": "5414",
+          "origin": "Kupang",
+          "destination": "Waingapu",
+          "destinationProvince": "Nusa Tenggara Timur"
+        },
+        {
+          "routeId": "5412",
+          "origin": "Kupang",
+          "destination": "Aimere",
+          "destinationProvince": "Nusa Tenggara Timur"
+        },
+        {
+          "routeId": "5410",
+          "origin": "Kupang",
+          "destination": "Sabu",
+          "destinationProvince": "Nusa Tenggara Timur"
+        },
+        {
+          "routeId": "5408",
+          "origin": "Kupang",
+          "destination": "Kalabahi",
+          "destinationProvince": "Nusa Tenggara Timur"
+        },
+        {
+          "routeId": "5378",
+          "origin": "Kupang",
+          "destination": "Ende",
+          "destinationProvince": "Nusa Tenggara Timur"
+        },
+        {
+          "routeId": "5373",
+          "origin": "Kupang",
+          "destination": "Ndao",
+          "destinationProvince": "Nusa Tenggara Timur"
+        },
+        {
+          "routeId": "5369",
+          "origin": "Kupang",
+          "destination": "Adonara",
+          "destinationProvince": "Nusa Tenggara Timur"
+        },
+        {
+          "routeId": "5363",
+          "origin": "Kupang",
+          "destination": "Lewoleba",
+          "destinationProvince": "Nusa Tenggara Timur"
+        },
+        {
+          "routeId": "5355",
+          "origin": "Kupang",
+          "destination": "Rote",
+          "destinationProvince": "Nusa Tenggara Timur"
+        },
+        {
+          "routeId": "1406",
+          "origin": "Kupang",
+          "destination": "Larantuka",
+          "destinationProvince": "Nusa Tenggara Timur"
+        }
+      ]
+    }
+  }
+}

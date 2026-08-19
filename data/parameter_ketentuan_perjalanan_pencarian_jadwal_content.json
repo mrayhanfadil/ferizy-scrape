@@ -1,0 +1,19 @@
+{
+  "status": 200,
+  "url": "https://api-gateway-1.ferizy.com/ferizy/ticket/parameter",
+  "extra": {
+    "AIFParameterName": "ketentuan_perjalanan_pencarian_jadwal_content"
+  },
+  "body": {
+    "responseCode": "200",
+    "responseMessage": "Success",
+    "responseReferenceNo": "dc6028488bc54c649fe322bd0f48d22e",
+    "data": [
+      {
+        "parameterName": "ketentuan_perjalanan_pencarian_jadwal_content",
+        "parameterValue": "<ol><li style=\"text-align:justify\">ASDP tidak akan bertanggungjawab dari segala tuntutan, gugatan, tanggung jawab hukum atau kerugian apabila penumpang tidak memenuhi ketentuan yang berlaku</li><li style=\"text-align:justify\">Memalsukan surat atau memanipulasi Informasi Elektronik dan/atau Dokumen Elektronik dapat dikenakan Pasal 263 KUHP dengan ancaman pidana paling lama 6 tahun penjara; dan/atau Pasal 35 dan Pasal 51 Ayat 1, UU ITE No 11 Tahun 2008 dengan ancaman hukuman paling lama 12 tahun penjara dan/atau denda paling banyak Rp12 miliar.</li></ol>",
+        "parameterDescription": "content ketentuan perjalanan pencarian jadwal"
+      }
+    ]
+  }
+}

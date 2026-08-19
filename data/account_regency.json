@@ -1,0 +1,2081 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/account/regency",
+    "headers_extra": {}
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:13:15.312611+07:00",
+  "body": {
+    "responseCode": "200",
+    "responseMessage": "Ferizy Service -AcAcGetRegencyRf Success",
+    "responseReferenceNo": "b17cdb33f49145d98d24ced889c0f2b6",
+    "kotaAsal": {
+      "id": "kota-asal",
+      "name": "Kota Asal",
+      "data": [
+        {
+          "regencyId": "0    ",
+          "regencyName": "-"
+        },
+        {
+          "regencyId": "9112 ",
+          "regencyName": "KAB PEGUNUNGAN BINTANG"
+        },
+        {
+          "regencyId": "5302 ",
+          "regencyName": "KAB TIMOR TENGAH SELATAN"
+        },
+        {
+          "regencyId": "1105 ",
+          "regencyName": "KAB. ACEH BARAT"
+        },
+        {
+          "regencyId": "1112 ",
+          "regencyName": "KAB. ACEH BARAT DAYA"
+        },
+        {
+          "regencyId": "1106 ",
+          "regencyName": "KAB. ACEH BESAR"
+        },
+        {
+          "regencyId": "1114 ",
+          "regencyName": "KAB. ACEH JAYA"
+        },
+        {
+          "regencyId": "1101 ",
+          "regencyName": "KAB. ACEH SELATAN"
+        },
+        {
+          "regencyId": "1110 ",
+          "regencyName": "KAB. ACEH SINGKIL"
+        },
+        {
+          "regencyId": "1116 ",
+          "regencyName": "KAB. ACEH TAMIANG"
+        },
+        {
+          "regencyId": "1104 ",
+          "regencyName": "KAB. ACEH TENGAH"
+        },
+        {
+          "regencyId": "1102 ",
+          "regencyName": "KAB. ACEH TENGGARA"
+        },
+        {
+          "regencyId": "1103 ",
+          "regencyName": "KAB. ACEH TIMUR"
+        },
+        {
+          "regencyId": "1108 ",
+          "regencyName": "KAB. ACEH UTARA"
+        },
+        {
+          "regencyId": "3101 ",
+          "regencyName": "KAB. ADM. KEP. SERIBU"
+        },
+        {
+          "regencyId": "1306 ",
+          "regencyName": "KAB. AGAM"
+        },
+        {
+          "regencyId": "5305 ",
+          "regencyName": "KAB. ALOR"
+        },
+        {
+          "regencyId": "1209 ",
+          "regencyName": "KAB. ASAHAN"
+        },
+        {
+          "regencyId": "9118 ",
+          "regencyName": "KAB. ASMAT"
+        },
+        {
+          "regencyId": "5103 ",
+          "regencyName": "KAB. BADUNG"
+        },
+        {
+          "regencyId": "6311 ",
+          "regencyName": "KAB. BALANGAN"
+        },
+        {
+          "regencyId": "3204 ",
+          "regencyName": "KAB. BANDUNG"
+        },
+        {
+          "regencyId": "3217 ",
+          "regencyName": "KAB. BANDUNG BARAT"
+        },
+        {
+          "regencyId": "7201 ",
+          "regencyName": "KAB. BANGGAI"
+        },
+        {
+          "regencyId": "7207 ",
+          "regencyName": "KAB. BANGGAI KEPULAUAN"
+        },
+        {
+          "regencyId": "7211 ",
+          "regencyName": "KAB. BANGGAI LAUT"
+        },
+        {
+          "regencyId": "1901 ",
+          "regencyName": "KAB. BANGKA"
+        },
+        {
+          "regencyId": "1905 ",
+          "regencyName": "KAB. BANGKA BARAT"
+        },
+        {
+          "regencyId": "1903 ",
+          "regencyName": "KAB. BANGKA SELATAN"
+        },
+        {
+          "regencyId": "1904 ",
+          "regencyName": "KAB. BANGKA TENGAH"
+        },
+        {
+          "regencyId": "3526 ",
+          "regencyName": "KAB. BANGKALAN"
+        },
+        {
+          "regencyId": "5106 ",
+          "regencyName": "KAB. BANGLI"
+        },
+        {
+          "regencyId": "6303 ",
+          "regencyName": "KAB. BANJAR"
+        },
+        {
+          "regencyId": "3304 ",
+          "regencyName": "KAB. BANJARNEGARA"
+        },
+        {
+          "regencyId": "7303 ",
+          "regencyName": "KAB. BANTAENG"
+        },
+        {
+          "regencyId": "3402 ",
+          "regencyName": "KAB. BANTUL"
+        },
+        {
+          "regencyId": "1607 ",
+          "regencyName": "KAB. BANYUASIN"
+        },
+        {
+          "regencyId": "3302 ",
+          "regencyName": "KAB. BANYUMAS"
+        },
+        {
+          "regencyId": "3510 ",
+          "regencyName": "KAB. BANYUWANGI"
+        },
+        {
+          "regencyId": "6304 ",
+          "regencyName": "KAB. BARITO KUALA"
+        },
+        {
+          "regencyId": "6204 ",
+          "regencyName": "KAB. BARITO SELATAN"
+        },
+        {
+          "regencyId": "6213 ",
+          "regencyName": "KAB. BARITO TIMUR"
+        },
+        {
+          "regencyId": "6205 ",
+          "regencyName": "KAB. BARITO UTARA"
+        },
+        {
+          "regencyId": "7311 ",
+          "regencyName": "KAB. BARRU"
+        },
+        {
+          "regencyId": "3325 ",
+          "regencyName": "KAB. BATANG"
+        },
+        {
+          "regencyId": "1504 ",
+          "regencyName": "KAB. BATANGHARI"
+        },
+        {
+          "regencyId": "1219 ",
+          "regencyName": "KAB. BATU BARA"
+        },
+        {
+          "regencyId": "3216 ",
+          "regencyName": "KAB. BEKASI"
+        },
+        {
+          "regencyId": "1902 ",
+          "regencyName": "KAB. BELITUNG"
+        },
+        {
+          "regencyId": "1906 ",
+          "regencyName": "KAB. BELITUNG TIMUR"
+        },
+        {
+          "regencyId": "5304 ",
+          "regencyName": "KAB. BELU"
+        },
+        {
+          "regencyId": "1117 ",
+          "regencyName": "KAB. BENER MERIAH"
+        },
+        {
+          "regencyId": "1403 ",
+          "regencyName": "KAB. BENGKALIS"
+        },
+        {
+          "regencyId": "6107 ",
+          "regencyName": "KAB. BENGKAYANG"
+        },
+        {
+          "regencyId": "1701 ",
+          "regencyName": "KAB. BENGKULU SELATAN"
+        },
+        {
+          "regencyId": "1709 ",
+          "regencyName": "KAB. BENGKULU TENGAH"
+        },
+        {
+          "regencyId": "1703 ",
+          "regencyName": "KAB. BENGKULU UTARA"
+        },
+        {
+          "regencyId": "6403 ",
+          "regencyName": "KAB. BERAU"
+        },
+        {
+          "regencyId": "9106 ",
+          "regencyName": "KAB. BIAK NUMFOR"
+        },
+        {
+          "regencyId": "5206 ",
+          "regencyName": "KAB. BIMA"
+        },
+        {
+          "regencyId": "2101 ",
+          "regencyName": "KAB. BINTAN"
+        },
+        {
+          "regencyId": "1111 ",
+          "regencyName": "KAB. BIREUEN"
+        },
+        {
+          "regencyId": "3505 ",
+          "regencyName": "KAB. BLITAR"
+        },
+        {
+          "regencyId": "3316 ",
+          "regencyName": "KAB. BLORA"
+        },
+        {
+          "regencyId": "7502 ",
+          "regencyName": "KAB. BOALEMO"
+        },
+        {
+          "regencyId": "3201 ",
+          "regencyName": "KAB. BOGOR"
+        },
+        {
+          "regencyId": "3522 ",
+          "regencyName": "KAB. BOJONEGORO"
+        },
+        {
+          "regencyId": "7101 ",
+          "regencyName": "KAB. BOLAANG MONGONDOW"
+        },
+        {
+          "regencyId": "7111 ",
+          "regencyName": "KAB. BOLAANG MONGONDOW SELATAN"
+        },
+        {
+          "regencyId": "7110 ",
+          "regencyName": "KAB. BOLAANG MONGONDOW TIMUR"
+        },
+        {
+          "regencyId": "7108 ",
+          "regencyName": "KAB. BOLAANG MONGONDOW UTARA"
+        },
+        {
+          "regencyId": "7406 ",
+          "regencyName": "KAB. BOMBANA"
+        },
+        {
+          "regencyId": "3511 ",
+          "regencyName": "KAB. BONDOWOSO"
+        },
+        {
+          "regencyId": "7308 ",
+          "regencyName": "KAB. BONE"
+        },
+        {
+          "regencyId": "7503 ",
+          "regencyName": "KAB. BONE BOLANGO"
+        },
+        {
+          "regencyId": "9116 ",
+          "regencyName": "KAB. BOVEN DIGOEL"
+        },
+        {
+          "regencyId": "3309 ",
+          "regencyName": "KAB. BOYOLALI"
+        },
+        {
+          "regencyId": "3329 ",
+          "regencyName": "KAB. BREBES"
+        },
+        {
+          "regencyId": "5108 ",
+          "regencyName": "KAB. BULELENG"
+        },
+        {
+          "regencyId": "7302 ",
+          "regencyName": "KAB. BULUKUMBA"
+        },
+        {
+          "regencyId": "6501 ",
+          "regencyName": "KAB. BULUNGAN"
+        },
+        {
+          "regencyId": "1508 ",
+          "regencyName": "KAB. BUNGO"
+        },
+        {
+          "regencyId": "7205 ",
+          "regencyName": "KAB. BUOL"
+        },
+        {
+          "regencyId": "8104 ",
+          "regencyName": "KAB. BURU"
+        },
+        {
+          "regencyId": "8109 ",
+          "regencyName": "KAB. BURU SELATAN"
+        },
+        {
+          "regencyId": "7404 ",
+          "regencyName": "KAB. BUTON"
+        },
+        {
+          "regencyId": "7415 ",
+          "regencyName": "KAB. BUTON SELATAN"
+        },
+        {
+          "regencyId": "7414 ",
+          "regencyName": "KAB. BUTON TENGAH"
+        },
+        {
+          "regencyId": "7410 ",
+          "regencyName": "KAB. BUTON UTARA"
+        },
+        {
+          "regencyId": "3207 ",
+          "regencyName": "KAB. CIAMIS"
+        },
+        {
+          "regencyId": "3203 ",
+          "regencyName": "KAB. CIANJUR"
+        },
+        {
+          "regencyId": "3301 ",
+          "regencyName": "KAB. CILACAP"
+        },
+        {
+          "regencyId": "3209 ",
+          "regencyName": "KAB. CIREBON"
+        },
+        {
+          "regencyId": "1211 ",
+          "regencyName": "KAB. DAIRI"
+        },
+        {
+          "regencyId": "9128 ",
+          "regencyName": "KAB. DEIYAI"
+        },
+        {
+          "regencyId": "1207 ",
+          "regencyName": "KAB. DELI SERDANG"
+        },
+        {
+          "regencyId": "3321 ",
+          "regencyName": "KAB. DEMAK"
+        },
+        {
+          "regencyId": "1310 ",
+          "regencyName": "KAB. DHARMASRAYA"
+        },
+        {
+          "regencyId": "9126 ",
+          "regencyName": "KAB. DOGIYAI"
+        },
+        {
+          "regencyId": "5205 ",
+          "regencyName": "KAB. DOMPU"
+        },
+        {
+          "regencyId": "7203 ",
+          "regencyName": "KAB. DONGGALA"
+        },
+        {
+          "regencyId": "1611 ",
+          "regencyName": "KAB. EMPAT LAWANG"
+        },
+        {
+          "regencyId": "5308 ",
+          "regencyName": "KAB. ENDE"
+        },
+        {
+          "regencyId": "7316 ",
+          "regencyName": "KAB. ENREKANG"
+        },
+        {
+          "regencyId": "9203 ",
+          "regencyName": "KAB. FAK FAK"
+        },
+        {
+          "regencyId": "5306 ",
+          "regencyName": "KAB. FLORES TIMUR"
+        },
+        {
+          "regencyId": "3205 ",
+          "regencyName": "KAB. GARUT"
+        },
+        {
+          "regencyId": "1113 ",
+          "regencyName": "KAB. GAYO LUES"
+        },
+        {
+          "regencyId": "5104 ",
+          "regencyName": "KAB. GIANYAR"
+        },
+        {
+          "regencyId": "7501 ",
+          "regencyName": "KAB. GORONTALO"
+        },
+        {
+          "regencyId": "7505 ",
+          "regencyName": "KAB. GORONTALO UTARA"
+        },
+        {
+          "regencyId": "7306 ",
+          "regencyName": "KAB. GOWA"
+        },
+        {
+          "regencyId": "3525 ",
+          "regencyName": "KAB. GRESIK"
+        },
+        {
+          "regencyId": "3315 ",
+          "regencyName": "KAB. GROBOGAN"
+        },
+        {
+          "regencyId": "6210 ",
+          "regencyName": "KAB. GUNUNG MAS"
+        },
+        {
+          "regencyId": "3403 ",
+          "regencyName": "KAB. GUNUNGKIDUL"
+        },
+        {
+          "regencyId": "8201 ",
+          "regencyName": "KAB. HALMAHERA BARAT"
+        },
+        {
+          "regencyId": "8204 ",
+          "regencyName": "KAB. HALMAHERA SELATAN"
+        },
+        {
+          "regencyId": "8202 ",
+          "regencyName": "KAB. HALMAHERA TENGAH"
+        },
+        {
+          "regencyId": "8206 ",
+          "regencyName": "KAB. HALMAHERA TIMUR"
+        },
+        {
+          "regencyId": "8203 ",
+          "regencyName": "KAB. HALMAHERA UTARA"
+        },
+        {
+          "regencyId": "6306 ",
+          "regencyName": "KAB. HULU SUNGAI SELATAN"
+        },
+        {
+          "regencyId": "6307 ",
+          "regencyName": "KAB. HULU SUNGAI TENGAH"
+        },
+        {
+          "regencyId": "6308 ",
+          "regencyName": "KAB. HULU SUNGAI UTARA"
+        },
+        {
+          "regencyId": "1216 ",
+          "regencyName": "KAB. HUMBANG HASUNDUTAN"
+        },
+        {
+          "regencyId": "1404 ",
+          "regencyName": "KAB. INDRAGIRI HILIR"
+        },
+        {
+          "regencyId": "1402 ",
+          "regencyName": "KAB. INDRAGIRI HULU"
+        },
+        {
+          "regencyId": "3212 ",
+          "regencyName": "KAB. INDRAMAYU"
+        },
+        {
+          "regencyId": "9127 ",
+          "regencyName": "KAB. INTAN JAYA"
+        },
+        {
+          "regencyId": "9103 ",
+          "regencyName": "KAB. JAYAPURA"
+        },
+        {
+          "regencyId": "9102 ",
+          "regencyName": "KAB. JAYAWIJAYA"
+        },
+        {
+          "regencyId": "3509 ",
+          "regencyName": "KAB. JEMBER"
+        },
+        {
+          "regencyId": "5101 ",
+          "regencyName": "KAB. JEMBRANA"
+        },
+        {
+          "regencyId": "7304 ",
+          "regencyName": "KAB. JENEPONTO"
+        },
+        {
+          "regencyId": "3320 ",
+          "regencyName": "KAB. JEPARA"
+        },
+        {
+          "regencyId": "3517 ",
+          "regencyName": "KAB. JOMBANG"
+        },
+        {
+          "regencyId": "9208 ",
+          "regencyName": "KAB. KAIMANA"
+        },
+        {
+          "regencyId": "1401 ",
+          "regencyName": "KAB. KAMPAR"
+        },
+        {
+          "regencyId": "6203 ",
+          "regencyName": "KAB. KAPUAS"
+        },
+        {
+          "regencyId": "6106 ",
+          "regencyName": "KAB. KAPUAS HULU"
+        },
+        {
+          "regencyId": "3313 ",
+          "regencyName": "KAB. KARANGANYAR"
+        },
+        {
+          "regencyId": "5107 ",
+          "regencyName": "KAB. KARANGASEM"
+        },
+        {
+          "regencyId": "3215 ",
+          "regencyName": "KAB. KARAWANG"
+        },
+        {
+          "regencyId": "2102 ",
+          "regencyName": "KAB. KARIMUN"
+        },
+        {
+          "regencyId": "1206 ",
+          "regencyName": "KAB. KARO"
+        },
+        {
+          "regencyId": "6206 ",
+          "regencyName": "KAB. KATINGAN"
+        },
+        {
+          "regencyId": "1704 ",
+          "regencyName": "KAB. KAUR"
+        },
+        {
+          "regencyId": "6111 ",
+          "regencyName": "KAB. KAYONG UTARA"
+        },
+        {
+          "regencyId": "3305 ",
+          "regencyName": "KAB. KEBUMEN"
+        },
+        {
+          "regencyId": "3506 ",
+          "regencyName": "KAB. KEDIRI"
+        },
+        {
+          "regencyId": "9111 ",
+          "regencyName": "KAB. KEEROM"
+        },
+        {
+          "regencyId": "3324 ",
+          "regencyName": "KAB. KENDAL"
+        },
+        {
+          "regencyId": "7109 ",
+          "regencyName": "KAB. KEP. SIAU TAGULANDANG BIARO"
+        },
+        {
+          "regencyId": "1708 ",
+          "regencyName": "KAB. KEPAHIANG"
+        },
+        {
+          "regencyId": "2105 ",
+          "regencyName": "KAB. KEPULAUAN ANAMBAS"
+        },
+        {
+          "regencyId": "8107 ",
+          "regencyName": "KAB. KEPULAUAN ARU"
+        },
+        {
+          "regencyId": "1309 ",
+          "regencyName": "KAB. KEPULAUAN MENTAWAI"
+        },
+        {
+          "regencyId": "1410 ",
+          "regencyName": "KAB. KEPULAUAN MERANTI"
+        },
+        {
+          "regencyId": "7103 ",
+          "regencyName": "KAB. KEPULAUAN SANGIHE"
+        },
+        {
+          "regencyId": "7301 ",
+          "regencyName": "KAB. KEPULAUAN SELAYAR"
+        },
+        {
+          "regencyId": "8205 ",
+          "regencyName": "KAB. KEPULAUAN SULA"
+        },
+        {
+          "regencyId": "7104 ",
+          "regencyName": "KAB. KEPULAUAN TALAUD"
+        },
+        {
+          "regencyId": "8103 ",
+          "regencyName": "KAB. KEPULAUAN TANIMBAR"
+        },
+        {
+          "regencyId": "9105 ",
+          "regencyName": "KAB. KEPULAUAN YAPEN"
+        },
+        {
+          "regencyId": "1501 ",
+          "regencyName": "KAB. KERINCI"
+        },
+        {
+          "regencyId": "6104 ",
+          "regencyName": "KAB. KETAPANG"
+        },
+        {
+          "regencyId": "3310 ",
+          "regencyName": "KAB. KLATEN"
+        },
+        {
+          "regencyId": "5105 ",
+          "regencyName": "KAB. KLUNGKUNG"
+        },
+        {
+          "regencyId": "7401 ",
+          "regencyName": "KAB. KOLAKA"
+        },
+        {
+          "regencyId": "7411 ",
+          "regencyName": "KAB. KOLAKA TIMUR"
+        },
+        {
+          "regencyId": "7408 ",
+          "regencyName": "KAB. KOLAKA UTARA"
+        },
+        {
+          "regencyId": "7402 ",
+          "regencyName": "KAB. KONAWE"
+        },
+        {
+          "regencyId": "7412 ",
+          "regencyName": "KAB. KONAWE KEPULAUAN"
+        },
+        {
+          "regencyId": "7405 ",
+          "regencyName": "KAB. KONAWE SELATAN"
+        },
+        {
+          "regencyId": "7409 ",
+          "regencyName": "KAB. KONAWE UTARA"
+        },
+        {
+          "regencyId": "6302 ",
+          "regencyName": "KAB. KOTABARU"
+        },
+        {
+          "regencyId": "6201 ",
+          "regencyName": "KAB. KOTAWARINGIN BARAT"
+        },
+        {
+          "regencyId": "6202 ",
+          "regencyName": "KAB. KOTAWARINGIN TIMUR"
+        },
+        {
+          "regencyId": "1409 ",
+          "regencyName": "KAB. KUANTAN SINGINGI"
+        },
+        {
+          "regencyId": "6112 ",
+          "regencyName": "KAB. KUBU RAYA"
+        },
+        {
+          "regencyId": "3319 ",
+          "regencyName": "KAB. KUDUS"
+        },
+        {
+          "regencyId": "3401 ",
+          "regencyName": "KAB. KULON PROGO"
+        },
+        {
+          "regencyId": "3208 ",
+          "regencyName": "KAB. KUNINGAN"
+        },
+        {
+          "regencyId": "5301 ",
+          "regencyName": "KAB. KUPANG"
+        },
+        {
+          "regencyId": "6407 ",
+          "regencyName": "KAB. KUTAI BARAT"
+        },
+        {
+          "regencyId": "6402 ",
+          "regencyName": "KAB. KUTAI KARTANEGARA"
+        },
+        {
+          "regencyId": "6408 ",
+          "regencyName": "KAB. KUTAI TIMUR"
+        },
+        {
+          "regencyId": "1210 ",
+          "regencyName": "KAB. LABUHANBATU"
+        },
+        {
+          "regencyId": "1222 ",
+          "regencyName": "KAB. LABUHANBATU SELATAN"
+        },
+        {
+          "regencyId": "1223 ",
+          "regencyName": "KAB. LABUHANBATU UTARA"
+        },
+        {
+          "regencyId": "1604 ",
+          "regencyName": "KAB. LAHAT"
+        },
+        {
+          "regencyId": "6209 ",
+          "regencyName": "KAB. LAMANDAU"
+        },
+        {
+          "regencyId": "3524 ",
+          "regencyName": "KAB. LAMONGAN"
+        },
+        {
+          "regencyId": "1804 ",
+          "regencyName": "KAB. LAMPUNG BARAT"
+        },
+        {
+          "regencyId": "1801 ",
+          "regencyName": "KAB. LAMPUNG SELATAN"
+        },
+        {
+          "regencyId": "1802 ",
+          "regencyName": "KAB. LAMPUNG TENGAH"
+        },
+        {
+          "regencyId": "1807 ",
+          "regencyName": "KAB. LAMPUNG TIMUR"
+        },
+        {
+          "regencyId": "1803 ",
+          "regencyName": "KAB. LAMPUNG UTARA"
+        },
+        {
+          "regencyId": "6108 ",
+          "regencyName": "KAB. LANDAK"
+        },
+        {
+          "regencyId": "1205 ",
+          "regencyName": "KAB. LANGKAT"
+        },
+        {
+          "regencyId": "9123 ",
+          "regencyName": "KAB. LANNY JAYA"
+        },
+        {
+          "regencyId": "3602 ",
+          "regencyName": "KAB. LEBAK"
+        },
+        {
+          "regencyId": "1707 ",
+          "regencyName": "KAB. LEBONG"
+        },
+        {
+          "regencyId": "5313 ",
+          "regencyName": "KAB. LEMBATA"
+        },
+        {
+          "regencyId": "1307 ",
+          "regencyName": "KAB. LIMA PULUH KOTA"
+        },
+        {
+          "regencyId": "2104 ",
+          "regencyName": "KAB. LINGGA"
+        },
+        {
+          "regencyId": "5201 ",
+          "regencyName": "KAB. LOMBOK BARAT"
+        },
+        {
+          "regencyId": "5202 ",
+          "regencyName": "KAB. LOMBOK TENGAH"
+        },
+        {
+          "regencyId": "5203 ",
+          "regencyName": "KAB. LOMBOK TIMUR"
+        },
+        {
+          "regencyId": "5208 ",
+          "regencyName": "KAB. LOMBOK UTARA"
+        },
+        {
+          "regencyId": "3508 ",
+          "regencyName": "KAB. LUMAJANG"
+        },
+        {
+          "regencyId": "7317 ",
+          "regencyName": "KAB. LUWU"
+        },
+        {
+          "regencyId": "7324 ",
+          "regencyName": "KAB. LUWU TIMUR"
+        },
+        {
+          "regencyId": "7322 ",
+          "regencyName": "KAB. LUWU UTARA"
+        },
+        {
+          "regencyId": "3519 ",
+          "regencyName": "KAB. MADIUN"
+        },
+        {
+          "regencyId": "3308 ",
+          "regencyName": "KAB. MAGELANG"
+        },
+        {
+          "regencyId": "3520 ",
+          "regencyName": "KAB. MAGETAN"
+        },
+        {
+          "regencyId": "6411 ",
+          "regencyName": "KAB. MAHAKAM ULU"
+        },
+        {
+          "regencyId": "3210 ",
+          "regencyName": "KAB. MAJALENGKA"
+        },
+        {
+          "regencyId": "7605 ",
+          "regencyName": "KAB. MAJENE"
+        },
+        {
+          "regencyId": "5321 ",
+          "regencyName": "KAB. MALAKA"
+        },
+        {
+          "regencyId": "3507 ",
+          "regencyName": "KAB. MALANG"
+        },
+        {
+          "regencyId": "6502 ",
+          "regencyName": "KAB. MALINAU"
+        },
+        {
+          "regencyId": "8108 ",
+          "regencyName": "KAB. MALUKU BARAT DAYA"
+        },
+        {
+          "regencyId": "8101 ",
+          "regencyName": "KAB. MALUKU TENGAH"
+        },
+        {
+          "regencyId": "8102 ",
+          "regencyName": "KAB. MALUKU TENGGARA"
+        },
+        {
+          "regencyId": "7603 ",
+          "regencyName": "KAB. MAMASA"
+        },
+        {
+          "regencyId": "9120 ",
+          "regencyName": "KAB. MAMBERAMO RAYA"
+        },
+        {
+          "regencyId": "9121 ",
+          "regencyName": "KAB. MAMBERAMO TENGAH"
+        },
+        {
+          "regencyId": "7602 ",
+          "regencyName": "KAB. MAMUJU"
+        },
+        {
+          "regencyId": "7606 ",
+          "regencyName": "KAB. MAMUJU TENGAH"
+        },
+        {
+          "regencyId": "1213 ",
+          "regencyName": "KAB. MANDAILING NATAL"
+        },
+        {
+          "regencyId": "5310 ",
+          "regencyName": "KAB. MANGGARAI"
+        },
+        {
+          "regencyId": "5315 ",
+          "regencyName": "KAB. MANGGARAI BARAT"
+        },
+        {
+          "regencyId": "5319 ",
+          "regencyName": "KAB. MANGGARAI TIMUR"
+        },
+        {
+          "regencyId": "9202 ",
+          "regencyName": "KAB. MANOKWARI"
+        },
+        {
+          "regencyId": "9211 ",
+          "regencyName": "KAB. MANOKWARI SELATAN"
+        },
+        {
+          "regencyId": "9117 ",
+          "regencyName": "KAB. MAPPI"
+        },
+        {
+          "regencyId": "7309 ",
+          "regencyName": "KAB. MAROS"
+        },
+        {
+          "regencyId": "9210 ",
+          "regencyName": "KAB. MAYBRAT"
+        },
+        {
+          "regencyId": "6110 ",
+          "regencyName": "KAB. MELAWI"
+        },
+        {
+          "regencyId": "6102 ",
+          "regencyName": "KAB. MEMPAWAH"
+        },
+        {
+          "regencyId": "1502 ",
+          "regencyName": "KAB. MERANGIN"
+        },
+        {
+          "regencyId": "9101 ",
+          "regencyName": "KAB. MERAUKE"
+        },
+        {
+          "regencyId": "1811 ",
+          "regencyName": "KAB. MESUJI"
+        },
+        {
+          "regencyId": "9109 ",
+          "regencyName": "KAB. MIMIKA"
+        },
+        {
+          "regencyId": "7102 ",
+          "regencyName": "KAB. MINAHASA"
+        },
+        {
+          "regencyId": "7105 ",
+          "regencyName": "KAB. MINAHASA SELATAN"
+        },
+        {
+          "regencyId": "7107 ",
+          "regencyName": "KAB. MINAHASA TENGGARA"
+        },
+        {
+          "regencyId": "7106 ",
+          "regencyName": "KAB. MINAHASA UTARA"
+        },
+        {
+          "regencyId": "3516 ",
+          "regencyName": "KAB. MOJOKERTO"
+        },
+        {
+          "regencyId": "7206 ",
+          "regencyName": "KAB. MOROWALI"
+        },
+        {
+          "regencyId": "7212 ",
+          "regencyName": "KAB. MOROWALI UTARA"
+        },
+        {
+          "regencyId": "1603 ",
+          "regencyName": "KAB. MUARA ENIM"
+        },
+        {
+          "regencyId": "1505 ",
+          "regencyName": "KAB. MUARO JAMBI"
+        },
+        {
+          "regencyId": "1706 ",
+          "regencyName": "KAB. MUKO MUKO"
+        },
+        {
+          "regencyId": "7403 ",
+          "regencyName": "KAB. MUNA"
+        },
+        {
+          "regencyId": "7413 ",
+          "regencyName": "KAB. MUNA BARAT"
+        },
+        {
+          "regencyId": "6212 ",
+          "regencyName": "KAB. MURUNG RAYA"
+        },
+        {
+          "regencyId": "1606 ",
+          "regencyName": "KAB. MUSI BANYUASIN"
+        },
+        {
+          "regencyId": "1605 ",
+          "regencyName": "KAB. MUSI RAWAS"
+        },
+        {
+          "regencyId": "1613 ",
+          "regencyName": "KAB. MUSI RAWAS UTARA"
+        },
+        {
+          "regencyId": "9104 ",
+          "regencyName": "KAB. NABIRE"
+        },
+        {
+          "regencyId": "1115 ",
+          "regencyName": "KAB. NAGAN RAYA"
+        },
+        {
+          "regencyId": "5316 ",
+          "regencyName": "KAB. NAGEKEO"
+        },
+        {
+          "regencyId": "2103 ",
+          "regencyName": "KAB. NATUNA"
+        },
+        {
+          "regencyId": "9124 ",
+          "regencyName": "KAB. NDUGA"
+        },
+        {
+          "regencyId": "5309 ",
+          "regencyName": "KAB. NGADA"
+        },
+        {
+          "regencyId": "3518 ",
+          "regencyName": "KAB. NGANJUK"
+        },
+        {
+          "regencyId": "3521 ",
+          "regencyName": "KAB. NGAWI"
+        },
+        {
+          "regencyId": "1204 ",
+          "regencyName": "KAB. NIAS"
+        },
+        {
+          "regencyId": "1225 ",
+          "regencyName": "KAB. NIAS BARAT"
+        },
+        {
+          "regencyId": "1214 ",
+          "regencyName": "KAB. NIAS SELATAN"
+        },
+        {
+          "regencyId": "1224 ",
+          "regencyName": "KAB. NIAS UTARA"
+        },
+        {
+          "regencyId": "6503 ",
+          "regencyName": "KAB. NUNUKAN"
+        },
+        {
+          "regencyId": "1610 ",
+          "regencyName": "KAB. OGAN ILIR"
+        },
+        {
+          "regencyId": "1602 ",
+          "regencyName": "KAB. OGAN KOMERING ILIR"
+        },
+        {
+          "regencyId": "1601 ",
+          "regencyName": "KAB. OGAN KOMERING ULU"
+        },
+        {
+          "regencyId": "1609 ",
+          "regencyName": "KAB. OGAN KOMERING ULU SELATAN"
+        },
+        {
+          "regencyId": "1608 ",
+          "regencyName": "KAB. OGAN KOMERING ULU TIMUR"
+        },
+        {
+          "regencyId": "3501 ",
+          "regencyName": "KAB. PACITAN"
+        },
+        {
+          "regencyId": "1221 ",
+          "regencyName": "KAB. PADANG LAWAS"
+        },
+        {
+          "regencyId": "1220 ",
+          "regencyName": "KAB. PADANG LAWAS UTARA"
+        },
+        {
+          "regencyId": "1305 ",
+          "regencyName": "KAB. PADANG PARIAMAN"
+        },
+        {
+          "regencyId": "7504 ",
+          "regencyName": "KAB. PAHUWATO"
+        },
+        {
+          "regencyId": "1215 ",
+          "regencyName": "KAB. PAKPAK BHARAT"
+        },
+        {
+          "regencyId": "3528 ",
+          "regencyName": "KAB. PAMEKASAN"
+        },
+        {
+          "regencyId": "3601 ",
+          "regencyName": "KAB. PANDEGLANG"
+        },
+        {
+          "regencyId": "3218 ",
+          "regencyName": "KAB. PANGANDARAN"
+        },
+        {
+          "regencyId": "7310 ",
+          "regencyName": "KAB. PANGKAJENE KEPULAUAN"
+        },
+        {
+          "regencyId": "9108 ",
+          "regencyName": "KAB. PANIAI"
+        },
+        {
+          "regencyId": "7208 ",
+          "regencyName": "KAB. PARIGI MOUTONG"
+        },
+        {
+          "regencyId": "1308 ",
+          "regencyName": "KAB. PASAMAN"
+        },
+        {
+          "regencyId": "1312 ",
+          "regencyName": "KAB. PASAMAN BARAT"
+        },
+        {
+          "regencyId": "7601 ",
+          "regencyName": "KAB. PASANGKAYU"
+        },
+        {
+          "regencyId": "6401 ",
+          "regencyName": "KAB. PASER"
+        },
+        {
+          "regencyId": "3514 ",
+          "regencyName": "KAB. PASURUAN"
+        },
+        {
+          "regencyId": "3318 ",
+          "regencyName": "KAB. PATI"
+        },
+        {
+          "regencyId": "9212 ",
+          "regencyName": "KAB. PEGUNUNGAN ARFAK"
+        },
+        {
+          "regencyId": "3326 ",
+          "regencyName": "KAB. PEKALONGAN"
+        },
+        {
+          "regencyId": "1405 ",
+          "regencyName": "KAB. PELALAWAN"
+        },
+        {
+          "regencyId": "3327 ",
+          "regencyName": "KAB. PEMALANG"
+        },
+        {
+          "regencyId": "6409 ",
+          "regencyName": "KAB. PENAJAM PASER UTARA"
+        },
+        {
+          "regencyId": "1612 ",
+          "regencyName": "KAB. PENUKAL ABAB LEMATANG ILIR"
+        },
+        {
+          "regencyId": "1809 ",
+          "regencyName": "KAB. PESAWARAN"
+        },
+        {
+          "regencyId": "1813 ",
+          "regencyName": "KAB. PESISIR BARAT"
+        },
+        {
+          "regencyId": "1301 ",
+          "regencyName": "KAB. PESISIR SELATAN"
+        },
+        {
+          "regencyId": "1107 ",
+          "regencyName": "KAB. PIDIE"
+        },
+        {
+          "regencyId": "1118 ",
+          "regencyName": "KAB. PIDIE JAYA"
+        },
+        {
+          "regencyId": "7315 ",
+          "regencyName": "KAB. PINRANG"
+        },
+        {
+          "regencyId": "7604 ",
+          "regencyName": "KAB. POLEWALI MANDAR"
+        },
+        {
+          "regencyId": "3502 ",
+          "regencyName": "KAB. PONOROGO"
+        },
+        {
+          "regencyId": "7202 ",
+          "regencyName": "KAB. POSO"
+        },
+        {
+          "regencyId": "1810 ",
+          "regencyName": "KAB. PRINGSEWU"
+        },
+        {
+          "regencyId": "3513 ",
+          "regencyName": "KAB. PROBOLINGGO"
+        },
+        {
+          "regencyId": "6211 ",
+          "regencyName": "KAB. PULANG PISAU"
+        },
+        {
+          "regencyId": "8207 ",
+          "regencyName": "KAB. PULAU MOROTAI"
+        },
+        {
+          "regencyId": "8208 ",
+          "regencyName": "KAB. PULAU TALIABU"
+        },
+        {
+          "regencyId": "9125 ",
+          "regencyName": "KAB. PUNCAK"
+        },
+        {
+          "regencyId": "9107 ",
+          "regencyName": "KAB. PUNCAK JAYA"
+        },
+        {
+          "regencyId": "3303 ",
+          "regencyName": "KAB. PURBALINGGA"
+        },
+        {
+          "regencyId": "3214 ",
+          "regencyName": "KAB. PURWAKARTA"
+        },
+        {
+          "regencyId": "3306 ",
+          "regencyName": "KAB. PURWOREJO"
+        },
+        {
+          "regencyId": "9205 ",
+          "regencyName": "KAB. RAJA AMPAT"
+        },
+        {
+          "regencyId": "1702 ",
+          "regencyName": "KAB. REJANG LEBONG"
+        },
+        {
+          "regencyId": "3317 ",
+          "regencyName": "KAB. REMBANG"
+        },
+        {
+          "regencyId": "1407 ",
+          "regencyName": "KAB. ROKAN HILIR"
+        },
+        {
+          "regencyId": "1406 ",
+          "regencyName": "KAB. ROKAN HULU"
+        },
+        {
+          "regencyId": "5314 ",
+          "regencyName": "KAB. ROTE NDAO"
+        },
+        {
+          "regencyId": "5320 ",
+          "regencyName": "KAB. SABU RAIJUA"
+        },
+        {
+          "regencyId": "6101 ",
+          "regencyName": "KAB. SAMBAS"
+        },
+        {
+          "regencyId": "1217 ",
+          "regencyName": "KAB. SAMOSIR"
+        },
+        {
+          "regencyId": "3527 ",
+          "regencyName": "KAB. SAMPANG"
+        },
+        {
+          "regencyId": "6103 ",
+          "regencyName": "KAB. SANGGAU"
+        },
+        {
+          "regencyId": "9110 ",
+          "regencyName": "KAB. SARMI"
+        },
+        {
+          "regencyId": "1503 ",
+          "regencyName": "KAB. SAROLANGUN"
+        },
+        {
+          "regencyId": "6109 ",
+          "regencyName": "KAB. SEKADAU"
+        },
+        {
+          "regencyId": "1705 ",
+          "regencyName": "KAB. SELUMA"
+        },
+        {
+          "regencyId": "3322 ",
+          "regencyName": "KAB. SEMARANG"
+        },
+        {
+          "regencyId": "8106 ",
+          "regencyName": "KAB. SERAM BAGIAN BARAT"
+        },
+        {
+          "regencyId": "8105 ",
+          "regencyName": "KAB. SERAM BAGIAN TIMUR"
+        },
+        {
+          "regencyId": "3604 ",
+          "regencyName": "KAB. SERANG"
+        },
+        {
+          "regencyId": "1218 ",
+          "regencyName": "KAB. SERDANG BEDAGAI"
+        },
+        {
+          "regencyId": "6207 ",
+          "regencyName": "KAB. SERUYAN"
+        },
+        {
+          "regencyId": "1408 ",
+          "regencyName": "KAB. SIAK"
+        },
+        {
+          "regencyId": "7314 ",
+          "regencyName": "KAB. SIDENRENG RAPPANG"
+        },
+        {
+          "regencyId": "3515 ",
+          "regencyName": "KAB. SIDOARJO"
+        },
+        {
+          "regencyId": "7210 ",
+          "regencyName": "KAB. SIGI"
+        },
+        {
+          "regencyId": "1303 ",
+          "regencyName": "KAB. SIJUNJUNG"
+        },
+        {
+          "regencyId": "5307 ",
+          "regencyName": "KAB. SIKKA"
+        },
+        {
+          "regencyId": "1208 ",
+          "regencyName": "KAB. SIMALUNGUN"
+        },
+        {
+          "regencyId": "1109 ",
+          "regencyName": "KAB. SIMEULUE"
+        },
+        {
+          "regencyId": "7307 ",
+          "regencyName": "KAB. SINJAI"
+        },
+        {
+          "regencyId": "6105 ",
+          "regencyName": "KAB. SINTANG"
+        },
+        {
+          "regencyId": "3512 ",
+          "regencyName": "KAB. SITUBONDO"
+        },
+        {
+          "regencyId": "3404 ",
+          "regencyName": "KAB. SLEMAN"
+        },
+        {
+          "regencyId": "1302 ",
+          "regencyName": "KAB. SOLOK"
+        },
+        {
+          "regencyId": "1311 ",
+          "regencyName": "KAB. SOLOK SELATAN"
+        },
+        {
+          "regencyId": "7312 ",
+          "regencyName": "KAB. SOPPENG"
+        },
+        {
+          "regencyId": "9201 ",
+          "regencyName": "KAB. SORONG"
+        },
+        {
+          "regencyId": "9204 ",
+          "regencyName": "KAB. SORONG SELATAN"
+        },
+        {
+          "regencyId": "3314 ",
+          "regencyName": "KAB. SRAGEN"
+        },
+        {
+          "regencyId": "3213 ",
+          "regencyName": "KAB. SUBANG"
+        },
+        {
+          "regencyId": "3202 ",
+          "regencyName": "KAB. SUKABUMI"
+        },
+        {
+          "regencyId": "6208 ",
+          "regencyName": "KAB. SUKAMARA"
+        },
+        {
+          "regencyId": "3311 ",
+          "regencyName": "KAB. SUKOHARJO"
+        },
+        {
+          "regencyId": "5312 ",
+          "regencyName": "KAB. SUMBA BARAT"
+        },
+        {
+          "regencyId": "5318 ",
+          "regencyName": "KAB. SUMBA BARAT DAYA"
+        },
+        {
+          "regencyId": "5317 ",
+          "regencyName": "KAB. SUMBA TENGAH"
+        },
+        {
+          "regencyId": "5311 ",
+          "regencyName": "KAB. SUMBA TIMUR"
+        },
+        {
+          "regencyId": "5204 ",
+          "regencyName": "KAB. SUMBAWA"
+        },
+        {
+          "regencyId": "5207 ",
+          "regencyName": "KAB. SUMBAWA BARAT"
+        },
+        {
+          "regencyId": "3211 ",
+          "regencyName": "KAB. SUMEDANG"
+        },
+        {
+          "regencyId": "3529 ",
+          "regencyName": "KAB. SUMENEP"
+        },
+        {
+          "regencyId": "9119 ",
+          "regencyName": "KAB. SUPIORI"
+        },
+        {
+          "regencyId": "6309 ",
+          "regencyName": "KAB. TABALONG"
+        },
+        {
+          "regencyId": "5102 ",
+          "regencyName": "KAB. TABANAN"
+        },
+        {
+          "regencyId": "7305 ",
+          "regencyName": "KAB. TAKALAR"
+        },
+        {
+          "regencyId": "9209 ",
+          "regencyName": "KAB. TAMBRAUW"
+        },
+        {
+          "regencyId": "6504 ",
+          "regencyName": "KAB. TANA TIDUNG"
+        },
+        {
+          "regencyId": "7318 ",
+          "regencyName": "KAB. TANA TORAJA"
+        },
+        {
+          "regencyId": "6310 ",
+          "regencyName": "KAB. TANAH BUMBU"
+        },
+        {
+          "regencyId": "1304 ",
+          "regencyName": "KAB. TANAH DATAR"
+        },
+        {
+          "regencyId": "6301 ",
+          "regencyName": "KAB. TANAH LAUT"
+        },
+        {
+          "regencyId": "3603 ",
+          "regencyName": "KAB. TANGERANG"
+        },
+        {
+          "regencyId": "1806 ",
+          "regencyName": "KAB. TANGGAMUS"
+        },
+        {
+          "regencyId": "1506 ",
+          "regencyName": "KAB. TANJUNG JABUNG BARAT"
+        },
+        {
+          "regencyId": "1507 ",
+          "regencyName": "KAB. TANJUNG JABUNG TIMUR"
+        },
+        {
+          "regencyId": "1203 ",
+          "regencyName": "KAB. TAPANULI SELATAN"
+        },
+        {
+          "regencyId": "1201 ",
+          "regencyName": "KAB. TAPANULI TENGAH"
+        },
+        {
+          "regencyId": "1202 ",
+          "regencyName": "KAB. TAPANULI UTARA"
+        },
+        {
+          "regencyId": "6305 ",
+          "regencyName": "KAB. TAPIN"
+        },
+        {
+          "regencyId": "3206 ",
+          "regencyName": "KAB. TASIKMALAYA"
+        },
+        {
+          "regencyId": "1509 ",
+          "regencyName": "KAB. TEBO"
+        },
+        {
+          "regencyId": "3328 ",
+          "regencyName": "KAB. TEGAL"
+        },
+        {
+          "regencyId": "9206 ",
+          "regencyName": "KAB. TELUK BINTUNI"
+        },
+        {
+          "regencyId": "9207 ",
+          "regencyName": "KAB. TELUK WONDAMA"
+        },
+        {
+          "regencyId": "3323 ",
+          "regencyName": "KAB. TEMANGGUNG"
+        },
+        {
+          "regencyId": "5303 ",
+          "regencyName": "KAB. TIMOR TENGAH UTARA"
+        },
+        {
+          "regencyId": "1212 ",
+          "regencyName": "KAB. TOBA SAMOSIR"
+        },
+        {
+          "regencyId": "7209 ",
+          "regencyName": "KAB. TOJO UNA UNA"
+        },
+        {
+          "regencyId": "7204 ",
+          "regencyName": "KAB. TOLI TOLI"
+        },
+        {
+          "regencyId": "9114 ",
+          "regencyName": "KAB. TOLIKARA"
+        },
+        {
+          "regencyId": "7326 ",
+          "regencyName": "KAB. TORAJA UTARA"
+        },
+        {
+          "regencyId": "3503 ",
+          "regencyName": "KAB. TRENGGALEK"
+        },
+        {
+          "regencyId": "3523 ",
+          "regencyName": "KAB. TUBAN"
+        },
+        {
+          "regencyId": "1805 ",
+          "regencyName": "KAB. TULANG BAWANG"
+        },
+        {
+          "regencyId": "1812 ",
+          "regencyName": "KAB. TULANG BAWANG BARAT"
+        },
+        {
+          "regencyId": "3504 ",
+          "regencyName": "KAB. TULUNGAGUNG"
+        },
+        {
+          "regencyId": "7313 ",
+          "regencyName": "KAB. WAJO"
+        },
+        {
+          "regencyId": "7407 ",
+          "regencyName": "KAB. WAKATOBI"
+        },
+        {
+          "regencyId": "9115 ",
+          "regencyName": "KAB. WAROPEN"
+        },
+        {
+          "regencyId": "1808 ",
+          "regencyName": "KAB. WAY KANAN"
+        },
+        {
+          "regencyId": "3312 ",
+          "regencyName": "KAB. WONOGIRI"
+        },
+        {
+          "regencyId": "3307 ",
+          "regencyName": "KAB. WONOSOBO"
+        },
+        {
+          "regencyId": "9113 ",
+          "regencyName": "KAB. YAHUKIMO"
+        },
+        {
+          "regencyId": "9122 ",
+          "regencyName": "KAB. YALIMO"
+        },
+        {
+          "regencyId": "3173 ",
+          "regencyName": "KOTA ADM. JAKARTA BARAT"
+        },
+        {
+          "regencyId": "3171 ",
+          "regencyName": "KOTA ADM. JAKARTA PUSAT"
+        },
+        {
+          "regencyId": "3174 ",
+          "regencyName": "KOTA ADM. JAKARTA SELATAN"
+        },
+        {
+          "regencyId": "3175 ",
+          "regencyName": "KOTA ADM. JAKARTA TIMUR"
+        },
+        {
+          "regencyId": "3172 ",
+          "regencyName": "KOTA ADM. JAKARTA UTARA"
+        },
+        {
+          "regencyId": "8171 ",
+          "regencyName": "KOTA AMBON"
+        },
+        {
+          "regencyId": "6471 ",
+          "regencyName": "KOTA BALIKPAPAN"
+        },
+        {
+          "regencyId": "1171 ",
+          "regencyName": "KOTA BANDA ACEH"
+        },
+        {
+          "regencyId": "1871 ",
+          "regencyName": "KOTA BANDAR LAMPUNG"
+        },
+        {
+          "regencyId": "3273 ",
+          "regencyName": "KOTA BANDUNG"
+        },
+        {
+          "regencyId": "3279 ",
+          "regencyName": "KOTA BANJAR"
+        },
+        {
+          "regencyId": "6372 ",
+          "regencyName": "KOTA BANJARBARU"
+        },
+        {
+          "regencyId": "6371 ",
+          "regencyName": "KOTA BANJARMASIN"
+        },
+        {
+          "regencyId": "2171 ",
+          "regencyName": "KOTA BATAM"
+        },
+        {
+          "regencyId": "3579 ",
+          "regencyName": "KOTA BATU"
+        },
+        {
+          "regencyId": "7472 ",
+          "regencyName": "KOTA BAU BAU"
+        },
+        {
+          "regencyId": "3275 ",
+          "regencyName": "KOTA BEKASI"
+        },
+        {
+          "regencyId": "1771 ",
+          "regencyName": "KOTA BENGKULU"
+        },
+        {
+          "regencyId": "5272 ",
+          "regencyName": "KOTA BIMA"
+        },
+        {
+          "regencyId": "1275 ",
+          "regencyName": "KOTA BINJAI"
+        },
+        {
+          "regencyId": "7172 ",
+          "regencyName": "KOTA BITUNG"
+        },
+        {
+          "regencyId": "3572 ",
+          "regencyName": "KOTA BLITAR"
+        },
+        {
+          "regencyId": "3271 ",
+          "regencyName": "KOTA BOGOR"
+        },
+        {
+          "regencyId": "6474 ",
+          "regencyName": "KOTA BONTANG"
+        },
+        {
+          "regencyId": "1375 ",
+          "regencyName": "KOTA BUKITTINGGI"
+        },
+        {
+          "regencyId": "3672 ",
+          "regencyName": "KOTA CILEGON"
+        },
+        {
+          "regencyId": "3277 ",
+          "regencyName": "KOTA CIMAHI"
+        },
+        {
+          "regencyId": "3274 ",
+          "regencyName": "KOTA CIREBON"
+        },
+        {
+          "regencyId": "5171 ",
+          "regencyName": "KOTA DENPASAR"
+        },
+        {
+          "regencyId": "3276 ",
+          "regencyName": "KOTA DEPOK"
+        },
+        {
+          "regencyId": "1472 ",
+          "regencyName": "KOTA DUMAI"
+        },
+        {
+          "regencyId": "7571 ",
+          "regencyName": "KOTA GORONTALO"
+        },
+        {
+          "regencyId": "1278 ",
+          "regencyName": "KOTA GUNUNGSITOLI"
+        },
+        {
+          "regencyId": "1571 ",
+          "regencyName": "KOTA JAMBI"
+        },
+        {
+          "regencyId": "9171 ",
+          "regencyName": "KOTA JAYAPURA"
+        },
+        {
+          "regencyId": "3571 ",
+          "regencyName": "KOTA KEDIRI"
+        },
+        {
+          "regencyId": "7471 ",
+          "regencyName": "KOTA KENDARI"
+        },
+        {
+          "regencyId": "7174 ",
+          "regencyName": "KOTA KOTAMOBAGU"
+        },
+        {
+          "regencyId": "5371 ",
+          "regencyName": "KOTA KUPANG"
+        },
+        {
+          "regencyId": "1174 ",
+          "regencyName": "KOTA LANGSA"
+        },
+        {
+          "regencyId": "1173 ",
+          "regencyName": "KOTA LHOKSEUMAWE"
+        },
+        {
+          "regencyId": "1673 ",
+          "regencyName": "KOTA LUBUK LINGGAU"
+        },
+        {
+          "regencyId": "3577 ",
+          "regencyName": "KOTA MADIUN"
+        },
+        {
+          "regencyId": "3371 ",
+          "regencyName": "KOTA MAGELANG"
+        },
+        {
+          "regencyId": "7371 ",
+          "regencyName": "KOTA MAKASSAR"
+        },
+        {
+          "regencyId": "3573 ",
+          "regencyName": "KOTA MALANG"
+        },
+        {
+          "regencyId": "7171 ",
+          "regencyName": "KOTA MANADO"
+        },
+        {
+          "regencyId": "5271 ",
+          "regencyName": "KOTA MATARAM"
+        },
+        {
+          "regencyId": "1271 ",
+          "regencyName": "KOTA MEDAN"
+        },
+        {
+          "regencyId": "1872 ",
+          "regencyName": "KOTA METRO"
+        },
+        {
+          "regencyId": "3576 ",
+          "regencyName": "KOTA MOJOKERTO"
+        },
+        {
+          "regencyId": "1371 ",
+          "regencyName": "KOTA PADANG"
+        },
+        {
+          "regencyId": "1374 ",
+          "regencyName": "KOTA PADANG PANJANG"
+        },
+        {
+          "regencyId": "1277 ",
+          "regencyName": "KOTA PADANG SIDEMPUAN"
+        },
+        {
+          "regencyId": "1672 ",
+          "regencyName": "KOTA PAGAR ALAM"
+        },
+        {
+          "regencyId": "6271 ",
+          "regencyName": "KOTA PALANGKARAYA"
+        },
+        {
+          "regencyId": "1671 ",
+          "regencyName": "KOTA PALEMBANG"
+        },
+        {
+          "regencyId": "7373 ",
+          "regencyName": "KOTA PALOPO"
+        },
+        {
+          "regencyId": "7271 ",
+          "regencyName": "KOTA PALU"
+        },
+        {
+          "regencyId": "1971 ",
+          "regencyName": "KOTA PANGKAL PINANG"
+        },
+        {
+          "regencyId": "7372 ",
+          "regencyName": "KOTA PARE PARE"
+        },
+        {
+          "regencyId": "1377 ",
+          "regencyName": "KOTA PARIAMAN"
+        },
+        {
+          "regencyId": "3575 ",
+          "regencyName": "KOTA PASURUAN"
+        },
+        {
+          "regencyId": "1376 ",
+          "regencyName": "KOTA PAYAKUMBUH"
+        },
+        {
+          "regencyId": "3375 ",
+          "regencyName": "KOTA PEKALONGAN"
+        },
+        {
+          "regencyId": "1471 ",
+          "regencyName": "KOTA PEKANBARU"
+        },
+        {
+          "regencyId": "1272 ",
+          "regencyName": "KOTA PEMATANGSIANTAR"
+        },
+        {
+          "regencyId": "6171 ",
+          "regencyName": "KOTA PONTIANAK"
+        },
+        {
+          "regencyId": "1674 ",
+          "regencyName": "KOTA PRABUMULIH"
+        },
+        {
+          "regencyId": "3574 ",
+          "regencyName": "KOTA PROBOLINGGO"
+        },
+        {
+          "regencyId": "1172 ",
+          "regencyName": "KOTA SABANG"
+        },
+        {
+          "regencyId": "3373 ",
+          "regencyName": "KOTA SALATIGA"
+        },
+        {
+          "regencyId": "6472 ",
+          "regencyName": "KOTA SAMARINDA"
+        },
+        {
+          "regencyId": "1373 ",
+          "regencyName": "KOTA SAWAHLUNTO"
+        },
+        {
+          "regencyId": "3374 ",
+          "regencyName": "KOTA SEMARANG"
+        },
+        {
+          "regencyId": "3673 ",
+          "regencyName": "KOTA SERANG"
+        },
+        {
+          "regencyId": "1273 ",
+          "regencyName": "KOTA SIBOLGA"
+        },
+        {
+          "regencyId": "6172 ",
+          "regencyName": "KOTA SINGKAWANG"
+        },
+        {
+          "regencyId": "1372 ",
+          "regencyName": "KOTA SOLOK"
+        },
+        {
+          "regencyId": "9271 ",
+          "regencyName": "KOTA SORONG"
+        },
+        {
+          "regencyId": "1175 ",
+          "regencyName": "KOTA SUBULUSSALAM"
+        },
+        {
+          "regencyId": "3272 ",
+          "regencyName": "KOTA SUKABUMI"
+        },
+        {
+          "regencyId": "1572 ",
+          "regencyName": "KOTA SUNGAI PENUH"
+        },
+        {
+          "regencyId": "3578 ",
+          "regencyName": "KOTA SURABAYA"
+        },
+        {
+          "regencyId": "3372 ",
+          "regencyName": "KOTA SURAKARTA"
+        },
+        {
+          "regencyId": "3671 ",
+          "regencyName": "KOTA TANGERANG"
+        },
+        {
+          "regencyId": "3674 ",
+          "regencyName": "KOTA TANGERANG SELATAN"
+        },
+        {
+          "regencyId": "1274 ",
+          "regencyName": "KOTA TANJUNG BALAI"
+        },
+        {
+          "regencyId": "2172 ",
+          "regencyName": "KOTA TANJUNG PINANG"
+        },
+        {
+          "regencyId": "6571 ",
+          "regencyName": "KOTA TARAKAN"
+        },
+        {
+          "regencyId": "3278 ",
+          "regencyName": "KOTA TASIKMALAYA"
+        },
+        {
+          "regencyId": "1276 ",
+          "regencyName": "KOTA TEBING TINGGI"
+        },
+        {
+          "regencyId": "3376 ",
+          "regencyName": "KOTA TEGAL"
+        },
+        {
+          "regencyId": "8271 ",
+          "regencyName": "KOTA TERNATE"
+        },
+        {
+          "regencyId": "8272 ",
+          "regencyName": "KOTA TIDORE KEPULAUAN"
+        },
+        {
+          "regencyId": "7173 ",
+          "regencyName": "KOTA TOMOHON"
+        },
+        {
+          "regencyId": "8172 ",
+          "regencyName": "KOTA TUAL"
+        },
+        {
+          "regencyId": "3471 ",
+          "regencyName": "KOTA YOGYAKARTA"
+        }
+      ]
+    }
+  }
+}

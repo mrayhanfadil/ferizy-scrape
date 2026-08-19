@@ -1,0 +1,1262 @@
+[
+  {
+    "originHarbourId": "175",
+    "originHarbourName": "Aimere",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "5488",
+    "origin": "Aimere",
+    "destination": "Kupang",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "175",
+    "originHarbourName": "Aimere",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "5439",
+    "origin": "Aimere",
+    "destination": "Waingapu",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "348",
+    "originHarbourName": "Ajibata",
+    "originProvince": "Sumatera Utara",
+    "routeId": "5510",
+    "origin": "Ajibata",
+    "destination": "Ambarita",
+    "destinationProvince": "Sumatera Utara"
+  },
+  {
+    "originHarbourId": "349",
+    "originHarbourName": "Ambarita",
+    "originProvince": "Sumatera Utara",
+    "routeId": "5511",
+    "origin": "Ambarita",
+    "destination": "Ajibata",
+    "destinationProvince": "Sumatera Utara"
+  },
+  {
+    "originHarbourId": "203",
+    "originHarbourName": "Bajoe",
+    "originProvince": "Sulawesi Selatan",
+    "routeId": "203202",
+    "origin": "Bajoe",
+    "destination": "Kolaka",
+    "destinationProvince": "Sulawesi Tenggara"
+  },
+  {
+    "originHarbourId": "14",
+    "originHarbourName": "Balohan",
+    "originProvince": "Aceh",
+    "routeId": "1516",
+    "origin": "Balohan",
+    "destination": "Ulee Lheue",
+    "destinationProvince": "Aceh"
+  },
+  {
+    "originHarbourId": "106",
+    "originHarbourName": "Bastiong",
+    "originProvince": "Maluku Utara",
+    "routeId": "58",
+    "origin": "Bastiong",
+    "destination": "Babang",
+    "destinationProvince": "Maluku Utara"
+  },
+  {
+    "originHarbourId": "106",
+    "originHarbourName": "Bastiong",
+    "originProvince": "Maluku Utara",
+    "routeId": "42",
+    "origin": "Bastiong",
+    "destination": "Batang Dua",
+    "destinationProvince": "Maluku Utara"
+  },
+  {
+    "originHarbourId": "106",
+    "originHarbourName": "Bastiong",
+    "originProvince": "Maluku Utara",
+    "routeId": "106521",
+    "origin": "Bastiong",
+    "destination": "Bitung",
+    "destinationProvince": "Sulawesi Utara"
+  },
+  {
+    "originHarbourId": "106",
+    "originHarbourName": "Bastiong",
+    "originProvince": "Maluku Utara",
+    "routeId": "106113",
+    "origin": "Bastiong",
+    "destination": "Kayoa",
+    "destinationProvince": "Maluku Utara"
+  },
+  {
+    "originHarbourId": "106",
+    "originHarbourName": "Bastiong",
+    "originProvince": "Maluku Utara",
+    "routeId": "46",
+    "origin": "Bastiong",
+    "destination": "Makian",
+    "destinationProvince": "Maluku Utara"
+  },
+  {
+    "originHarbourId": "106",
+    "originHarbourName": "Bastiong",
+    "originProvince": "Maluku Utara",
+    "routeId": "40",
+    "origin": "Bastiong",
+    "destination": "Moti",
+    "destinationProvince": "Maluku Utara"
+  },
+  {
+    "originHarbourId": "106",
+    "originHarbourName": "Bastiong",
+    "originProvince": "Maluku Utara",
+    "routeId": "33",
+    "origin": "Bastiong",
+    "destination": "Rum",
+    "destinationProvince": "Maluku Utara"
+  },
+  {
+    "originHarbourId": "106",
+    "originHarbourName": "Bastiong",
+    "originProvince": "Maluku Utara",
+    "routeId": "36",
+    "origin": "Bastiong",
+    "destination": "Sidangole",
+    "destinationProvince": "Maluku Utara"
+  },
+  {
+    "originHarbourId": "106",
+    "originHarbourName": "Bastiong",
+    "originProvince": "Maluku Utara",
+    "routeId": "38",
+    "origin": "Bastiong",
+    "destination": "Sofifi",
+    "destinationProvince": "Maluku Utara"
+  },
+  {
+    "originHarbourId": "83",
+    "originHarbourName": "Batulicin",
+    "originProvince": "Kalimantan Selatan",
+    "routeId": "83313",
+    "origin": "Batulicin",
+    "destination": "Garongkong",
+    "destinationProvince": "Sulawesi Selatan"
+  },
+  {
+    "originHarbourId": "83",
+    "originHarbourName": "Batulicin",
+    "originProvince": "Kalimantan Selatan",
+    "routeId": "8384",
+    "origin": "Batulicin",
+    "destination": "Tanjung Serdang",
+    "destinationProvince": "Kalimantan Selatan"
+  },
+  {
+    "originHarbourId": "208",
+    "originHarbourName": "Baubau",
+    "originProvince": "Sulawesi Tenggara",
+    "routeId": "208211",
+    "origin": "Baubau",
+    "destination": "Waara",
+    "destinationProvince": "Sulawesi Tenggara"
+  },
+  {
+    "originHarbourId": "10",
+    "originHarbourName": "Bawean",
+    "originProvince": "Jawa Timur",
+    "routeId": "18",
+    "origin": "Bawean",
+    "destination": "Gresik",
+    "destinationProvince": "Jawa Timur"
+  },
+  {
+    "originHarbourId": "10",
+    "originHarbourName": "Bawean",
+    "originProvince": "Jawa Timur",
+    "routeId": "21",
+    "origin": "Bawean",
+    "destination": "Paciran",
+    "destinationProvince": "Jawa Timur"
+  },
+  {
+    "originHarbourId": "296",
+    "originHarbourName": "Biak",
+    "originProvince": "Papua",
+    "routeId": "296284",
+    "origin": "Biak",
+    "destination": "Manokwari",
+    "destinationProvince": "Papua Barat"
+  },
+  {
+    "originHarbourId": "296",
+    "originHarbourName": "Biak",
+    "originProvince": "Papua",
+    "routeId": "296300",
+    "origin": "Biak",
+    "destination": "Nabire",
+    "destinationProvince": "Papua Tengah"
+  },
+  {
+    "originHarbourId": "239",
+    "originHarbourName": "Bira",
+    "originProvince": "Sulawesi Selatan",
+    "routeId": "120",
+    "origin": "Bira",
+    "destination": "Pamatata",
+    "destinationProvince": "Sulawesi Selatan"
+  },
+  {
+    "originHarbourId": "105",
+    "originHarbourName": "Bitung",
+    "originProvince": "Sulawesi Utara",
+    "routeId": "91",
+    "origin": "Bitung",
+    "destination": "Melonguane",
+    "destinationProvince": "Sulawesi Utara"
+  },
+  {
+    "originHarbourId": "105",
+    "originHarbourName": "Bitung",
+    "originProvince": "Sulawesi Utara",
+    "routeId": "93",
+    "origin": "Bitung",
+    "destination": "Ternate",
+    "destinationProvince": "Maluku Utara"
+  },
+  {
+    "originHarbourId": "105",
+    "originHarbourName": "Bitung",
+    "originProvince": "Sulawesi Utara",
+    "routeId": "96",
+    "origin": "Bitung",
+    "destination": "Tobelo",
+    "destinationProvince": "Maluku Utara"
+  },
+  {
+    "originHarbourId": "429",
+    "originHarbourName": "Dwikora Pontianak",
+    "originProvince": "Kalimantan Barat",
+    "routeId": "429427",
+    "origin": "Dwikora Pontianak",
+    "destination": "Patimban",
+    "destinationProvince": "Jawa Barat"
+  },
+  {
+    "originHarbourId": "88",
+    "originHarbourName": "Galala",
+    "originProvince": "Maluku",
+    "routeId": "5486",
+    "origin": "Galala",
+    "destination": "Namlea",
+    "destinationProvince": "Maluku"
+  },
+  {
+    "originHarbourId": "313",
+    "originHarbourName": "Garongkong",
+    "originProvince": "Sulawesi Selatan",
+    "routeId": "31383",
+    "origin": "Garongkong",
+    "destination": "Batulicin",
+    "destinationProvince": "Kalimantan Selatan"
+  },
+  {
+    "originHarbourId": "228",
+    "originHarbourName": "Gorontalo",
+    "originProvince": "Gorontalo",
+    "routeId": "228225",
+    "origin": "Gorontalo",
+    "destination": "Ampana",
+    "destinationProvince": "Sulawesi Tengah"
+  },
+  {
+    "originHarbourId": "228",
+    "originHarbourName": "Gorontalo",
+    "originProvince": "Gorontalo",
+    "routeId": "228234",
+    "origin": "Gorontalo",
+    "destination": "Pagimana",
+    "destinationProvince": "Sulawesi Tengah"
+  },
+  {
+    "originHarbourId": "228",
+    "originHarbourName": "Gorontalo",
+    "originProvince": "Gorontalo",
+    "routeId": "228229",
+    "origin": "Gorontalo",
+    "destination": "Wakai",
+    "destinationProvince": "Sulawesi Tengah"
+  },
+  {
+    "originHarbourId": "11",
+    "originHarbourName": "Gresik",
+    "originProvince": "Jawa Timur",
+    "routeId": "19",
+    "origin": "Gresik",
+    "destination": "Bawean",
+    "destinationProvince": "Jawa Timur"
+  },
+  {
+    "originHarbourId": "41",
+    "originHarbourName": "Gunungsitoli",
+    "originProvince": "Sumatera Utara",
+    "routeId": "4140",
+    "origin": "Gunungsitoli",
+    "destination": "Sibolga",
+    "destinationProvince": "Sumatera Utara"
+  },
+  {
+    "originHarbourId": "94",
+    "originHarbourName": "Hunimua",
+    "originProvince": "Maluku",
+    "routeId": "5484",
+    "origin": "Hunimua",
+    "destination": "Waipirit",
+    "destinationProvince": "Maluku"
+  },
+  {
+    "originHarbourId": "564",
+    "originHarbourName": "Jangkar",
+    "originProvince": "Jawa Timur",
+    "routeId": "5641002",
+    "origin": "Jangkar",
+    "destination": "Kalianget",
+    "destinationProvince": "Jawa Timur"
+  },
+  {
+    "originHarbourId": "564",
+    "originHarbourName": "Jangkar",
+    "originProvince": "Jawa Timur",
+    "routeId": "5641003",
+    "origin": "Jangkar",
+    "destination": "Kangean",
+    "destinationProvince": "Jawa Timur"
+  },
+  {
+    "originHarbourId": "564",
+    "originHarbourName": "Jangkar",
+    "originProvince": "Jawa Timur",
+    "routeId": "564565",
+    "origin": "Jangkar",
+    "destination": "Lembar",
+    "destinationProvince": "Nusa Tenggara Barat"
+  },
+  {
+    "originHarbourId": "564",
+    "originHarbourName": "Jangkar",
+    "originProvince": "Jawa Timur",
+    "routeId": "5641005",
+    "origin": "Jangkar",
+    "destination": "Raas",
+    "destinationProvince": "Jawa Timur"
+  },
+  {
+    "originHarbourId": "564",
+    "originHarbourName": "Jangkar",
+    "originProvince": "Jawa Timur",
+    "routeId": "5641004",
+    "origin": "Jangkar",
+    "destination": "Sapudi",
+    "destinationProvince": "Jawa Timur"
+  },
+  {
+    "originHarbourId": "3",
+    "originHarbourName": "Jepara",
+    "originProvince": "Jawa Tengah",
+    "routeId": "3002",
+    "origin": "Jepara",
+    "destination": "Karimun Jawa",
+    "destinationProvince": "Jawa Tengah"
+  },
+  {
+    "originHarbourId": "174",
+    "originHarbourName": "Kalabahi",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "5417",
+    "origin": "Kalabahi",
+    "destination": "Adonara",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "174",
+    "originHarbourName": "Kalabahi",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "5471",
+    "origin": "Kalabahi",
+    "destination": "Bakalang",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "174",
+    "originHarbourName": "Kalabahi",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "5438",
+    "origin": "Kalabahi",
+    "destination": "Baranusa",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "174",
+    "originHarbourName": "Kalabahi",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "5409",
+    "origin": "Kalabahi",
+    "destination": "Kupang",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "174",
+    "originHarbourName": "Kalabahi",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "5426",
+    "origin": "Kalabahi",
+    "destination": "Larantuka",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "174",
+    "originHarbourName": "Kalabahi",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "5437",
+    "origin": "Kalabahi",
+    "destination": "Lewoleba",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "174",
+    "originHarbourName": "Kalabahi",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "174191",
+    "origin": "Kalabahi",
+    "destination": "Naikliu",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "174",
+    "originHarbourName": "Kalabahi",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "174531",
+    "origin": "Kalabahi",
+    "destination": "Pura",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "174",
+    "originHarbourName": "Kalabahi",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "5436",
+    "origin": "Kalabahi",
+    "destination": "Solor",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "174",
+    "originHarbourName": "Kalabahi",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "5418",
+    "origin": "Kalabahi",
+    "destination": "Teluk Gurita",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "441",
+    "originHarbourName": "Kalianget",
+    "originProvince": "Jawa Timur",
+    "routeId": "441440",
+    "origin": "Kalianget",
+    "destination": "Jangkar",
+    "destinationProvince": "Jawa Timur"
+  },
+  {
+    "originHarbourId": "441",
+    "originHarbourName": "Kalianget",
+    "originProvince": "Jawa Timur",
+    "routeId": "441442",
+    "origin": "Kalianget",
+    "destination": "Kangean",
+    "destinationProvince": "Jawa Timur"
+  },
+  {
+    "originHarbourId": "13",
+    "originHarbourName": "Kamal",
+    "originProvince": "Jawa Timur",
+    "routeId": "23",
+    "origin": "Kamal",
+    "destination": "Ujung",
+    "destinationProvince": "Jawa Timur"
+  },
+  {
+    "originHarbourId": "2",
+    "originHarbourName": "Karimun Jawa",
+    "originProvince": "Jawa Tengah",
+    "routeId": "2003",
+    "origin": "Karimun Jawa",
+    "destination": "Jepara",
+    "destinationProvince": "Jawa Tengah"
+  },
+  {
+    "originHarbourId": "195",
+    "originHarbourName": "Kayangan",
+    "originProvince": "Nusa Tenggara Barat",
+    "routeId": "29",
+    "origin": "Kayangan",
+    "destination": "Pototano",
+    "destinationProvince": "Nusa Tenggara Barat"
+  },
+  {
+    "originHarbourId": "217",
+    "originHarbourName": "Kendari",
+    "originProvince": "Sulawesi Tenggara",
+    "routeId": "217218",
+    "origin": "Kendari",
+    "destination": "Langara",
+    "destinationProvince": "Sulawesi Tenggara"
+  },
+  {
+    "originHarbourId": "202",
+    "originHarbourName": "Kolaka",
+    "originProvince": "Sulawesi Tenggara",
+    "routeId": "202203",
+    "origin": "Kolaka",
+    "destination": "Bajoe",
+    "destinationProvince": "Sulawesi Selatan"
+  },
+  {
+    "originHarbourId": "202",
+    "originHarbourName": "Kolaka",
+    "originProvince": "Sulawesi Tenggara",
+    "routeId": "202204",
+    "origin": "Kolaka",
+    "destination": "Siwa",
+    "destinationProvince": "Sulawesi Selatan"
+  },
+  {
+    "originHarbourId": "171",
+    "originHarbourName": "Kupang",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "5369",
+    "origin": "Kupang",
+    "destination": "Adonara",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "171",
+    "originHarbourName": "Kupang",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "5412",
+    "origin": "Kupang",
+    "destination": "Aimere",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "171",
+    "originHarbourName": "Kupang",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "5378",
+    "origin": "Kupang",
+    "destination": "Ende",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "171",
+    "originHarbourName": "Kupang",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "5422",
+    "origin": "Kupang",
+    "destination": "Hansisi",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "171",
+    "originHarbourName": "Kupang",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "5408",
+    "origin": "Kupang",
+    "destination": "Kalabahi",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "171",
+    "originHarbourName": "Kupang",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "1406",
+    "origin": "Kupang",
+    "destination": "Larantuka",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "171",
+    "originHarbourName": "Kupang",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "5363",
+    "origin": "Kupang",
+    "destination": "Lewoleba",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "171",
+    "originHarbourName": "Kupang",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "5430",
+    "origin": "Kupang",
+    "destination": "Naikliu",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "171",
+    "originHarbourName": "Kupang",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "5373",
+    "origin": "Kupang",
+    "destination": "Ndao",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "171",
+    "originHarbourName": "Kupang",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "5435",
+    "origin": "Kupang",
+    "destination": "Raijua",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "171",
+    "originHarbourName": "Kupang",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "5355",
+    "origin": "Kupang",
+    "destination": "Rote",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "171",
+    "originHarbourName": "Kupang",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "5410",
+    "origin": "Kupang",
+    "destination": "Sabu",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "171",
+    "originHarbourName": "Kupang",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "5414",
+    "origin": "Kupang",
+    "destination": "Waingapu",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "199",
+    "originHarbourName": "Labuan Bajo",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "199478",
+    "origin": "Labuan Bajo",
+    "destination": "Bira ",
+    "destinationProvince": "Sulawesi Selatan"
+  },
+  {
+    "originHarbourId": "199",
+    "originHarbourName": "Labuan Bajo",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "199477",
+    "origin": "Labuan Bajo",
+    "destination": "Jampea ",
+    "destinationProvince": "Sulawesi Selatan"
+  },
+  {
+    "originHarbourId": "199",
+    "originHarbourName": "Labuan Bajo",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "199559",
+    "origin": "Labuan Bajo",
+    "destination": "Pulau Rinca",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "199",
+    "originHarbourName": "Labuan Bajo",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "5514",
+    "origin": "Labuan Bajo",
+    "destination": "Sape",
+    "destinationProvince": "Nusa Tenggara Barat"
+  },
+  {
+    "originHarbourId": "199",
+    "originHarbourName": "Labuan Bajo",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "199436",
+    "origin": "Labuan Bajo",
+    "destination": "Waingapu",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "218",
+    "originHarbourName": "Langara",
+    "originProvince": "Sulawesi Tenggara",
+    "routeId": "218217",
+    "origin": "Langara",
+    "destination": "Kendari",
+    "destinationProvince": "Sulawesi Tenggara"
+  },
+  {
+    "originHarbourId": "173",
+    "originHarbourName": "Larantuka",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "5431",
+    "origin": "Larantuka",
+    "destination": "Adonara",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "173",
+    "originHarbourName": "Larantuka",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "5433",
+    "origin": "Larantuka",
+    "destination": "Baranusa",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "173",
+    "originHarbourName": "Larantuka",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "5427",
+    "origin": "Larantuka",
+    "destination": "Kalabahi",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "173",
+    "originHarbourName": "Larantuka",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "1407",
+    "origin": "Larantuka",
+    "destination": "Kupang",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "173",
+    "originHarbourName": "Larantuka",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "5434",
+    "origin": "Larantuka",
+    "destination": "Lewoleba",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "173",
+    "originHarbourName": "Larantuka",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "5432",
+    "origin": "Larantuka",
+    "destination": "Solor",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "173",
+    "originHarbourName": "Larantuka",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "5476",
+    "origin": "Larantuka",
+    "destination": "Waiwerang",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "198",
+    "originHarbourName": "Lembar",
+    "originProvince": "Nusa Tenggara Barat",
+    "routeId": "198563",
+    "origin": "Lembar",
+    "destination": "Jangkar",
+    "destinationProvince": "Jawa Timur"
+  },
+  {
+    "originHarbourId": "198",
+    "originHarbourName": "Lembar",
+    "originProvince": "Nusa Tenggara Barat",
+    "routeId": "25",
+    "origin": "Lembar",
+    "destination": "Padang Bai",
+    "destinationProvince": "Bali"
+  },
+  {
+    "originHarbourId": "198",
+    "originHarbourName": "Lembar",
+    "originProvince": "Nusa Tenggara Barat",
+    "routeId": "198568",
+    "origin": "Lembar",
+    "destination": "Probolinggo",
+    "destinationProvince": "Jawa Timur"
+  },
+  {
+    "originHarbourId": "344",
+    "originHarbourName": "Mamuju",
+    "originProvince": "Sulawesi Barat",
+    "routeId": "344049",
+    "origin": "Mamuju",
+    "destination": "Balikpapan",
+    "destinationProvince": "Kalimantan Timur"
+  },
+  {
+    "originHarbourId": "284",
+    "originHarbourName": "Manokwari",
+    "originProvince": "Papua Barat",
+    "routeId": "284296",
+    "origin": "Manokwari",
+    "destination": "Biak",
+    "destinationProvince": "Papua"
+  },
+  {
+    "originHarbourId": "89",
+    "originHarbourName": "Namlea",
+    "originProvince": "Maluku",
+    "routeId": "5487",
+    "origin": "Namlea",
+    "destination": "Galala",
+    "destinationProvince": "Maluku"
+  },
+  {
+    "originHarbourId": "9",
+    "originHarbourName": "Paciran",
+    "originProvince": "Jawa Timur",
+    "routeId": "182439",
+    "origin": "Paciran",
+    "destination": "Bahaur",
+    "destinationProvince": "Kalimantan Tengah"
+  },
+  {
+    "originHarbourId": "9",
+    "originHarbourName": "Paciran",
+    "originProvince": "Jawa Timur",
+    "routeId": "20",
+    "origin": "Paciran",
+    "destination": "Bawean",
+    "destinationProvince": "Jawa Timur"
+  },
+  {
+    "originHarbourId": "29",
+    "originHarbourName": "Padang",
+    "originProvince": "Sumatera Barat",
+    "routeId": "122",
+    "origin": "Padang",
+    "destination": "Tua Pejat",
+    "destinationProvince": "Sumatera Barat"
+  },
+  {
+    "originHarbourId": "196",
+    "originHarbourName": "Padang Bai",
+    "originProvince": "Bali",
+    "routeId": "26",
+    "origin": "Padang Bai",
+    "destination": "Lembar",
+    "destinationProvince": "Nusa Tenggara Barat"
+  },
+  {
+    "originHarbourId": "196",
+    "originHarbourName": "Padang Bai",
+    "originProvince": "Bali",
+    "routeId": "27",
+    "origin": "Padang Bai",
+    "destination": "Nusa Penida",
+    "destinationProvince": "Bali"
+  },
+  {
+    "originHarbourId": "234",
+    "originHarbourName": "Pagimana",
+    "originProvince": "Sulawesi Tengah",
+    "routeId": "234228",
+    "origin": "Pagimana",
+    "destination": "Gorontalo",
+    "destinationProvince": "Gorontalo"
+  },
+  {
+    "originHarbourId": "244",
+    "originHarbourName": "Pamatata",
+    "originProvince": "Sulawesi Selatan",
+    "routeId": "121",
+    "origin": "Pamatata",
+    "destination": "Bira",
+    "destinationProvince": "Sulawesi Selatan"
+  },
+  {
+    "originHarbourId": "54",
+    "originHarbourName": "Penajam",
+    "originProvince": "Kalimantan Timur",
+    "routeId": "5489",
+    "origin": "Penajam",
+    "destination": "Kariangau",
+    "destinationProvince": "Kalimantan Timur"
+  },
+  {
+    "originHarbourId": "194",
+    "originHarbourName": "Pototano",
+    "originProvince": "Nusa Tenggara Barat",
+    "routeId": "30",
+    "origin": "Pototano",
+    "destination": "Kayangan",
+    "destinationProvince": "Nusa Tenggara Barat"
+  },
+  {
+    "originHarbourId": "566",
+    "originHarbourName": "Probolinggo",
+    "originProvince": "Jawa Timur",
+    "routeId": "201027",
+    "origin": "Probolinggo",
+    "destination": "Lembar",
+    "destinationProvince": "Nusa Tenggara Barat"
+  },
+  {
+    "originHarbourId": "1023",
+    "originHarbourName": "Pulau Balang Lompo",
+    "originProvince": "Sulawesi Selatan",
+    "routeId": "1023206",
+    "origin": "Pulau Balang Lompo",
+    "destination": "Maccini Baji",
+    "destinationProvince": ""
+  },
+  {
+    "originHarbourId": "172",
+    "originHarbourName": "Rote",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "5425",
+    "origin": "Rote",
+    "destination": "Hansisi",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "172",
+    "originHarbourName": "Rote",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "5354",
+    "origin": "Rote",
+    "destination": "Kupang",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "172",
+    "originHarbourName": "Rote",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "5350",
+    "origin": "Rote",
+    "destination": "Ndao",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "131",
+    "originHarbourName": "Rum",
+    "originProvince": "Maluku Utara",
+    "routeId": "34",
+    "origin": "Rum",
+    "destination": "Bastiong",
+    "destinationProvince": "Maluku Utara"
+  },
+  {
+    "originHarbourId": "200",
+    "originHarbourName": "Sape",
+    "originProvince": "Nusa Tenggara Barat",
+    "routeId": "5513",
+    "origin": "Sape",
+    "destination": "Labuan Bajo",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "200",
+    "originHarbourName": "Sape",
+    "originProvince": "Nusa Tenggara Barat",
+    "routeId": "200201",
+    "origin": "Sape",
+    "destination": "Waikelo",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "200",
+    "originHarbourName": "Sape",
+    "originProvince": "Nusa Tenggara Barat",
+    "routeId": "200436",
+    "origin": "Sape",
+    "destination": "Waingapu",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "40",
+    "originHarbourName": "Sibolga",
+    "originProvince": "Sumatera Utara",
+    "routeId": "4041",
+    "origin": "Sibolga",
+    "destination": "Gunungsitoli",
+    "destinationProvince": "Sumatera Utara"
+  },
+  {
+    "originHarbourId": "107",
+    "originHarbourName": "Sidangole",
+    "originProvince": "Maluku Utara",
+    "routeId": "35",
+    "origin": "Sidangole",
+    "destination": "Bastiong",
+    "destinationProvince": "Maluku Utara"
+  },
+  {
+    "originHarbourId": "479",
+    "originHarbourName": "Soekarno-Hatta (Makassar)",
+    "originProvince": "Sulawesi Selatan",
+    "routeId": "479541",
+    "origin": "Soekarno-Hatta (Makassar)",
+    "destination": "Tanjung Perak",
+    "destinationProvince": "Jawa Timur"
+  },
+  {
+    "originHarbourId": "569",
+    "originHarbourName": "Tanjung Api Api",
+    "originProvince": "Sumatera Selatan",
+    "routeId": "569570",
+    "origin": "Tanjung Api Api",
+    "destination": "Tanjung Kalian",
+    "destinationProvince": "Bangka Belitung"
+  },
+  {
+    "originHarbourId": "35",
+    "originHarbourName": "Tanjung Kalian",
+    "originProvince": "Bangka Belitung",
+    "routeId": "3537",
+    "origin": "Tanjung Kalian",
+    "destination": "Tanjung Api Api",
+    "destinationProvince": "Sumatera Selatan"
+  },
+  {
+    "originHarbourId": "541",
+    "originHarbourName": "Tanjung Perak",
+    "originProvince": "Jawa Timur",
+    "routeId": "5411051",
+    "origin": "Tanjung Perak",
+    "destination": "Soekarno-Hatta (Makassar)",
+    "destinationProvince": "Sulawesi Selatan"
+  },
+  {
+    "originHarbourId": "84",
+    "originHarbourName": "Tanjung Serdang",
+    "originProvince": "Kalimantan Selatan",
+    "routeId": "8483",
+    "origin": "Tanjung Serdang",
+    "destination": "Batulicin",
+    "destinationProvince": "Kalimantan Selatan"
+  },
+  {
+    "originHarbourId": "26",
+    "originHarbourName": "Tanjung Uban",
+    "originProvince": "Kepulauan Riau",
+    "routeId": "261032",
+    "origin": "Tanjung Uban",
+    "destination": "Letung",
+    "destinationProvince": "Kepulauan Riau"
+  },
+  {
+    "originHarbourId": "26",
+    "originHarbourName": "Tanjung Uban",
+    "originProvince": "Kepulauan Riau",
+    "routeId": "5515",
+    "origin": "Tanjung Uban",
+    "destination": "Matak",
+    "destinationProvince": "Kepulauan Riau"
+  },
+  {
+    "originHarbourId": "26",
+    "originHarbourName": "Tanjung Uban",
+    "originProvince": "Kepulauan Riau",
+    "routeId": "5516",
+    "origin": "Tanjung Uban",
+    "destination": "Tambelan",
+    "destinationProvince": "Kepulauan Riau"
+  },
+  {
+    "originHarbourId": "26",
+    "originHarbourName": "Tanjung Uban",
+    "originProvince": "Kepulauan Riau",
+    "routeId": "5505",
+    "origin": "Tanjung Uban",
+    "destination": "Telaga Punggur",
+    "destinationProvince": "Kepulauan Riau"
+  },
+  {
+    "originHarbourId": "55",
+    "originHarbourName": "Tarakan",
+    "originProvince": "Kalimantan Utara",
+    "routeId": "55057",
+    "origin": "Tarakan",
+    "destination": "Nunukan",
+    "destinationProvince": "Kalimantan Utara"
+  },
+  {
+    "originHarbourId": "55",
+    "originHarbourName": "Tarakan",
+    "originProvince": "Kalimantan Utara",
+    "routeId": "55052",
+    "origin": "Tarakan",
+    "destination": "Sebawang",
+    "destinationProvince": "Kalimantan Utara"
+  },
+  {
+    "originHarbourId": "55",
+    "originHarbourName": "Tarakan",
+    "originProvince": "Kalimantan Utara",
+    "routeId": "55059",
+    "origin": "Tarakan",
+    "destination": "Toli Toli",
+    "destinationProvince": "Sulawesi Tengah"
+  },
+  {
+    "originHarbourId": "19",
+    "originHarbourName": "Telaga Punggur",
+    "originProvince": "Kepulauan Riau",
+    "routeId": "5493",
+    "origin": "Telaga Punggur",
+    "destination": "Dabo",
+    "destinationProvince": "Kepulauan Riau"
+  },
+  {
+    "originHarbourId": "19",
+    "originHarbourName": "Telaga Punggur",
+    "originProvince": "Kepulauan Riau",
+    "routeId": "198014",
+    "origin": "Telaga Punggur",
+    "destination": "Kuala Tungkal",
+    "destinationProvince": "Jambi"
+  },
+  {
+    "originHarbourId": "19",
+    "originHarbourName": "Telaga Punggur",
+    "originProvince": "Kepulauan Riau",
+    "routeId": "5496",
+    "origin": "Telaga Punggur",
+    "destination": "Mengkapan",
+    "destinationProvince": "Riau"
+  },
+  {
+    "originHarbourId": "19",
+    "originHarbourName": "Telaga Punggur",
+    "originProvince": "Kepulauan Riau",
+    "routeId": "5492",
+    "origin": "Telaga Punggur",
+    "destination": "Tanjung Balai Karimun",
+    "destinationProvince": "Kepulauan Riau"
+  },
+  {
+    "originHarbourId": "19",
+    "originHarbourName": "Telaga Punggur",
+    "originProvince": "Kepulauan Riau",
+    "routeId": "5491",
+    "origin": "Telaga Punggur",
+    "destination": "Tanjung Uban",
+    "destinationProvince": "Kepulauan Riau"
+  },
+  {
+    "originHarbourId": "31",
+    "originHarbourName": "Tua Pejat",
+    "originProvince": "Sumatera Barat",
+    "routeId": "127",
+    "origin": "Tua Pejat",
+    "destination": "Padang",
+    "destinationProvince": "Sumatera Barat"
+  },
+  {
+    "originHarbourId": "12",
+    "originHarbourName": "Ujung",
+    "originProvince": "Jawa Timur",
+    "routeId": "22",
+    "origin": "Ujung",
+    "destination": "Kamal",
+    "destinationProvince": "Jawa Timur"
+  },
+  {
+    "originHarbourId": "15",
+    "originHarbourName": "Ulee Lheue",
+    "originProvince": "Aceh",
+    "routeId": "1514",
+    "origin": "Ulee Lheue",
+    "destination": "Balohan",
+    "destinationProvince": "Aceh"
+  },
+  {
+    "originHarbourId": "201",
+    "originHarbourName": "Waikelo",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "201200",
+    "origin": "Waikelo",
+    "destination": "Sape",
+    "destinationProvince": "Nusa Tenggara Barat"
+  },
+  {
+    "originHarbourId": "177",
+    "originHarbourName": "Waingapu",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "5442",
+    "origin": "Waingapu",
+    "destination": "Aimere",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "177",
+    "originHarbourName": "Waingapu",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "5443",
+    "origin": "Waingapu",
+    "destination": "Ende",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "177",
+    "originHarbourName": "Waingapu",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "5415",
+    "origin": "Waingapu",
+    "destination": "Kupang",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "436",
+    "originHarbourName": "Waingapu",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "436199",
+    "origin": "Waingapu",
+    "destination": "Labuan Bajo",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "177",
+    "originHarbourName": "Waingapu",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "177342",
+    "origin": "Waingapu",
+    "destination": "Raijua",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "177",
+    "originHarbourName": "Waingapu",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "5335",
+    "origin": "Waingapu",
+    "destination": "Sabu",
+    "destinationProvince": "Nusa Tenggara Timur"
+  },
+  {
+    "originHarbourId": "436",
+    "originHarbourName": "Waingapu",
+    "originProvince": "Nusa Tenggara Timur",
+    "routeId": "436200",
+    "origin": "Waingapu",
+    "destination": "Sape",
+    "destinationProvince": "Nusa Tenggara Barat"
+  },
+  {
+    "originHarbourId": "95",
+    "originHarbourName": "Waipirit",
+    "originProvince": "Maluku",
+    "routeId": "5485",
+    "origin": "Waipirit",
+    "destination": "Hunimua",
+    "destinationProvince": "Maluku"
+  }
+]

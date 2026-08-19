@@ -1,0 +1,192 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/service-type",
+    "routeId": "5410",
+    "headers_extra": {
+      "AIFRouteId": "5410"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:28:48.203303+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpJenisPenggunaJasaRf - Success",
+    "ResponseReferenceNo": "04b28e269d254e8db7184b144b7d05f7",
+    "jenisPenggunaJasa": {
+      "id": "jenis-pengguna-jasa",
+      "name": "Jenis Pengguna Jasa",
+      "data": [
+        {
+          "routeId": "5410",
+          "id": "pejalan-kaki",
+          "name": "Pejalan Kaki",
+          "detail": [
+            {
+              "serviceId": "7",
+              "serviceName": "Dewasa Ekonomi",
+              "serviceType": "passenger",
+              "serviceCode": "DEWASA",
+              "description": ">2 Tahun",
+              "passengerCapacity": "10",
+              "statusLogistic": "Inactive"
+            },
+            {
+              "serviceId": "5",
+              "serviceName": "Dewasa Bisnis I",
+              "serviceType": "passenger",
+              "serviceCode": "DEWASA",
+              "description": ">2 Tahun",
+              "passengerCapacity": "10",
+              "statusLogistic": "Inactive"
+            },
+            {
+              "serviceId": "8",
+              "serviceName": "Anak - Anak Ekonomi",
+              "serviceType": "passenger",
+              "serviceCode": "ANAK",
+              "description": "2 - 5 Tahun",
+              "passengerCapacity": "10",
+              "statusLogistic": "Inactive"
+            },
+            {
+              "serviceId": "6",
+              "serviceName": "Anak - Anak Bisnis I",
+              "serviceType": "passenger",
+              "serviceCode": "ANAK",
+              "description": "2 - 5 Tahun",
+              "passengerCapacity": "10",
+              "statusLogistic": "Inactive"
+            }
+          ]
+        },
+        {
+          "routeId": "5410",
+          "id": "kendaraan",
+          "name": "Kendaraan",
+          "imgUrl": "https://report.ferizy.com/uploads/banner/gambar_asset/golongan-kendaraan.webp",
+          "detail": [
+            {
+              "serviceId": "11",
+              "serviceName": "Golongan I",
+              "serviceType": "vehicle",
+              "serviceCode": "GOL I",
+              "description": "Sepeda Gayuh",
+              "passengerCapacity": "1",
+              "statusLogistic": "inactive"
+            },
+            {
+              "serviceId": "12",
+              "serviceName": "Golongan II ",
+              "serviceType": "vehicle",
+              "serviceCode": "GOL II",
+              "description": "Sepeda motor roda 2 di bawah 500 cc & gerobak dorong",
+              "passengerCapacity": "2",
+              "statusLogistic": "inactive"
+            },
+            {
+              "serviceId": "12",
+              "serviceName": "Golongan II ",
+              "serviceType": "vehicle",
+              "serviceCode": "GOL II",
+              "description": "Sepeda motor roda 2 di bawah 500 cc & gerobak dorong",
+              "passengerCapacity": "2",
+              "statusLogistic": "inactive"
+            },
+            {
+              "serviceId": "13",
+              "serviceName": "Golongan III",
+              "serviceType": "vehicle",
+              "serviceCode": "GOL III",
+              "description": "Sepeda motor besar lebih dari (500 cc) & Sepeda motor roda 3",
+              "passengerCapacity": "2",
+              "statusLogistic": "inactive"
+            },
+            {
+              "serviceId": "14",
+              "serviceName": "Golongan IV - Penumpang",
+              "serviceType": "vehicle",
+              "serviceCode": "GOL IV A",
+              "description": "Kendaraan penumpang roda 4 (sedan, jeep dan sejenisnya dengan panjang maks 5Meter)",
+              "passengerCapacity": "7",
+              "statusLogistic": "inactive"
+            },
+            {
+              "serviceId": "15",
+              "serviceName": "Golongan IV - Barang",
+              "serviceType": "vehicle",
+              "serviceCode": "GOL IV B",
+              "description": "Kendaraan penumpang roda 4 (pickup sejenis dengan bak / boks panjang maks 5Meter)",
+              "passengerCapacity": "5",
+              "statusLogistic": "inactive"
+            },
+            {
+              "serviceId": "16",
+              "serviceName": "Golongan V - Penumpang",
+              "serviceType": "vehicle",
+              "serviceCode": "GOL V A",
+              "description": "Kendaraan penumpang (minibus/elf sejenis dengan panjang lebih dari 5-7Meter)",
+              "passengerCapacity": "16",
+              "statusLogistic": "inactive"
+            },
+            {
+              "serviceId": "17",
+              "serviceName": "Golongan V - Barang",
+              "serviceType": "vehicle",
+              "serviceCode": "GOL V B",
+              "description": "Kendaraan barang (dengan bak/boks dan tangki sejenis dengan panjang lebih dari 5-7Meter)",
+              "passengerCapacity": "2",
+              "statusLogistic": "inactive"
+            },
+            {
+              "serviceId": "18",
+              "serviceName": "Golongan VI - Penumpang",
+              "serviceType": "vehicle",
+              "serviceCode": "GOL VI A",
+              "description": "Kendaraan penumpang (bus dengan panjang lebih dari 7-10Meter)",
+              "passengerCapacity": "32",
+              "statusLogistic": "inactive"
+            },
+            {
+              "serviceId": "19",
+              "serviceName": "Golongan VI - Barang",
+              "serviceType": "vehicle",
+              "serviceCode": "GOL VI B",
+              "description": "Kendaraan barang (dengan bak/boks dan tangki sejenis dengan panjang lebih dari 7-10m)",
+              "passengerCapacity": "2",
+              "statusLogistic": "inactive"
+            },
+            {
+              "serviceId": "20",
+              "serviceName": "Golongan VII",
+              "serviceType": "vehicle",
+              "serviceCode": "GOL VII",
+              "description": "Truk tronton / tangki, kereta penarik kendaraan berat dengan Panjang 10-12m",
+              "passengerCapacity": "2",
+              "statusLogistic": "inactive"
+            },
+            {
+              "serviceId": "21",
+              "serviceName": "Golongan VIII",
+              "serviceType": "vehicle",
+              "serviceCode": "GOL VIII",
+              "description": "Truk tronton / tangki, kereta penarik kendaraan berat dengan Panjang lebih dari 12-16m",
+              "passengerCapacity": "2",
+              "statusLogistic": "inactive"
+            },
+            {
+              "serviceId": "22",
+              "serviceName": "Golongan IX",
+              "serviceType": "vehicle",
+              "serviceCode": "GOL IX",
+              "description": "Truk tronton / tangki, kereta penarik kendaraan berat dengan Panjang lebih dari 16m & Alat Berat",
+              "passengerCapacity": "2",
+              "statusLogistic": "inactive"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/logistic/setting-param",
+    "headers_extra": {}
+  },
+  "status": 400,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:48:04.146196+07:00",
+  "body": {
+    "responseCode": "400",
+    "responseMessage": "Bad Request",
+    "responseReferenceNo": "f1bba9342764458ab66b327f62b576ce",
+    "data": {
+      "AIFSignToken": "AIFSignToken cannot be empty",
+      "AIFEmail": "AIFEmail cannot be empty"
+    }
+  }
+}

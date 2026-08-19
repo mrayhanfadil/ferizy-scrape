@@ -1,0 +1,1011 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/ticket/schedule/check_in",
+    "routeId": "26",
+    "headers_extra": {
+      "AIFRouteId": "26",
+      "AIFDeviceTime": "2026-08-19T11:31:27+07:00"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:31:28.509834+07:00",
+  "body": {
+    "responseCode": "200",
+    "responseMessage": "Ferizy Service - RsRsScheduleCheckInRf Success",
+    "responseReferenceNo": "8b0831972bb34d39bbf3f03897dfc258",
+    "jadwalMasukPelabuhan": {
+      "id": "jadwal-masuk-pelabuhan",
+      "name": "Jadwal Masuk Pelabuhan (Check In)",
+      "tanggalMulai": "2026-08-20",
+      "tanggalSelesai": "2036-06-27",
+      "data": [
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745806",
+          "dateDeparture": "2026-08-19",
+          "timeDeparture": "13:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745807",
+          "dateDeparture": "2026-08-19",
+          "timeDeparture": "15:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745808",
+          "dateDeparture": "2026-08-19",
+          "timeDeparture": "16:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745809",
+          "dateDeparture": "2026-08-19",
+          "timeDeparture": "18:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745810",
+          "dateDeparture": "2026-08-19",
+          "timeDeparture": "21:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745811",
+          "dateDeparture": "2026-08-19",
+          "timeDeparture": "22:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745812",
+          "dateDeparture": "2026-08-20",
+          "timeDeparture": "00:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745813",
+          "dateDeparture": "2026-08-20",
+          "timeDeparture": "01:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745814",
+          "dateDeparture": "2026-08-20",
+          "timeDeparture": "04:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745815",
+          "dateDeparture": "2026-08-20",
+          "timeDeparture": "06:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745816",
+          "dateDeparture": "2026-08-20",
+          "timeDeparture": "09:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745817",
+          "dateDeparture": "2026-08-20",
+          "timeDeparture": "11:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745818",
+          "dateDeparture": "2026-08-20",
+          "timeDeparture": "13:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745819",
+          "dateDeparture": "2026-08-20",
+          "timeDeparture": "15:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745820",
+          "dateDeparture": "2026-08-20",
+          "timeDeparture": "16:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745821",
+          "dateDeparture": "2026-08-20",
+          "timeDeparture": "18:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745822",
+          "dateDeparture": "2026-08-20",
+          "timeDeparture": "21:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745823",
+          "dateDeparture": "2026-08-20",
+          "timeDeparture": "22:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745824",
+          "dateDeparture": "2026-08-21",
+          "timeDeparture": "00:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745825",
+          "dateDeparture": "2026-08-21",
+          "timeDeparture": "01:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745826",
+          "dateDeparture": "2026-08-21",
+          "timeDeparture": "04:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745827",
+          "dateDeparture": "2026-08-21",
+          "timeDeparture": "06:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745828",
+          "dateDeparture": "2026-08-21",
+          "timeDeparture": "09:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745829",
+          "dateDeparture": "2026-08-21",
+          "timeDeparture": "11:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745830",
+          "dateDeparture": "2026-08-21",
+          "timeDeparture": "13:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745831",
+          "dateDeparture": "2026-08-21",
+          "timeDeparture": "15:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745832",
+          "dateDeparture": "2026-08-21",
+          "timeDeparture": "16:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745833",
+          "dateDeparture": "2026-08-21",
+          "timeDeparture": "18:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745834",
+          "dateDeparture": "2026-08-21",
+          "timeDeparture": "21:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745835",
+          "dateDeparture": "2026-08-21",
+          "timeDeparture": "22:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745836",
+          "dateDeparture": "2026-08-22",
+          "timeDeparture": "00:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745837",
+          "dateDeparture": "2026-08-22",
+          "timeDeparture": "01:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745838",
+          "dateDeparture": "2026-08-22",
+          "timeDeparture": "04:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745839",
+          "dateDeparture": "2026-08-22",
+          "timeDeparture": "06:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745840",
+          "dateDeparture": "2026-08-22",
+          "timeDeparture": "09:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745841",
+          "dateDeparture": "2026-08-22",
+          "timeDeparture": "11:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745843",
+          "dateDeparture": "2026-08-22",
+          "timeDeparture": "15:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745844",
+          "dateDeparture": "2026-08-22",
+          "timeDeparture": "16:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745845",
+          "dateDeparture": "2026-08-22",
+          "timeDeparture": "18:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745846",
+          "dateDeparture": "2026-08-22",
+          "timeDeparture": "21:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745847",
+          "dateDeparture": "2026-08-22",
+          "timeDeparture": "22:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745848",
+          "dateDeparture": "2026-08-23",
+          "timeDeparture": "00:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745849",
+          "dateDeparture": "2026-08-23",
+          "timeDeparture": "01:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745850",
+          "dateDeparture": "2026-08-23",
+          "timeDeparture": "04:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745851",
+          "dateDeparture": "2026-08-23",
+          "timeDeparture": "06:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745852",
+          "dateDeparture": "2026-08-23",
+          "timeDeparture": "09:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745853",
+          "dateDeparture": "2026-08-23",
+          "timeDeparture": "11:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745854",
+          "dateDeparture": "2026-08-23",
+          "timeDeparture": "13:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745855",
+          "dateDeparture": "2026-08-23",
+          "timeDeparture": "15:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745856",
+          "dateDeparture": "2026-08-23",
+          "timeDeparture": "16:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745857",
+          "dateDeparture": "2026-08-23",
+          "timeDeparture": "18:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745858",
+          "dateDeparture": "2026-08-23",
+          "timeDeparture": "21:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745859",
+          "dateDeparture": "2026-08-23",
+          "timeDeparture": "22:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745860",
+          "dateDeparture": "2026-08-24",
+          "timeDeparture": "00:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745861",
+          "dateDeparture": "2026-08-24",
+          "timeDeparture": "01:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745862",
+          "dateDeparture": "2026-08-24",
+          "timeDeparture": "04:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745863",
+          "dateDeparture": "2026-08-24",
+          "timeDeparture": "06:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745864",
+          "dateDeparture": "2026-08-24",
+          "timeDeparture": "09:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745865",
+          "dateDeparture": "2026-08-24",
+          "timeDeparture": "11:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745866",
+          "dateDeparture": "2026-08-24",
+          "timeDeparture": "13:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745867",
+          "dateDeparture": "2026-08-24",
+          "timeDeparture": "15:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745868",
+          "dateDeparture": "2026-08-24",
+          "timeDeparture": "16:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745869",
+          "dateDeparture": "2026-08-24",
+          "timeDeparture": "18:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745870",
+          "dateDeparture": "2026-08-24",
+          "timeDeparture": "21:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745871",
+          "dateDeparture": "2026-08-24",
+          "timeDeparture": "22:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745872",
+          "dateDeparture": "2026-08-25",
+          "timeDeparture": "00:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745873",
+          "dateDeparture": "2026-08-25",
+          "timeDeparture": "01:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745874",
+          "dateDeparture": "2026-08-25",
+          "timeDeparture": "04:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745875",
+          "dateDeparture": "2026-08-25",
+          "timeDeparture": "06:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745876",
+          "dateDeparture": "2026-08-25",
+          "timeDeparture": "09:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745877",
+          "dateDeparture": "2026-08-25",
+          "timeDeparture": "11:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745878",
+          "dateDeparture": "2026-08-25",
+          "timeDeparture": "13:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745879",
+          "dateDeparture": "2026-08-25",
+          "timeDeparture": "15:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745880",
+          "dateDeparture": "2026-08-25",
+          "timeDeparture": "16:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745881",
+          "dateDeparture": "2026-08-25",
+          "timeDeparture": "18:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745882",
+          "dateDeparture": "2026-08-25",
+          "timeDeparture": "21:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745883",
+          "dateDeparture": "2026-08-25",
+          "timeDeparture": "22:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745884",
+          "dateDeparture": "2026-08-26",
+          "timeDeparture": "00:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745885",
+          "dateDeparture": "2026-08-26",
+          "timeDeparture": "01:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745886",
+          "dateDeparture": "2026-08-26",
+          "timeDeparture": "04:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745887",
+          "dateDeparture": "2026-08-26",
+          "timeDeparture": "06:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745888",
+          "dateDeparture": "2026-08-26",
+          "timeDeparture": "09:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745889",
+          "dateDeparture": "2026-08-26",
+          "timeDeparture": "11:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745890",
+          "dateDeparture": "2026-08-26",
+          "timeDeparture": "13:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745891",
+          "dateDeparture": "2026-08-26",
+          "timeDeparture": "15:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745892",
+          "dateDeparture": "2026-08-26",
+          "timeDeparture": "16:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745893",
+          "dateDeparture": "2026-08-26",
+          "timeDeparture": "18:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745894",
+          "dateDeparture": "2026-08-26",
+          "timeDeparture": "21:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745895",
+          "dateDeparture": "2026-08-26",
+          "timeDeparture": "22:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745896",
+          "dateDeparture": "2026-08-27",
+          "timeDeparture": "00:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745897",
+          "dateDeparture": "2026-08-27",
+          "timeDeparture": "01:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745898",
+          "dateDeparture": "2026-08-27",
+          "timeDeparture": "04:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745899",
+          "dateDeparture": "2026-08-27",
+          "timeDeparture": "06:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745900",
+          "dateDeparture": "2026-08-27",
+          "timeDeparture": "09:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745901",
+          "dateDeparture": "2026-08-27",
+          "timeDeparture": "11:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745902",
+          "dateDeparture": "2026-08-27",
+          "timeDeparture": "13:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745903",
+          "dateDeparture": "2026-08-27",
+          "timeDeparture": "15:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745904",
+          "dateDeparture": "2026-08-27",
+          "timeDeparture": "16:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745905",
+          "dateDeparture": "2026-08-27",
+          "timeDeparture": "18:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745906",
+          "dateDeparture": "2026-08-27",
+          "timeDeparture": "21:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745907",
+          "dateDeparture": "2026-08-27",
+          "timeDeparture": "22:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745908",
+          "dateDeparture": "2026-08-28",
+          "timeDeparture": "00:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745909",
+          "dateDeparture": "2026-08-28",
+          "timeDeparture": "01:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745910",
+          "dateDeparture": "2026-08-28",
+          "timeDeparture": "04:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745911",
+          "dateDeparture": "2026-08-28",
+          "timeDeparture": "06:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745912",
+          "dateDeparture": "2026-08-28",
+          "timeDeparture": "09:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745913",
+          "dateDeparture": "2026-08-28",
+          "timeDeparture": "11:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745914",
+          "dateDeparture": "2026-08-28",
+          "timeDeparture": "13:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745915",
+          "dateDeparture": "2026-08-28",
+          "timeDeparture": "15:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745916",
+          "dateDeparture": "2026-08-28",
+          "timeDeparture": "16:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745917",
+          "dateDeparture": "2026-08-28",
+          "timeDeparture": "18:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745918",
+          "dateDeparture": "2026-08-28",
+          "timeDeparture": "21:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745919",
+          "dateDeparture": "2026-08-28",
+          "timeDeparture": "22:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745920",
+          "dateDeparture": "2026-08-29",
+          "timeDeparture": "00:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745921",
+          "dateDeparture": "2026-08-29",
+          "timeDeparture": "01:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745922",
+          "dateDeparture": "2026-08-29",
+          "timeDeparture": "04:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745923",
+          "dateDeparture": "2026-08-29",
+          "timeDeparture": "06:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745924",
+          "dateDeparture": "2026-08-29",
+          "timeDeparture": "09:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745925",
+          "dateDeparture": "2026-08-29",
+          "timeDeparture": "11:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745926",
+          "dateDeparture": "2026-08-29",
+          "timeDeparture": "13:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745927",
+          "dateDeparture": "2026-08-29",
+          "timeDeparture": "15:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745928",
+          "dateDeparture": "2026-08-29",
+          "timeDeparture": "16:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745929",
+          "dateDeparture": "2026-08-29",
+          "timeDeparture": "18:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745930",
+          "dateDeparture": "2026-08-29",
+          "timeDeparture": "21:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745931",
+          "dateDeparture": "2026-08-29",
+          "timeDeparture": "22:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745932",
+          "dateDeparture": "2026-08-30",
+          "timeDeparture": "00:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745933",
+          "dateDeparture": "2026-08-30",
+          "timeDeparture": "01:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745934",
+          "dateDeparture": "2026-08-30",
+          "timeDeparture": "04:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745935",
+          "dateDeparture": "2026-08-30",
+          "timeDeparture": "06:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745936",
+          "dateDeparture": "2026-08-30",
+          "timeDeparture": "09:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745937",
+          "dateDeparture": "2026-08-30",
+          "timeDeparture": "11:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745938",
+          "dateDeparture": "2026-08-30",
+          "timeDeparture": "13:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745939",
+          "dateDeparture": "2026-08-30",
+          "timeDeparture": "15:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745940",
+          "dateDeparture": "2026-08-30",
+          "timeDeparture": "16:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745941",
+          "dateDeparture": "2026-08-30",
+          "timeDeparture": "18:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745942",
+          "dateDeparture": "2026-08-30",
+          "timeDeparture": "21:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745943",
+          "dateDeparture": "2026-08-30",
+          "timeDeparture": "22:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745944",
+          "dateDeparture": "2026-08-31",
+          "timeDeparture": "00:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745945",
+          "dateDeparture": "2026-08-31",
+          "timeDeparture": "01:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745946",
+          "dateDeparture": "2026-08-31",
+          "timeDeparture": "04:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745947",
+          "dateDeparture": "2026-08-31",
+          "timeDeparture": "06:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745948",
+          "dateDeparture": "2026-08-31",
+          "timeDeparture": "09:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745949",
+          "dateDeparture": "2026-08-31",
+          "timeDeparture": "11:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745950",
+          "dateDeparture": "2026-08-31",
+          "timeDeparture": "13:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745951",
+          "dateDeparture": "2026-08-31",
+          "timeDeparture": "15:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745952",
+          "dateDeparture": "2026-08-31",
+          "timeDeparture": "16:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745953",
+          "dateDeparture": "2026-08-31",
+          "timeDeparture": "18:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745954",
+          "dateDeparture": "2026-08-31",
+          "timeDeparture": "21:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745955",
+          "dateDeparture": "2026-08-31",
+          "timeDeparture": "22:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380745956",
+          "dateDeparture": "2026-09-01",
+          "timeDeparture": "00:00"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380747670",
+          "dateDeparture": "2026-08-19",
+          "timeDeparture": "19:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380747671",
+          "dateDeparture": "2026-08-20",
+          "timeDeparture": "19:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380747672",
+          "dateDeparture": "2026-08-21",
+          "timeDeparture": "19:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380747673",
+          "dateDeparture": "2026-08-22",
+          "timeDeparture": "13:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380747674",
+          "dateDeparture": "2026-08-22",
+          "timeDeparture": "19:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380747675",
+          "dateDeparture": "2026-08-23",
+          "timeDeparture": "19:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380747676",
+          "dateDeparture": "2026-08-24",
+          "timeDeparture": "19:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380747677",
+          "dateDeparture": "2026-08-25",
+          "timeDeparture": "19:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380747678",
+          "dateDeparture": "2026-08-26",
+          "timeDeparture": "19:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380747679",
+          "dateDeparture": "2026-08-27",
+          "timeDeparture": "19:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380747680",
+          "dateDeparture": "2026-08-28",
+          "timeDeparture": "19:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380747681",
+          "dateDeparture": "2026-08-29",
+          "timeDeparture": "19:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380747682",
+          "dateDeparture": "2026-08-30",
+          "timeDeparture": "19:30"
+        },
+        {
+          "routeId": "26",
+          "scheduleId": "2627160930380747683",
+          "dateDeparture": "2026-08-31",
+          "timeDeparture": "19:30"
+        }
+      ]
+    }
+  }
+}

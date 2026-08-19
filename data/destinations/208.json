@@ -1,0 +1,34 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/destination",
+    "origin": {
+      "harbourId": "208",
+      "harbourName": "Baubau",
+      "province": "Sulawesi Tenggara"
+    },
+    "headers_extra": {
+      "AIFHarbourOriginId": "208"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:14:17.141947+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpDestinationRf - Success",
+    "ResponseReferenceNo": "e2d6ba60328b4f2eb0aa4fd49e09298a",
+    "destinationHarbour": {
+      "id": "destination-harbour",
+      "name": "Destination Harbour",
+      "data": [
+        {
+          "routeId": "208211",
+          "origin": "Baubau",
+          "destination": "Waara",
+          "destinationProvince": "Sulawesi Tenggara"
+        }
+      ]
+    }
+  }
+}

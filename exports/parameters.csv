@@ -1,0 +1,26 @@
+parameter_file,name,value,description,content
+alasan_belum_memenuhi_verifikasi_antigen,alasan_belum_memenuhi_verifikasi_antigen_1,,,"Saya sudah melakukan Tes Rapid Antigen dengan hasil Negatif, namun belum terupdate di aplikasi Peduli Lindungi"
+alasan_belum_memenuhi_verifikasi_antigen,alasan_belum_memenuhi_verifikasi_antigen_2,,,Saya tes Rapid Antigen di Pelabuhan keberangkatan
+alasan_belum_memenuhi_verifikasi_vaksin,alasan_belum_memenuhi_verifikasi_vaksin_1,,,Saya merupakan pelaku perjalanan dengan kondisi kesehatan khusus atau penyakit komorbid (dalam proses menyeberang wajib melampirkan surat keterangan dokter dari Rumah Sakit Pemerintah)
+alasan_belum_memenuhi_verifikasi_vaksin,alasan_belum_memenuhi_verifikasi_vaksin_2,,,Saya merupakan pelaku perjalanan kendaraan logistik dan transportasi barang lainnya
+alasan_belum_memenuhi_verifikasi_vaksin,alasan_belum_memenuhi_verifikasi_vaksin_3,,,Saya merupakan pelaku perjalanan anak-anak di bawah umur 6&nbsp;tahun
+alasan_belum_memenuhi_verifikasi_vaksin,alasan_belum_memenuhi_verifikasi_vaksin_4,,,Saya merupakan pelaku perjalanan yang baru saja sembuh dari Covid-19 dan belum memenuhi syarat waktu minimal 3 bulan setelah dinyatakan sembuh (dalam proses menyeberang wajib melampirkan surat keterangan dokter)
+alasan_belum_memenuhi_verifikasi_vaksin,alasan_belum_memenuhi_verifikasi_vaksin_5,,,Saya telah melakukan vaksinasi namun data vaksin saya belum tersedia di Aplikasi PeduliLindungi
+belum_memenuhi_ketentuan_perjalanan,,,,
+detail_informasi_pembatalan_refund_reschedule,,,,
+expired_option_payment,,,,
+expired_payment,,,,
+expired_verification,,,,
+halaman_order_popup_himbauan,,,,
+halaman_pencarian_jadwal_kebijakan,,,,
+informasi_pembatalan_refund_reschedule,,,,
+informasi_penting,,,,
+informasi_syarat_dan_ketentuan,,,,
+ketentuan_perjalanan_pencarian_jadwal_content,,,,"<ol><li style=""text-align:justify"">ASDP tidak akan bertanggungjawab dari segala tuntutan, gugatan, tanggung jawab hukum atau kerugian apabila penumpang tidak memenuhi ketentuan yang berlaku</li><li style=""text-align:justify"">Memalsukan surat atau memanipulasi Informasi Elektronik dan/atau Dokumen Elektronik dapat dikenakan Pasal 263 KUHP dengan ancaman pidana paling lama 6 tahun penjara; dan/atau Pasal 35 dan Pasal 51 Ayat 1, UU ITE No 11 Tahun 2008 dengan ancaman hukuman paling lama 12 tahun penjara dan/atau denda paling banyak Rp12 miliar.</li></ol>"
+persetujuan_ketentuan_penggunaan_data_diri,,,,
+popup_banner_link,,,,
+self_assesment_ketentuan_perjalanan,self_assesment_ketentuan_perjalanan_1,,,"<p style=""text-align:justify"">Saya menyatakan bahwa saya dapat memenuhi dokumen persyaratan menyeberang mengikuti peraturan yang berlaku, <a href=""https://covid19.go.id/storage/app/media/Regulasi/2022/Agustus/se-satgas-penanganan-covid-19-no-23-tahun-2022-tentang-ketentuan-perjalanan-orang-dalam-negeri-dalam-masa-pandemi-corona-virus-disease-2019-covid-19.pdf"" target=""_blank"">disini</a>.</p>"
+self_assesment_ketentuan_perjalanan,self_assesment_ketentuan_perjalanan_2,,,"<p style=""text-align:justify"">Apabila saat pengecekan saya didapati tidak memenuhi kelengkapan dokumen persyaratan menyeberang, maka saya menerima dan menyetujui untuk diproses sesuai dengan Syarat dan Ketentuan Ferizy (lihat&nbsp;lebih lanjut <a href=""https://trip.ferizy.com/termsandconditions"" target=""_blank"">disini</a>).</p>"
+self_assesment_syarat_perjalanan,,,,
+syarat_ketentuan_jadwal_masuk_pelabuhan,,,,
+waktu_verifikasi_telah_habis,,,,

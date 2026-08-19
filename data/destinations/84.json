@@ -1,0 +1,34 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/destination",
+    "origin": {
+      "harbourId": "84",
+      "harbourName": "Tanjung Serdang",
+      "province": "Kalimantan Selatan"
+    },
+    "headers_extra": {
+      "AIFHarbourOriginId": "84"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:16:23.633365+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpDestinationRf - Success",
+    "ResponseReferenceNo": "92db4c67640946a6ada63670e5dbc5cb",
+    "destinationHarbour": {
+      "id": "destination-harbour",
+      "name": "Destination Harbour",
+      "data": [
+        {
+          "routeId": "8483",
+          "origin": "Tanjung Serdang",
+          "destination": "Batulicin",
+          "destinationProvince": "Kalimantan Selatan"
+        }
+      ]
+    }
+  }
+}

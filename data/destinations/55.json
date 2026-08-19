@@ -1,0 +1,46 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/destination",
+    "origin": {
+      "harbourId": "55",
+      "harbourName": "Tarakan",
+      "province": "Kalimantan Utara"
+    },
+    "headers_extra": {
+      "AIFHarbourOriginId": "55"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:16:26.109988+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpDestinationRf - Success",
+    "ResponseReferenceNo": "ccd9fa9d039d48bca8ace47521e102ad",
+    "destinationHarbour": {
+      "id": "destination-harbour",
+      "name": "Destination Harbour",
+      "data": [
+        {
+          "routeId": "55059",
+          "origin": "Tarakan",
+          "destination": "Toli Toli",
+          "destinationProvince": "Sulawesi Tengah"
+        },
+        {
+          "routeId": "55057",
+          "origin": "Tarakan",
+          "destination": "Nunukan",
+          "destinationProvince": "Kalimantan Utara"
+        },
+        {
+          "routeId": "55052",
+          "origin": "Tarakan",
+          "destination": "Sebawang",
+          "destinationProvince": "Kalimantan Utara"
+        }
+      ]
+    }
+  }
+}

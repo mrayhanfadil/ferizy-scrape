@@ -1,0 +1,346 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/origin",
+    "headers_extra": {}
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:13:12.745390+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpOriginRf - Success",
+    "ResponseReferenceNo": "79515318d3b24fdfaa1b34423e61f587",
+    "originHarbour": {
+      "id": "origin",
+      "name": "Origin",
+      "data": [
+        {
+          "harbourId": "175",
+          "harbourName": "Aimere",
+          "province": "Nusa Tenggara Timur"
+        },
+        {
+          "harbourId": "348",
+          "harbourName": "Ajibata",
+          "province": "Sumatera Utara"
+        },
+        {
+          "harbourId": "349",
+          "harbourName": "Ambarita",
+          "province": "Sumatera Utara"
+        },
+        {
+          "harbourId": "203",
+          "harbourName": "Bajoe",
+          "province": "Sulawesi Selatan"
+        },
+        {
+          "harbourId": "14",
+          "harbourName": "Balohan",
+          "province": "Aceh"
+        },
+        {
+          "harbourId": "106",
+          "harbourName": "Bastiong",
+          "province": "Maluku Utara"
+        },
+        {
+          "harbourId": "83",
+          "harbourName": "Batulicin",
+          "province": "Kalimantan Selatan"
+        },
+        {
+          "harbourId": "208",
+          "harbourName": "Baubau",
+          "province": "Sulawesi Tenggara"
+        },
+        {
+          "harbourId": "10",
+          "harbourName": "Bawean",
+          "province": "Jawa Timur"
+        },
+        {
+          "harbourId": "296",
+          "harbourName": "Biak",
+          "province": "Papua"
+        },
+        {
+          "harbourId": "239",
+          "harbourName": "Bira",
+          "province": "Sulawesi Selatan"
+        },
+        {
+          "harbourId": "105",
+          "harbourName": "Bitung",
+          "province": "Sulawesi Utara"
+        },
+        {
+          "harbourId": "429",
+          "harbourName": "Dwikora Pontianak",
+          "province": "Kalimantan Barat"
+        },
+        {
+          "harbourId": "88",
+          "harbourName": "Galala",
+          "province": "Maluku"
+        },
+        {
+          "harbourId": "313",
+          "harbourName": "Garongkong",
+          "province": "Sulawesi Selatan"
+        },
+        {
+          "harbourId": "228",
+          "harbourName": "Gorontalo",
+          "province": "Gorontalo"
+        },
+        {
+          "harbourId": "11",
+          "harbourName": "Gresik",
+          "province": "Jawa Timur"
+        },
+        {
+          "harbourId": "41",
+          "harbourName": "Gunungsitoli",
+          "province": "Sumatera Utara"
+        },
+        {
+          "harbourId": "94",
+          "harbourName": "Hunimua",
+          "province": "Maluku"
+        },
+        {
+          "harbourId": "564",
+          "harbourName": "Jangkar",
+          "province": "Jawa Timur"
+        },
+        {
+          "harbourId": "3",
+          "harbourName": "Jepara",
+          "province": "Jawa Tengah"
+        },
+        {
+          "harbourId": "174",
+          "harbourName": "Kalabahi",
+          "province": "Nusa Tenggara Timur"
+        },
+        {
+          "harbourId": "441",
+          "harbourName": "Kalianget",
+          "province": "Jawa Timur"
+        },
+        {
+          "harbourId": "13",
+          "harbourName": "Kamal",
+          "province": "Jawa Timur"
+        },
+        {
+          "harbourId": "2",
+          "harbourName": "Karimun Jawa",
+          "province": "Jawa Tengah"
+        },
+        {
+          "harbourId": "195",
+          "harbourName": "Kayangan",
+          "province": "Nusa Tenggara Barat"
+        },
+        {
+          "harbourId": "217",
+          "harbourName": "Kendari",
+          "province": "Sulawesi Tenggara"
+        },
+        {
+          "harbourId": "202",
+          "harbourName": "Kolaka",
+          "province": "Sulawesi Tenggara"
+        },
+        {
+          "harbourId": "171",
+          "harbourName": "Kupang",
+          "province": "Nusa Tenggara Timur"
+        },
+        {
+          "harbourId": "199",
+          "harbourName": "Labuan Bajo",
+          "province": "Nusa Tenggara Timur"
+        },
+        {
+          "harbourId": "218",
+          "harbourName": "Langara",
+          "province": "Sulawesi Tenggara"
+        },
+        {
+          "harbourId": "173",
+          "harbourName": "Larantuka",
+          "province": "Nusa Tenggara Timur"
+        },
+        {
+          "harbourId": "198",
+          "harbourName": "Lembar",
+          "province": "Nusa Tenggara Barat"
+        },
+        {
+          "harbourId": "344",
+          "harbourName": "Mamuju",
+          "province": "Sulawesi Barat"
+        },
+        {
+          "harbourId": "284",
+          "harbourName": "Manokwari",
+          "province": "Papua Barat"
+        },
+        {
+          "harbourId": "89",
+          "harbourName": "Namlea",
+          "province": "Maluku"
+        },
+        {
+          "harbourId": "9",
+          "harbourName": "Paciran",
+          "province": "Jawa Timur"
+        },
+        {
+          "harbourId": "29",
+          "harbourName": "Padang",
+          "province": "Sumatera Barat"
+        },
+        {
+          "harbourId": "196",
+          "harbourName": "Padang Bai",
+          "province": "Bali"
+        },
+        {
+          "harbourId": "234",
+          "harbourName": "Pagimana",
+          "province": "Sulawesi Tengah"
+        },
+        {
+          "harbourId": "244",
+          "harbourName": "Pamatata",
+          "province": "Sulawesi Selatan"
+        },
+        {
+          "harbourId": "54",
+          "harbourName": "Penajam",
+          "province": "Kalimantan Timur"
+        },
+        {
+          "harbourId": "194",
+          "harbourName": "Pototano",
+          "province": "Nusa Tenggara Barat"
+        },
+        {
+          "harbourId": "566",
+          "harbourName": "Probolinggo",
+          "province": "Jawa Timur"
+        },
+        {
+          "harbourId": "1023",
+          "harbourName": "Pulau Balang Lompo",
+          "province": "Sulawesi Selatan"
+        },
+        {
+          "harbourId": "172",
+          "harbourName": "Rote",
+          "province": "Nusa Tenggara Timur"
+        },
+        {
+          "harbourId": "131",
+          "harbourName": "Rum",
+          "province": "Maluku Utara"
+        },
+        {
+          "harbourId": "200",
+          "harbourName": "Sape",
+          "province": "Nusa Tenggara Barat"
+        },
+        {
+          "harbourId": "40",
+          "harbourName": "Sibolga",
+          "province": "Sumatera Utara"
+        },
+        {
+          "harbourId": "107",
+          "harbourName": "Sidangole",
+          "province": "Maluku Utara"
+        },
+        {
+          "harbourId": "479",
+          "harbourName": "Soekarno-Hatta (Makassar)",
+          "province": "Sulawesi Selatan"
+        },
+        {
+          "harbourId": "569",
+          "harbourName": "Tanjung Api Api",
+          "province": "Sumatera Selatan"
+        },
+        {
+          "harbourId": "35",
+          "harbourName": "Tanjung Kalian",
+          "province": "Bangka Belitung"
+        },
+        {
+          "harbourId": "541",
+          "harbourName": "Tanjung Perak",
+          "province": "Jawa Timur"
+        },
+        {
+          "harbourId": "84",
+          "harbourName": "Tanjung Serdang",
+          "province": "Kalimantan Selatan"
+        },
+        {
+          "harbourId": "26",
+          "harbourName": "Tanjung Uban",
+          "province": "Kepulauan Riau"
+        },
+        {
+          "harbourId": "55",
+          "harbourName": "Tarakan",
+          "province": "Kalimantan Utara"
+        },
+        {
+          "harbourId": "19",
+          "harbourName": "Telaga Punggur",
+          "province": "Kepulauan Riau"
+        },
+        {
+          "harbourId": "31",
+          "harbourName": "Tua Pejat",
+          "province": "Sumatera Barat"
+        },
+        {
+          "harbourId": "12",
+          "harbourName": "Ujung",
+          "province": "Jawa Timur"
+        },
+        {
+          "harbourId": "15",
+          "harbourName": "Ulee Lheue",
+          "province": "Aceh"
+        },
+        {
+          "harbourId": "201",
+          "harbourName": "Waikelo",
+          "province": "Nusa Tenggara Timur"
+        },
+        {
+          "harbourId": "436",
+          "harbourName": "Waingapu",
+          "province": "Nusa Tenggara Timur"
+        },
+        {
+          "harbourId": "177",
+          "harbourName": "Waingapu",
+          "province": "Nusa Tenggara Timur"
+        },
+        {
+          "harbourId": "95",
+          "harbourName": "Waipirit",
+          "province": "Maluku"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/vaccine/reason",
+    "parameter": "self_assesment_ketentuan_perjalanan",
+    "headers_extra": {
+      "AIFParameterName": "self_assesment_ketentuan_perjalanan"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:38:19.112353+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpVaccineReasonRf - Success",
+    "ResponseReferenceNo": "2e223f187c844b5898661708044bd412",
+    "data": [
+      {
+        "name": "self_assesment_ketentuan_perjalanan_1",
+        "content": "<p style=\"text-align:justify\">Saya menyatakan bahwa saya dapat memenuhi dokumen persyaratan menyeberang mengikuti peraturan yang berlaku, <a href=\"https://covid19.go.id/storage/app/media/Regulasi/2022/Agustus/se-satgas-penanganan-covid-19-no-23-tahun-2022-tentang-ketentuan-perjalanan-orang-dalam-negeri-dalam-masa-pandemi-corona-virus-disease-2019-covid-19.pdf\" target=\"_blank\">disini</a>.</p>"
+      },
+      {
+        "name": "self_assesment_ketentuan_perjalanan_2",
+        "content": "<p style=\"text-align:justify\">Apabila saat pengecekan saya didapati tidak memenuhi kelengkapan dokumen persyaratan menyeberang, maka saya menerima dan menyetujui untuk diproses sesuai dengan Syarat dan Ketentuan Ferizy (lihat&nbsp;lebih lanjut <a href=\"https://trip.ferizy.com/termsandconditions\" target=\"_blank\">disini</a>).</p>"
+      }
+    ]
+  }
+}

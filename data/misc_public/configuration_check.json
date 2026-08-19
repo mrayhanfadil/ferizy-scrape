@@ -1,0 +1,12 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/configuration/check",
+    "headers_extra": {},
+    "error": "RuntimeError(\"GET /ferizy/configuration/check failed after retries: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))\")"
+  },
+  "status": 0,
+  "content_type": "",
+  "retrieved_at_wib": "2026-08-19T11:47:42.746729+07:00",
+  "body": "GET /ferizy/configuration/check failed after retries: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+}

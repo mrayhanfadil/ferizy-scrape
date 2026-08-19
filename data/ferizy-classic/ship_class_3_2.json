@@ -1,0 +1,22 @@
+{
+  "status": 200,
+  "body": {
+    "code": 1,
+    "message": "Success",
+    "count": 2,
+    "data": [
+      {
+        "id": "",
+        "text": ""
+      },
+      {
+        "id": "2",
+        "text": "Express"
+      },
+      {
+        "id": "1",
+        "text": "Reguler"
+      }
+    ]
+  }
+}

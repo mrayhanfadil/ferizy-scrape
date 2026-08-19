@@ -1,0 +1,25 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/ticket/parameter",
+    "parameter": "informasi_syarat_dan_ketentuan",
+    "headers_extra": {
+      "AIFParameterName": "informasi_syarat_dan_ketentuan"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:37:58.049839+07:00",
+  "body": {
+    "responseCode": "200",
+    "responseMessage": "Success",
+    "responseReferenceNo": "d323b2cf458a4086b1075a38800bb90e",
+    "data": [
+      {
+        "parameterName": "informasi_syarat_dan_ketentuan",
+        "parameterValue": "<ol><li style=\"text-align:justify\"><a href=\"https://trip.ferizy.com/termsandconditions\" target=\"_blank\">Syarat dan&nbsp;Ketentuan</a>&nbsp;Ferizy</li><li style=\"text-align:justify\">Ketentuan persyaratan menyeberang sesuai dengan <a href=\"https://covid19.go.id/storage/app/media/Regulasi/2022/Agustus/se-ka-satgas-nomor24-tahun-2022-tentang-ketentuan-perjalanan-orang-dalam-negeri-pada-masa-pandemi-corona-virus-disease-2019.pdf\" target=\"_blank\">Surat Edaran Satgas Covid-19 Nomor 23&nbsp;Tahun 2022</a></li><li style=\"text-align:justify\">Bahwa apabila saya didapati tidak memenuhi ketentuan persyaratan menyeberang pada butir 2 (dua) di atas yang mengakibatkan saya terlambat atau tidak dapat melakukan Check In di Pelabuhan tepat&nbsp;waktu, maka saya menerima dan menyetujui untuk diproses sesuai dengan Syarat dan Ketentuan Ferizy sebagaimana tersebut pada butir 1 (satu) di atas.</li></ol>",
+        "parameterDescription": "narasi informasi syarat dan ketentuan"
+      }
+    ]
+  }
+}

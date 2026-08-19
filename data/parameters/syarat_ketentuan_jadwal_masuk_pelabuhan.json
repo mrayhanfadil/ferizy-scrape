@@ -1,0 +1,25 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/ticket/parameter",
+    "parameter": "syarat_ketentuan_jadwal_masuk_pelabuhan",
+    "headers_extra": {
+      "AIFParameterName": "syarat_ketentuan_jadwal_masuk_pelabuhan"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:38:53.421424+07:00",
+  "body": {
+    "responseCode": "200",
+    "responseMessage": "Success",
+    "responseReferenceNo": "3be1cb5b29524258ae09f04ebd21b9ad",
+    "data": [
+      {
+        "parameterName": "syarat_ketentuan_jadwal_masuk_pelabuhan",
+        "parameterValue": "<div><ol><li>Proses Check In dilakukan di Pelabuhan</li><li>Check In hanya dapat dilakukan sesuai dengan Waktu Check In yang tertera pada E-Tiket</li><li>Tiket akan hangus (expired) apabila belum melakukan Check In hingga&nbsp;melewati Waktu Check In yang tertera pada E-Tiket</li><li>Saat proses Check In, wajib menunjukkan Kartu Identitas dan Nomor Polisi Kendaraan (bila kendaraan) yang sesuai dengan data yang tertera pada E-Tiket</li></ol></div>",
+        "parameterDescription": "narasi syarat dan ketentuan jadwal masuk pelabuhan"
+      }
+    ]
+  }
+}

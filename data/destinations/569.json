@@ -1,0 +1,34 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/destination",
+    "origin": {
+      "harbourId": "569",
+      "harbourName": "Tanjung Api Api",
+      "province": "Sumatera Selatan"
+    },
+    "headers_extra": {
+      "AIFHarbourOriginId": "569"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:16:20.223888+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpDestinationRf - Success",
+    "ResponseReferenceNo": "a7e224add49a417793f5f42f12dc3f2a",
+    "destinationHarbour": {
+      "id": "destination-harbour",
+      "name": "Destination Harbour",
+      "data": [
+        {
+          "routeId": "569570",
+          "origin": "Tanjung Api Api",
+          "destination": "Tanjung Kalian",
+          "destinationProvince": "Bangka Belitung"
+        }
+      ]
+    }
+  }
+}

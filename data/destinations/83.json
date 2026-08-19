@@ -1,0 +1,40 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/destination",
+    "origin": {
+      "harbourId": "83",
+      "harbourName": "Batulicin",
+      "province": "Kalimantan Selatan"
+    },
+    "headers_extra": {
+      "AIFHarbourOriginId": "83"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:14:15.780815+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpDestinationRf - Success",
+    "ResponseReferenceNo": "10eccd80845b487c8c2627d9404bce9b",
+    "destinationHarbour": {
+      "id": "destination-harbour",
+      "name": "Destination Harbour",
+      "data": [
+        {
+          "routeId": "83313",
+          "origin": "Batulicin",
+          "destination": "Garongkong",
+          "destinationProvince": "Sulawesi Selatan"
+        },
+        {
+          "routeId": "8384",
+          "origin": "Batulicin",
+          "destination": "Tanjung Serdang",
+          "destinationProvince": "Kalimantan Selatan"
+        }
+      ]
+    }
+  }
+}

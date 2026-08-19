@@ -1,0 +1,88 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/destination",
+    "origin": {
+      "harbourId": "174",
+      "harbourName": "Kalabahi",
+      "province": "Nusa Tenggara Timur"
+    },
+    "headers_extra": {
+      "AIFHarbourOriginId": "174"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:14:54.013634+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpDestinationRf - Success",
+    "ResponseReferenceNo": "10917d91638846bdb584fcb2aefc43e9",
+    "destinationHarbour": {
+      "id": "destination-harbour",
+      "name": "Destination Harbour",
+      "data": [
+        {
+          "routeId": "174531",
+          "origin": "Kalabahi",
+          "destination": "Pura",
+          "destinationProvince": "Nusa Tenggara Timur"
+        },
+        {
+          "routeId": "174191",
+          "origin": "Kalabahi",
+          "destination": "Naikliu",
+          "destinationProvince": "Nusa Tenggara Timur"
+        },
+        {
+          "routeId": "5471",
+          "origin": "Kalabahi",
+          "destination": "Bakalang",
+          "destinationProvince": "Nusa Tenggara Timur"
+        },
+        {
+          "routeId": "5438",
+          "origin": "Kalabahi",
+          "destination": "Baranusa",
+          "destinationProvince": "Nusa Tenggara Timur"
+        },
+        {
+          "routeId": "5437",
+          "origin": "Kalabahi",
+          "destination": "Lewoleba",
+          "destinationProvince": "Nusa Tenggara Timur"
+        },
+        {
+          "routeId": "5436",
+          "origin": "Kalabahi",
+          "destination": "Solor",
+          "destinationProvince": "Nusa Tenggara Timur"
+        },
+        {
+          "routeId": "5426",
+          "origin": "Kalabahi",
+          "destination": "Larantuka",
+          "destinationProvince": "Nusa Tenggara Timur"
+        },
+        {
+          "routeId": "5418",
+          "origin": "Kalabahi",
+          "destination": "Teluk Gurita",
+          "destinationProvince": "Nusa Tenggara Timur"
+        },
+        {
+          "routeId": "5417",
+          "origin": "Kalabahi",
+          "destination": "Adonara",
+          "destinationProvince": "Nusa Tenggara Timur"
+        },
+        {
+          "routeId": "5409",
+          "origin": "Kalabahi",
+          "destination": "Kupang",
+          "destinationProvince": "Nusa Tenggara Timur"
+        }
+      ]
+    }
+  }
+}

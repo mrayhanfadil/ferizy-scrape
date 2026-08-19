@@ -1,0 +1,34 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/destination",
+    "origin": {
+      "harbourId": "95",
+      "harbourName": "Waipirit",
+      "province": "Maluku"
+    },
+    "headers_extra": {
+      "AIFHarbourOriginId": "95"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:16:38.309461+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpDestinationRf - Success",
+    "ResponseReferenceNo": "4d15cb55aff44f85a2b8e91338ccaf29",
+    "destinationHarbour": {
+      "id": "destination-harbour",
+      "name": "Destination Harbour",
+      "data": [
+        {
+          "routeId": "5485",
+          "origin": "Waipirit",
+          "destination": "Hunimua",
+          "destinationProvince": "Maluku"
+        }
+      ]
+    }
+  }
+}

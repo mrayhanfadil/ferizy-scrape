@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/destination",
+    "headers_extra": {}
+  },
+  "status": 404,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:07:02.834793+07:00",
+  "body": {
+    "ResponseCode": "404",
+    "ResponseMessage": "HomePage HpHpDestinationRf - Data not found",
+    "ResponseReferenceNo": "67cb7fdd6db143a38a5484bd857ba13b"
+  }
+}

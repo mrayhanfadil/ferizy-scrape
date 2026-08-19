@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/verification",
+    "headers_extra": {},
+    "retry": true
+  },
+  "status": 404,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:48:52.211515+07:00",
+  "body": {
+    "ResponseCode": "404",
+    "ResponseMessage": "HomePage HpHpVerificationRf - Data Not Found",
+    "ResponseReferenceNo": "7f0c11790fd14b2dae9aacaabe0ee57e"
+  }
+}

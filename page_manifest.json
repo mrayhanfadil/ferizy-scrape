@@ -1,0 +1,114 @@
+[
+  {
+    "path": "/",
+    "url": "https://trip.ferizy.com/",
+    "status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 4343,
+    "title": "Ferizy - Naik Ferry, Easy!"
+  },
+  {
+    "path": "/ferryschedule",
+    "url": "https://trip.ferizy.com/ferryschedule",
+    "status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 4343,
+    "title": "Ferizy - Naik Ferry, Easy!"
+  },
+  {
+    "path": "/vehicle-class",
+    "url": "https://trip.ferizy.com/vehicle-class",
+    "status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 4343,
+    "title": "Ferizy - Naik Ferry, Easy!"
+  },
+  {
+    "path": "/privacy-policy",
+    "url": "https://trip.ferizy.com/privacy-policy",
+    "status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 4343,
+    "title": "Ferizy - Naik Ferry, Easy!"
+  },
+  {
+    "path": "/termsandconditions",
+    "url": "https://trip.ferizy.com/termsandconditions",
+    "status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 4343,
+    "title": "Ferizy - Naik Ferry, Easy!"
+  },
+  {
+    "path": "/signin",
+    "url": "https://trip.ferizy.com/signin",
+    "status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 4343,
+    "title": "Ferizy - Naik Ferry, Easy!"
+  },
+  {
+    "path": "/signup",
+    "url": "https://trip.ferizy.com/signup",
+    "status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 4343,
+    "title": "Ferizy - Naik Ferry, Easy!"
+  },
+  {
+    "path": "/signup/passwordrecovery",
+    "url": "https://trip.ferizy.com/signup/passwordrecovery",
+    "status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 4343,
+    "title": "Ferizy - Naik Ferry, Easy!"
+  },
+  {
+    "path": "/maintenance",
+    "url": "https://trip.ferizy.com/maintenance",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 1975,
+    "title": "Ferizy - Under Maintenance"
+  },
+  {
+    "path": "/misc/config",
+    "url": "https://trip.ferizy.com/misc/config",
+    "status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 4343,
+    "title": "Ferizy - Naik Ferry, Easy!"
+  },
+  {
+    "path": "/misc/qrcode",
+    "url": "https://trip.ferizy.com/misc/qrcode",
+    "status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 4343,
+    "title": "Ferizy - Naik Ferry, Easy!"
+  },
+  {
+    "path": "/robots.txt",
+    "url": "https://trip.ferizy.com/robots.txt",
+    "status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 4343,
+    "title": "Ferizy - Naik Ferry, Easy!"
+  },
+  {
+    "path": "/sitemap.xml",
+    "url": "https://trip.ferizy.com/sitemap.xml",
+    "status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 4343,
+    "title": "Ferizy - Naik Ferry, Easy!"
+  },
+  {
+    "path": "/manifest.json",
+    "url": "https://trip.ferizy.com/manifest.json",
+    "status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 4343,
+    "title": "Ferizy - Naik Ferry, Easy!"
+  }
+]

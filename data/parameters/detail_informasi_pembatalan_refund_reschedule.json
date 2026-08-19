@@ -1,0 +1,25 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/ticket/parameter",
+    "parameter": "detail_informasi_pembatalan_refund_reschedule",
+    "headers_extra": {
+      "AIFParameterName": "detail_informasi_pembatalan_refund_reschedule"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:37:30.553691+07:00",
+  "body": {
+    "responseCode": "200",
+    "responseMessage": "Success",
+    "responseReferenceNo": "27c8b5369d4b4bfeb75e97e0694e71bd",
+    "data": [
+      {
+        "parameterName": "detail_informasi_pembatalan_refund_reschedule",
+        "parameterValue": "<ol><li style=\"text-align:justify\">Transaksi booking akan dibatalkan secara otomatis apabila Anda tidak menyelesaikan pembayaran pada periode waktu yang telah ditentukan</li><li style=\"text-align:justify\">Setelah pembayaran berhasil, Dokumen E-Tiket dapat diunduh melalui E-Mail atau Menu \"Pesanan Saya\" di Web Reservation atau Mobile Application Ferizy</li><li style=\"text-align:justify\">Dokumen E-Tiket wajib ditunjukkan saat melakukan proses Masuk Pelabuhan (Check In)</li><li style=\"text-align:justify\">Anda sudah dapat&nbsp;<strong>Masuk Pelabuhan (Check In) mulai dari 2 (dua) jam sebelum</strong> Jadwal Masuk Pelabuhan yang Anda pilih</li><li style=\"text-align:justify\">Tiket akan <strong>hangus (expired)</strong> apabila Anda belum Masuk Pelabuhan (Check In) <strong>hingga&nbsp;melewati batas waktu</strong> Jadwal Masuk Pelabuhan yang Anda pilih.</li></ol>",
+        "parameterDescription": "narasi detail Informasi pembatalan refund-reschedule"
+      }
+    ]
+  }
+}

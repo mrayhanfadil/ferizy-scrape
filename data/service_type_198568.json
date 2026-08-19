@@ -1,0 +1,51 @@
+{
+  "status": 200,
+  "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/service-type",
+  "extra": {
+    "AIFRouteId": "198568"
+  },
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpJenisPenggunaJasaRf - Success",
+    "ResponseReferenceNo": "e7ac422b54ca48878f94a16b540f7ec1",
+    "jenisPenggunaJasa": {
+      "id": "jenis-pengguna-jasa",
+      "name": "Jenis Pengguna Jasa",
+      "data": [
+        {
+          "routeId": "198568",
+          "id": "pejalan-kaki",
+          "name": "Pejalan Kaki",
+          "detail": [
+            {
+              "serviceId": "7",
+              "serviceName": "Dewasa Ekonomi",
+              "serviceType": "passenger",
+              "serviceCode": "DEWASA",
+              "description": ">2 Tahun",
+              "passengerCapacity": "10",
+              "statusLogistic": "Inactive"
+            }
+          ]
+        },
+        {
+          "routeId": "198568",
+          "id": "kendaraan",
+          "name": "Kendaraan",
+          "imgUrl": "https://report.ferizy.com/uploads/banner/gambar_asset/golongan-kendaraan.webp",
+          "detail": [
+            {
+              "serviceId": "12",
+              "serviceName": "Golongan II ",
+              "serviceType": "vehicle",
+              "serviceCode": "GOL II",
+              "description": "Sepeda motor roda 2 di bawah 500 cc & gerobak dorong",
+              "passengerCapacity": "2",
+              "statusLogistic": "inactive"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

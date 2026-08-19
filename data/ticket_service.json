@@ -1,0 +1,26 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/ticket/service",
+    "headers_extra": {}
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:13:17.523851+07:00",
+  "body": {
+    "responseCode": "200",
+    "responseMessage": "Ferizy Service - RsRsServiceRf Success",
+    "responseReferenceNo": "66e34a54ec0a406fbcb4bddf70054929",
+    "layanan": {
+      "id": "layanan",
+      "name": "Layanan",
+      "imgUrl": "https://report.ferizy.com/uploads/banner/gambar_asset/tarif.webp",
+      "data": [
+        {
+          "id": "reguler",
+          "name": "Reguler"
+        }
+      ]
+    }
+  }
+}

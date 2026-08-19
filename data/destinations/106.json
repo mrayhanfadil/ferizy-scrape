@@ -1,0 +1,82 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/destination",
+    "origin": {
+      "harbourId": "106",
+      "harbourName": "Bastiong",
+      "province": "Maluku Utara"
+    },
+    "headers_extra": {
+      "AIFHarbourOriginId": "106"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:14:14.625584+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpDestinationRf - Success",
+    "ResponseReferenceNo": "931643d687034f5688a33ed8822e4d27",
+    "destinationHarbour": {
+      "id": "destination-harbour",
+      "name": "Destination Harbour",
+      "data": [
+        {
+          "routeId": "106521",
+          "origin": "Bastiong",
+          "destination": "Bitung",
+          "destinationProvince": "Sulawesi Utara"
+        },
+        {
+          "routeId": "106113",
+          "origin": "Bastiong",
+          "destination": "Kayoa",
+          "destinationProvince": "Maluku Utara"
+        },
+        {
+          "routeId": "58",
+          "origin": "Bastiong",
+          "destination": "Babang",
+          "destinationProvince": "Maluku Utara"
+        },
+        {
+          "routeId": "46",
+          "origin": "Bastiong",
+          "destination": "Makian",
+          "destinationProvince": "Maluku Utara"
+        },
+        {
+          "routeId": "42",
+          "origin": "Bastiong",
+          "destination": "Batang Dua",
+          "destinationProvince": "Maluku Utara"
+        },
+        {
+          "routeId": "40",
+          "origin": "Bastiong",
+          "destination": "Moti",
+          "destinationProvince": "Maluku Utara"
+        },
+        {
+          "routeId": "38",
+          "origin": "Bastiong",
+          "destination": "Sofifi",
+          "destinationProvince": "Maluku Utara"
+        },
+        {
+          "routeId": "36",
+          "origin": "Bastiong",
+          "destination": "Sidangole",
+          "destinationProvince": "Maluku Utara"
+        },
+        {
+          "routeId": "33",
+          "origin": "Bastiong",
+          "destination": "Rum",
+          "destinationProvince": "Maluku Utara"
+        }
+      ]
+    }
+  }
+}

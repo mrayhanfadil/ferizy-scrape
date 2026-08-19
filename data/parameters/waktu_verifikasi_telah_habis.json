@@ -1,0 +1,25 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/ticket/parameter",
+    "parameter": "waktu_verifikasi_telah_habis",
+    "headers_extra": {
+      "AIFParameterName": "waktu_verifikasi_telah_habis"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:38:54.543800+07:00",
+  "body": {
+    "responseCode": "200",
+    "responseMessage": "Success",
+    "responseReferenceNo": "77ba647a2ff14b4ea9a7d9127ab6834c",
+    "data": [
+      {
+        "parameterName": "waktu_verifikasi_telah_habis",
+        "parameterValue": "Silahkan mengulangi pemesanan anda",
+        "parameterDescription": "Konten Pop Up waktu verifikasi telah habis"
+      }
+    ]
+  }
+}

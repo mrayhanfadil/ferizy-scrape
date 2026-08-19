@@ -1,0 +1,25 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/ticket/parameter",
+    "parameter": "informasi_pembatalan_refund_reschedule",
+    "headers_extra": {
+      "AIFParameterName": "informasi_pembatalan_refund_reschedule"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:37:53.648970+07:00",
+  "body": {
+    "responseCode": "200",
+    "responseMessage": "Success",
+    "responseReferenceNo": "f82a91e323f04c4c9cd481619ecff2a0",
+    "data": [
+      {
+        "parameterName": "informasi_pembatalan_refund_reschedule",
+        "parameterValue": "Pembatalan tiket hanya berlaku untuk pembelian tiket dengan minimal harga Rp.50.000,- . Selanjutnya akan dikenakan biaya administrasi sebesar&nbsp;25% dari harga tiket (paling sedikit Rp.25.000,-) dan biaya pembatalan sebesar 50% dari total harga tiket setelah dikenai biaya administrasi",
+        "parameterDescription": "narasi Informasi pembatalan refund-reschedule"
+      }
+    ]
+  }
+}

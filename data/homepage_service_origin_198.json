@@ -1,0 +1,12 @@
+{
+  "status": 404,
+  "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/layanan",
+  "extra": {
+    "AIFHarbourOriginId": "198"
+  },
+  "body": {
+    "ResponseCode": "404",
+    "ResponseMessage": "HomePage HpHpLayananRf - Data not found",
+    "ResponseReferenceNo": "ee765ff991b249efa7ef46d5f3e73b4e"
+  }
+}

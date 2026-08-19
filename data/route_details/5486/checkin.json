@@ -1,0 +1,105 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/ticket/schedule/check_in",
+    "routeId": "5486",
+    "headers_extra": {
+      "AIFRouteId": "5486",
+      "AIFDeviceTime": "2026-08-19T11:27:12+07:00"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:27:12.942068+07:00",
+  "body": {
+    "responseCode": "200",
+    "responseMessage": "Ferizy Service - RsRsScheduleCheckInRf Success",
+    "responseReferenceNo": "e1b1c26703064ea093cd68c1a6f359f8",
+    "jadwalMasukPelabuhan": {
+      "id": "jadwal-masuk-pelabuhan",
+      "name": "Jadwal Masuk Pelabuhan (Check In)",
+      "tanggalMulai": "2026-08-20",
+      "tanggalSelesai": "2036-06-27",
+      "data": [
+        {
+          "routeId": "5486",
+          "scheduleId": "2627160930380750522",
+          "dateDeparture": "2026-08-19",
+          "timeDeparture": "20:00"
+        },
+        {
+          "routeId": "5486",
+          "scheduleId": "2627160930380750523",
+          "dateDeparture": "2026-08-20",
+          "timeDeparture": "20:00"
+        },
+        {
+          "routeId": "5486",
+          "scheduleId": "2627160930380750524",
+          "dateDeparture": "2026-08-21",
+          "timeDeparture": "20:00"
+        },
+        {
+          "routeId": "5486",
+          "scheduleId": "2627160930380750525",
+          "dateDeparture": "2026-08-22",
+          "timeDeparture": "20:00"
+        },
+        {
+          "routeId": "5486",
+          "scheduleId": "2627160930380750526",
+          "dateDeparture": "2026-08-23",
+          "timeDeparture": "20:00"
+        },
+        {
+          "routeId": "5486",
+          "scheduleId": "2627160930380750527",
+          "dateDeparture": "2026-08-24",
+          "timeDeparture": "20:00"
+        },
+        {
+          "routeId": "5486",
+          "scheduleId": "2627160930380750528",
+          "dateDeparture": "2026-08-25",
+          "timeDeparture": "20:00"
+        },
+        {
+          "routeId": "5486",
+          "scheduleId": "2627160930380750529",
+          "dateDeparture": "2026-08-26",
+          "timeDeparture": "20:00"
+        },
+        {
+          "routeId": "5486",
+          "scheduleId": "2627160930380750530",
+          "dateDeparture": "2026-08-27",
+          "timeDeparture": "20:00"
+        },
+        {
+          "routeId": "5486",
+          "scheduleId": "2627160930380750531",
+          "dateDeparture": "2026-08-28",
+          "timeDeparture": "20:00"
+        },
+        {
+          "routeId": "5486",
+          "scheduleId": "2627160930380750532",
+          "dateDeparture": "2026-08-29",
+          "timeDeparture": "20:00"
+        },
+        {
+          "routeId": "5486",
+          "scheduleId": "2627160930380750533",
+          "dateDeparture": "2026-08-30",
+          "timeDeparture": "20:00"
+        },
+        {
+          "routeId": "5486",
+          "scheduleId": "2627160930380750534",
+          "dateDeparture": "2026-08-31",
+          "timeDeparture": "20:00"
+        }
+      ]
+    }
+  }
+}

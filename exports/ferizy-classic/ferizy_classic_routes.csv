@@ -1,0 +1,7 @@
+origin_id,origin,destination_id,destination,ship_class_id,ship_class
+3,"Bakauheni, Lampung",2,"Merak, Banten",2,Express
+3,"Bakauheni, Lampung",2,"Merak, Banten",1,Reguler
+4,"Gilimanuk, Bali",5,"Ketapang, Jawa Timur",1,Reguler
+5,"Ketapang, Jawa Timur",4,"Gilimanuk, Bali",1,Reguler
+2,"Merak, Banten",3,"Bakauheni, Lampung",2,Express
+2,"Merak, Banten",3,"Bakauheni, Lampung",1,Reguler

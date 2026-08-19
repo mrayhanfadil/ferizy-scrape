@@ -1,0 +1,30 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/logistic/form-parameter-setting",
+    "headers_extra": {}
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:47:46.433289+07:00",
+  "body": {
+    "status": "true",
+    "message": "Setting parameter found.",
+    "data": {
+      "logistic_form_mandatory_kota_asal": "0",
+      "logistic_form_mandatory_kategori_muatan": "1",
+      "logistic_form_mandatory_data_komoditas": "1",
+      "logistic_form_mandatory_nama_perusahaan_pemilik": "1",
+      "logistic_form_mandatory_jenis_industri": "1",
+      "logistic_form_mandatory_kota_tujuan": "0",
+      "logistic_form_min_weight": "0",
+      "logistic_form_vehicle_desc": "Isi data muatan kendaraan sesuai dengan muatan atau barang yang dibawa oleh kendaraan. Pastikan berat muatan atau barang yang dibawa tidak melebihi(overload) dari kapasitas maksimal yang diizinkan",
+      "logistic_form_mandatory_nama_perusahaan_penerima": "0",
+      "logistic_form_max_string": "100",
+      "logistic_form_mandatory_jenis_muatan": "1",
+      "logistic_form_max_weight": "50",
+      "logistic_form_mandatory_nama_perusahaan_logistic": "1",
+      "logistic_form_mandatory_berat_barang": "1"
+    }
+  }
+}

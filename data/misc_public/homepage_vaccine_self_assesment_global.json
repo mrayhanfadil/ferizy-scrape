@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/vaccine/self-assesment",
+    "headers_extra": {}
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:47:34.213506+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpSelfAssesmentRf - Success",
+    "ResponseReferenceNo": "2dd5aacf33f24b36b37e606cc469334c",
+    "data": [
+      {
+        "status": "false"
+      }
+    ]
+  }
+}

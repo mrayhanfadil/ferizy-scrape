@@ -1,0 +1,34 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/destination",
+    "origin": {
+      "harbourId": "88",
+      "harbourName": "Galala",
+      "province": "Maluku"
+    },
+    "headers_extra": {
+      "AIFHarbourOriginId": "88"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:14:41.630274+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpDestinationRf - Success",
+    "ResponseReferenceNo": "312a3bf154e545d0b69f0b2e16b14df9",
+    "destinationHarbour": {
+      "id": "destination-harbour",
+      "name": "Destination Harbour",
+      "data": [
+        {
+          "routeId": "5486",
+          "origin": "Galala",
+          "destination": "Namlea",
+          "destinationProvince": "Maluku"
+        }
+      ]
+    }
+  }
+}

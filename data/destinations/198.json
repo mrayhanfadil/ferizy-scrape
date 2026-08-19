@@ -1,0 +1,46 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/destination",
+    "origin": {
+      "harbourId": "198",
+      "harbourName": "Lembar",
+      "province": "Nusa Tenggara Barat"
+    },
+    "headers_extra": {
+      "AIFHarbourOriginId": "198"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:15:09.421519+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpDestinationRf - Success",
+    "ResponseReferenceNo": "85e934139f7e4ea19d2b93112c1de487",
+    "destinationHarbour": {
+      "id": "destination-harbour",
+      "name": "Destination Harbour",
+      "data": [
+        {
+          "routeId": "198568",
+          "origin": "Lembar",
+          "destination": "Probolinggo",
+          "destinationProvince": "Jawa Timur"
+        },
+        {
+          "routeId": "198563",
+          "origin": "Lembar",
+          "destination": "Jangkar",
+          "destinationProvince": "Jawa Timur"
+        },
+        {
+          "routeId": "25",
+          "origin": "Lembar",
+          "destination": "Padang Bai",
+          "destinationProvince": "Bali"
+        }
+      ]
+    }
+  }
+}

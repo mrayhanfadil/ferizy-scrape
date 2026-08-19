@@ -1,0 +1,1082 @@
+[
+  {
+    "routeId": "1023206",
+    "service": true,
+    "checkin": false,
+    "errors": [
+      {
+        "kind": "checkin",
+        "error": "RuntimeError(\"GET /ferizy/ticket/schedule/check_in failed after retries: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))\")"
+      }
+    ],
+    "worker": 1
+  },
+  {
+    "routeId": "106113",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 1
+  },
+  {
+    "routeId": "106521",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 0
+  },
+  {
+    "routeId": "120",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 2
+  },
+  {
+    "routeId": "121",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 1
+  },
+  {
+    "routeId": "122",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 1
+  },
+  {
+    "routeId": "127",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 0
+  },
+  {
+    "routeId": "1406",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 0
+  },
+  {
+    "routeId": "1407",
+    "service": true,
+    "checkin": false,
+    "errors": [
+      {
+        "kind": "checkin",
+        "error": "RuntimeError(\"GET /ferizy/ticket/schedule/check_in failed after retries: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))\")"
+      }
+    ],
+    "worker": 1
+  },
+  {
+    "routeId": "1514",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 2
+  },
+  {
+    "routeId": "1516",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 1
+  },
+  {
+    "routeId": "174191",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 3
+  },
+  {
+    "routeId": "174531",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 0
+  },
+  {
+    "routeId": "177342",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 0
+  },
+  {
+    "routeId": "18",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 2
+  },
+  {
+    "routeId": "182439",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 3
+  },
+  {
+    "routeId": "19",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 0
+  },
+  {
+    "routeId": "198014",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 0
+  },
+  {
+    "routeId": "198563",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 1
+  },
+  {
+    "routeId": "198568",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 3
+  },
+  {
+    "routeId": "199436",
+    "service": true,
+    "checkin": false,
+    "errors": [
+      {
+        "kind": "checkin",
+        "error": "RuntimeError(\"GET /ferizy/ticket/schedule/check_in failed after retries: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))\")"
+      }
+    ],
+    "worker": 0
+  },
+  {
+    "routeId": "199477",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 1
+  },
+  {
+    "routeId": "199478",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 0
+  },
+  {
+    "routeId": "199559",
+    "service": true,
+    "checkin": false,
+    "errors": [
+      {
+        "kind": "checkin",
+        "error": "RuntimeError(\"GET /ferizy/ticket/schedule/check_in failed after retries: HTTPSConnectionPool(host='api-gateway-1.ferizy.com', port=443): Read timed out. (read timeout=30)\")"
+      }
+    ],
+    "worker": 2
+  },
+  {
+    "routeId": "20",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 0
+  },
+  {
+    "routeId": "200201",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 3
+  },
+  {
+    "routeId": "2003",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 2
+  },
+  {
+    "routeId": "200436",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 0
+  },
+  {
+    "routeId": "201027",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 0
+  },
+  {
+    "routeId": "201200",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 3
+  },
+  {
+    "routeId": "202203",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 1
+  },
+  {
+    "routeId": "202204",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 2
+  },
+  {
+    "routeId": "203202",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 0
+  },
+  {
+    "routeId": "208211",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 1
+  },
+  {
+    "routeId": "21",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 3
+  },
+  {
+    "routeId": "217218",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 0
+  },
+  {
+    "routeId": "218217",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 1
+  },
+  {
+    "routeId": "22",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 1
+  },
+  {
+    "routeId": "228225",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 1
+  },
+  {
+    "routeId": "228229",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 3
+  },
+  {
+    "routeId": "228234",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 2
+  },
+  {
+    "routeId": "23",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 1
+  },
+  {
+    "routeId": "234228",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 0
+  },
+  {
+    "routeId": "25",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 2
+  },
+  {
+    "routeId": "26",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 2
+  },
+  {
+    "routeId": "261032",
+    "service": true,
+    "checkin": false,
+    "errors": [
+      {
+        "kind": "checkin",
+        "error": "RuntimeError(\"GET /ferizy/ticket/schedule/check_in failed after retries: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))\")"
+      }
+    ],
+    "worker": 0
+  },
+  {
+    "routeId": "27",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 3
+  },
+  {
+    "routeId": "284296",
+    "service": true,
+    "checkin": false,
+    "errors": [
+      {
+        "kind": "checkin",
+        "error": "RuntimeError(\"GET /ferizy/ticket/schedule/check_in failed after retries: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))\")"
+      }
+    ],
+    "worker": 1
+  },
+  {
+    "routeId": "29",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 3
+  },
+  {
+    "routeId": "296284",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 0
+  },
+  {
+    "routeId": "296300",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 1
+  },
+  {
+    "routeId": "30",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 3
+  },
+  {
+    "routeId": "3002",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 0
+  },
+  {
+    "routeId": "31383",
+    "service": true,
+    "checkin": false,
+    "errors": [
+      {
+        "kind": "checkin",
+        "error": "RuntimeError(\"GET /ferizy/ticket/schedule/check_in failed after retries: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))\")"
+      }
+    ],
+    "worker": 0
+  },
+  {
+    "routeId": "33",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 0
+  },
+  {
+    "routeId": "34",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 1
+  },
+  {
+    "routeId": "344049",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 0
+  },
+  {
+    "routeId": "35",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 2
+  },
+  {
+    "routeId": "3537",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 1
+  },
+  {
+    "routeId": "36",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 1
+  },
+  {
+    "routeId": "38",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 2
+  },
+  {
+    "routeId": "40",
+    "service": true,
+    "checkin": false,
+    "errors": [
+      {
+        "kind": "checkin",
+        "error": "RuntimeError(\"GET /ferizy/ticket/schedule/check_in failed after retries: HTTPSConnectionPool(host='api-gateway-1.ferizy.com', port=443): Read timed out. (read timeout=30)\")"
+      }
+    ],
+    "worker": 3
+  },
+  {
+    "routeId": "4041",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 1
+  },
+  {
+    "routeId": "4140",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 1
+  },
+  {
+    "routeId": "42",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 3
+  },
+  {
+    "routeId": "429427",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 2
+  },
+  {
+    "routeId": "436199",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 3
+  },
+  {
+    "routeId": "436200",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 2
+  },
+  {
+    "routeId": "441440",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 3
+  },
+  {
+    "routeId": "441442",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 0
+  },
+  {
+    "routeId": "46",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 2
+  },
+  {
+    "routeId": "479541",
+    "service": true,
+    "checkin": false,
+    "errors": [
+      {
+        "kind": "checkin",
+        "error": "RuntimeError(\"GET /ferizy/ticket/schedule/check_in failed after retries: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))\")"
+      }
+    ],
+    "worker": 3
+  },
+  {
+    "routeId": "5335",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 1
+  },
+  {
+    "routeId": "5350",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 0
+  },
+  {
+    "routeId": "5354",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 3
+  },
+  {
+    "routeId": "5355",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 1
+  },
+  {
+    "routeId": "5363",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 1
+  },
+  {
+    "routeId": "5369",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 3
+  },
+  {
+    "routeId": "5373",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 3
+  },
+  {
+    "routeId": "5378",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 1
+  },
+  {
+    "routeId": "5408",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 3
+  },
+  {
+    "routeId": "5409",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 0
+  },
+  {
+    "routeId": "5410",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 2
+  },
+  {
+    "routeId": "5411051",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 2
+  },
+  {
+    "routeId": "5412",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 0
+  },
+  {
+    "routeId": "5414",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 3
+  },
+  {
+    "routeId": "5415",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 2
+  },
+  {
+    "routeId": "5417",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 1
+  },
+  {
+    "routeId": "5418",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 2
+  },
+  {
+    "routeId": "5422",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 2
+  },
+  {
+    "routeId": "5425",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 2
+  },
+  {
+    "routeId": "5426",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 1
+  },
+  {
+    "routeId": "5427",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 0
+  },
+  {
+    "routeId": "5430",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 2
+  },
+  {
+    "routeId": "5431",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 2
+  },
+  {
+    "routeId": "5432",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 3
+  },
+  {
+    "routeId": "5433",
+    "service": true,
+    "checkin": false,
+    "errors": [
+      {
+        "kind": "checkin",
+        "error": "RuntimeError(\"GET /ferizy/ticket/schedule/check_in failed after retries: HTTPSConnectionPool(host='api-gateway-1.ferizy.com', port=443): Read timed out. (read timeout=30)\")"
+      }
+    ],
+    "worker": 3
+  },
+  {
+    "routeId": "5434",
+    "service": true,
+    "checkin": false,
+    "errors": [
+      {
+        "kind": "checkin",
+        "error": "RuntimeError(\"GET /ferizy/ticket/schedule/check_in failed after retries: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))\")"
+      }
+    ],
+    "worker": 2
+  },
+  {
+    "routeId": "5435",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 0
+  },
+  {
+    "routeId": "5436",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 1
+  },
+  {
+    "routeId": "5437",
+    "service": true,
+    "checkin": false,
+    "errors": [
+      {
+        "kind": "checkin",
+        "error": "RuntimeError(\"GET /ferizy/ticket/schedule/check_in failed after retries: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))\")"
+      }
+    ],
+    "worker": 2
+  },
+  {
+    "routeId": "5438",
+    "service": true,
+    "checkin": false,
+    "errors": [
+      {
+        "kind": "checkin",
+        "error": "RuntimeError(\"GET /ferizy/ticket/schedule/check_in failed after retries: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))\")"
+      }
+    ],
+    "worker": 3
+  },
+  {
+    "routeId": "5439",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 1
+  },
+  {
+    "routeId": "5442",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 0
+  },
+  {
+    "routeId": "5443",
+    "service": true,
+    "checkin": false,
+    "errors": [
+      {
+        "kind": "checkin",
+        "error": "RuntimeError(\"GET /ferizy/ticket/schedule/check_in failed after retries: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))\")"
+      }
+    ],
+    "worker": 1
+  },
+  {
+    "routeId": "5471",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 2
+  },
+  {
+    "routeId": "5476",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 0
+  },
+  {
+    "routeId": "5484",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 2
+  },
+  {
+    "routeId": "5485",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 3
+  },
+  {
+    "routeId": "5486",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 3
+  },
+  {
+    "routeId": "5487",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 2
+  },
+  {
+    "routeId": "5488",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 0
+  },
+  {
+    "routeId": "5489",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 2
+  },
+  {
+    "routeId": "5491",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 3
+  },
+  {
+    "routeId": "5492",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 2
+  },
+  {
+    "routeId": "5493",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 3
+  },
+  {
+    "routeId": "5496",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 1
+  },
+  {
+    "routeId": "5505",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 3
+  },
+  {
+    "routeId": "55052",
+    "service": true,
+    "checkin": false,
+    "errors": [
+      {
+        "kind": "checkin",
+        "error": "RuntimeError(\"GET /ferizy/ticket/schedule/check_in failed after retries: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))\")"
+      }
+    ],
+    "worker": 1
+  },
+  {
+    "routeId": "55057",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 0
+  },
+  {
+    "routeId": "55059",
+    "service": true,
+    "checkin": false,
+    "errors": [
+      {
+        "kind": "checkin",
+        "error": "RuntimeError(\"GET /ferizy/ticket/schedule/check_in failed after retries: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))\")"
+      }
+    ],
+    "worker": 2
+  },
+  {
+    "routeId": "5510",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 2
+  },
+  {
+    "routeId": "5511",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 3
+  },
+  {
+    "routeId": "5513",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 2
+  },
+  {
+    "routeId": "5514",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 3
+  },
+  {
+    "routeId": "5515",
+    "service": true,
+    "checkin": false,
+    "errors": [
+      {
+        "kind": "checkin",
+        "error": "RuntimeError(\"GET /ferizy/ticket/schedule/check_in failed after retries: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))\")"
+      }
+    ],
+    "worker": 1
+  },
+  {
+    "routeId": "5516",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 2
+  },
+  {
+    "routeId": "5641002",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 3
+  },
+  {
+    "routeId": "5641003",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 0
+  },
+  {
+    "routeId": "5641004",
+    "service": true,
+    "checkin": false,
+    "errors": [
+      {
+        "kind": "checkin",
+        "error": "RuntimeError(\"GET /ferizy/ticket/schedule/check_in failed after retries: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))\")"
+      }
+    ],
+    "worker": 3
+  },
+  {
+    "routeId": "5641005",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 2
+  },
+  {
+    "routeId": "564565",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 1
+  },
+  {
+    "routeId": "569570",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 0
+  },
+  {
+    "routeId": "58",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 2
+  },
+  {
+    "routeId": "83313",
+    "service": true,
+    "checkin": false,
+    "errors": [],
+    "worker": 3
+  },
+  {
+    "routeId": "8384",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 0
+  },
+  {
+    "routeId": "8483",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 3
+  },
+  {
+    "routeId": "91",
+    "service": true,
+    "checkin": false,
+    "errors": [
+      {
+        "kind": "checkin",
+        "error": "RuntimeError(\"GET /ferizy/ticket/schedule/check_in failed after retries: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))\")"
+      }
+    ],
+    "worker": 3
+  },
+  {
+    "routeId": "93",
+    "service": true,
+    "checkin": true,
+    "errors": [],
+    "worker": 0
+  },
+  {
+    "routeId": "96",
+    "service": true,
+    "checkin": false,
+    "errors": [
+      {
+        "kind": "checkin",
+        "error": "RuntimeError(\"GET /ferizy/ticket/schedule/check_in failed after retries: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))\")"
+      }
+    ],
+    "worker": 1
+  }
+]

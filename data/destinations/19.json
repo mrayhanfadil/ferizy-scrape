@@ -1,0 +1,58 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/destination",
+    "origin": {
+      "harbourId": "19",
+      "harbourName": "Telaga Punggur",
+      "province": "Kepulauan Riau"
+    },
+    "headers_extra": {
+      "AIFHarbourOriginId": "19"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:16:27.220255+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpDestinationRf - Success",
+    "ResponseReferenceNo": "2b3186e0e6dc42b38393308c8529b1c9",
+    "destinationHarbour": {
+      "id": "destination-harbour",
+      "name": "Destination Harbour",
+      "data": [
+        {
+          "routeId": "198014",
+          "origin": "Telaga Punggur",
+          "destination": "Kuala Tungkal",
+          "destinationProvince": "Jambi"
+        },
+        {
+          "routeId": "5496",
+          "origin": "Telaga Punggur",
+          "destination": "Mengkapan",
+          "destinationProvince": "Riau"
+        },
+        {
+          "routeId": "5493",
+          "origin": "Telaga Punggur",
+          "destination": "Dabo",
+          "destinationProvince": "Kepulauan Riau"
+        },
+        {
+          "routeId": "5492",
+          "origin": "Telaga Punggur",
+          "destination": "Tanjung Balai Karimun",
+          "destinationProvince": "Kepulauan Riau"
+        },
+        {
+          "routeId": "5491",
+          "origin": "Telaga Punggur",
+          "destination": "Tanjung Uban",
+          "destinationProvince": "Kepulauan Riau"
+        }
+      ]
+    }
+  }
+}

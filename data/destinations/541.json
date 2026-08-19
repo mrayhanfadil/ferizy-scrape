@@ -1,0 +1,34 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/destination",
+    "origin": {
+      "harbourId": "541",
+      "harbourName": "Tanjung Perak",
+      "province": "Jawa Timur"
+    },
+    "headers_extra": {
+      "AIFHarbourOriginId": "541"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:16:22.536880+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpDestinationRf - Success",
+    "ResponseReferenceNo": "0ffbbf3325e441b8ad4638621f177344",
+    "destinationHarbour": {
+      "id": "destination-harbour",
+      "name": "Destination Harbour",
+      "data": [
+        {
+          "routeId": "5411051",
+          "origin": "Tanjung Perak",
+          "destination": "Soekarno-Hatta (Makassar)",
+          "destinationProvince": "Sulawesi Selatan"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/destination",
+    "origin": {
+      "harbourId": "54",
+      "harbourName": "Penajam",
+      "province": "Kalimantan Timur"
+    },
+    "headers_extra": {
+      "AIFHarbourOriginId": "54"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:15:21.702176+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpDestinationRf - Success",
+    "ResponseReferenceNo": "059b1fcf606b4f4d94469f5097bf8d01",
+    "destinationHarbour": {
+      "id": "destination-harbour",
+      "name": "Destination Harbour",
+      "data": [
+        {
+          "routeId": "5489",
+          "origin": "Penajam",
+          "destination": "Kariangau",
+          "destinationProvince": "Kalimantan Timur"
+        }
+      ]
+    }
+  }
+}

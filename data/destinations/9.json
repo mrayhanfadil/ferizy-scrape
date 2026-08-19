@@ -1,0 +1,40 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/destination",
+    "origin": {
+      "harbourId": "9",
+      "harbourName": "Paciran",
+      "province": "Jawa Timur"
+    },
+    "headers_extra": {
+      "AIFHarbourOriginId": "9"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:15:14.151915+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpDestinationRf - Success",
+    "ResponseReferenceNo": "2ddd584cba28422994418bd3be65d463",
+    "destinationHarbour": {
+      "id": "destination-harbour",
+      "name": "Destination Harbour",
+      "data": [
+        {
+          "routeId": "182439",
+          "origin": "Paciran",
+          "destination": "Bahaur",
+          "destinationProvince": "Kalimantan Tengah"
+        },
+        {
+          "routeId": "20",
+          "origin": "Paciran",
+          "destination": "Bawean",
+          "destinationProvince": "Jawa Timur"
+        }
+      ]
+    }
+  }
+}

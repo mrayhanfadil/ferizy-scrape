@@ -1,0 +1,177 @@
+[
+  {
+    "url": "https://trip.ferizy.com/asset/js/custom.js",
+    "file": "000_custom.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "bytes": 1539
+  },
+  {
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js",
+    "file": "001_pdfmake.min.js",
+    "status": 200,
+    "content_type": "application/javascript; charset=utf-8",
+    "bytes": 1357654
+  },
+  {
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.min.js",
+    "file": "002_vfs_fonts.min.js",
+    "status": 200,
+    "content_type": "application/javascript; charset=utf-8",
+    "bytes": 798300
+  },
+  {
+    "url": "https://trip.ferizy.com/_nuxt/entry.84d59672.js",
+    "file": "003_entry.84d59672.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "bytes": 2599402
+  },
+  {
+    "url": "https://trip.ferizy.com/_nuxt/auth.d36acb10.js",
+    "file": "004_auth.d36acb10.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "bytes": 485
+  },
+  {
+    "url": "https://trip.ferizy.com/_nuxt/useAuth.f9360d08.js",
+    "file": "005_useAuth.f9360d08.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "bytes": 391
+  },
+  {
+    "url": "https://trip.ferizy.com/_nuxt/useTgl.ff12d12a.js",
+    "file": "006_useTgl.ff12d12a.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "bytes": 2982
+  },
+  {
+    "url": "https://trip.ferizy.com/_nuxt/setSameOriginHeader.00c9b696.js",
+    "file": "007_setSameOriginHeader.00c9b696.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "bytes": 173
+  },
+  {
+    "url": "https://trip.ferizy.com/_nuxt/penggunajasa.3b5c8a18.js",
+    "file": "008_penggunajasa.3b5c8a18.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "bytes": 13028
+  },
+  {
+    "url": "https://trip.ferizy.com/_nuxt/ferizy.b398e3e6.js",
+    "file": "009_ferizy.b398e3e6.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "bytes": 84
+  },
+  {
+    "url": "https://trip.ferizy.com/_nuxt/mitramode.b205c069.js",
+    "file": "010_mitramode.b205c069.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "bytes": 3290
+  },
+  {
+    "url": "https://trip.ferizy.com/_nuxt/eventBus.eb6c60e8.js",
+    "file": "011_eventBus.eb6c60e8.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "bytes": 145
+  },
+  {
+    "url": "https://trip.ferizy.com/_nuxt/info.c6a4dd13.js",
+    "file": "012_info.c6a4dd13.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "bytes": 80
+  },
+  {
+    "url": "https://trip.ferizy.com/_nuxt/signin.dbfa7f21.js",
+    "file": "013_signin.dbfa7f21.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "bytes": 8025
+  },
+  {
+    "url": "https://trip.ferizy.com/_nuxt/iSignin.8dd4cd56.js",
+    "file": "014_iSignin.8dd4cd56.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "bytes": 33
+  },
+  {
+    "url": "https://trip.ferizy.com/_nuxt/detailaccount.f95a4df1.js",
+    "file": "015_detailaccount.f95a4df1.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "bytes": 8954
+  },
+  {
+    "url": "https://trip.ferizy.com/_nuxt/regency.c158e1a6.js",
+    "file": "016_regency.c158e1a6.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "bytes": 2535
+  },
+  {
+    "url": "https://trip.ferizy.com/_nuxt/index-68602d24.1fa89f5c.js",
+    "file": "017_index-68602d24.1fa89f5c.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "bytes": 178689
+  },
+  {
+    "url": "https://trip.ferizy.com/_nuxt/schedule.0ef273e7.js",
+    "file": "018_schedule.0ef273e7.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "bytes": 11213
+  },
+  {
+    "url": "https://trip.ferizy.com/_nuxt/jadwalmasuk.62b94fb1.js",
+    "file": "019_jadwalmasuk.62b94fb1.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "bytes": 14294
+  },
+  {
+    "url": "https://trip.ferizy.com/_nuxt/penggunajasa.afd9b511.js",
+    "file": "020_penggunajasa.afd9b511.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "bytes": 8913
+  },
+  {
+    "url": "https://trip.ferizy.com/_nuxt/Footer.f934cf44.js",
+    "file": "021_Footer.f934cf44.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "bytes": 7022
+  },
+  {
+    "url": "https://trip.ferizy.com/_nuxt/asdp-logo.5249bc6c.js",
+    "file": "022_asdp-logo.5249bc6c.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "bytes": 89
+  },
+  {
+    "url": "https://trip.ferizy.com/_nuxt/error-component.b849d5ee.js",
+    "file": "023_error-component.b849d5ee.js",
+    "status": 200,
+    "content_type": "application/javascript",
+    "bytes": 753
+  },
+  {
+    "url": "https://cdn.jsdelivr.net/npm/sweetalert2@11",
+    "file": "024_sweetalert2@11",
+    "status": 200,
+    "content_type": "application/javascript; charset=utf-8",
+    "bytes": 79150
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/ticket/parameter",
+    "parameter": "informasi_penting",
+    "headers_extra": {
+      "AIFParameterName": "informasi_penting"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:37:55.827546+07:00",
+  "body": {
+    "responseCode": "200",
+    "responseMessage": "Success",
+    "responseReferenceNo": "0b95836343e74257894c56f3909d2571",
+    "data": [
+      {
+        "parameterName": "informasi_penting",
+        "parameterValue": "<ol><li style=\\\"text-align:justify\\\">Sesuai Peraturan Menteri Perhubungan Nomor 25 Tahun 2016 tentang Daftar Penumpang dan Kendaraan Angkutan Penyeberangan, apabila identitas dan jumlah penumpang dalam kendaraan tidak sesuai maka ASDP dapat menolak tiket Anda;</li><li style=\\\"text-align:justify\\\">Dengan menekan tombol \"LANJUTKAN\" di bawah, saya menyatakan bahwa data diri penumpang dan data kendaraan yang saya isi di atas adalah benar adanya. Jika saat proses menyeberang didapati ketidaksesuaian pada data diri penumpang dan data kendaraan saya, maka saya menerima diproses sesuai Syarat &amp; Ketentuan Ferizy.</li></ol>",
+        "parameterDescription": "Konten Informasi Penting"
+      }
+    ]
+  }
+}

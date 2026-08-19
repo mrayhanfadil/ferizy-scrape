@@ -1,0 +1,24 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/vaccine/self-assesment",
+    "parameter": "ketentuan_perjalanan_pencarian_jadwal_content",
+    "headers_extra": {
+      "AIFParameterName": "ketentuan_perjalanan_pencarian_jadwal_content"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:37:59.214686+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpSelfAssesmentRf - Success",
+    "ResponseReferenceNo": "43b01b8bacec4b7190bf316d40d6dc27",
+    "data": [
+      {
+        "status": "false",
+        "content": "<ol><li style=\"text-align:justify\">ASDP tidak akan bertanggungjawab dari segala tuntutan, gugatan, tanggung jawab hukum atau kerugian apabila penumpang tidak memenuhi ketentuan yang berlaku</li><li style=\"text-align:justify\">Memalsukan surat atau memanipulasi Informasi Elektronik dan/atau Dokumen Elektronik dapat dikenakan Pasal 263 KUHP dengan ancaman pidana paling lama 6 tahun penjara; dan/atau Pasal 35 dan Pasal 51 Ayat 1, UU ITE No 11 Tahun 2008 dengan ancaman hukuman paling lama 12 tahun penjara dan/atau denda paling banyak Rp12 miliar.</li></ol>"
+      }
+    ]
+  }
+}

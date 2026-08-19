@@ -1,0 +1,240 @@
+{
+  "status": 200,
+  "body": {
+    "code": 1,
+    "message": "Parameter Initialization.",
+    "origin": [
+      {
+        "id": "",
+        "text": "",
+        "city": ""
+      },
+      {
+        "id": "3",
+        "text": "Bakauheni, Lampung",
+        "city": "LAMPUNG",
+        "is_redirect": false
+      },
+      {
+        "id": "4",
+        "text": "Gilimanuk, Bali",
+        "city": "BALI",
+        "is_redirect": false
+      },
+      {
+        "id": "5",
+        "text": "Ketapang, Jawa Timur",
+        "city": "JAWA TIMUR",
+        "is_redirect": false
+      },
+      {
+        "id": "2",
+        "text": "Merak, Banten",
+        "city": "BANTEN",
+        "is_redirect": false
+      },
+      {
+        "id": 99,
+        "text": "Pelabuhan Lainnya?, Klik Disini",
+        "city": "Klik Disini",
+        "url": "https://trip.ferizy.com",
+        "is_redirect": true
+      }
+    ],
+    "service": [
+      {
+        "id": "1",
+        "text": "Pejalan Kaki"
+      },
+      {
+        "id": "2",
+        "text": "Kendaraan"
+      }
+    ],
+    "servicemobile": [
+      {
+        "id": "",
+        "text": ""
+      },
+      {
+        "id": "1",
+        "text": "Pejalan Kaki"
+      },
+      {
+        "id": "2",
+        "text": "Kendaraan"
+      }
+    ],
+    "ship_class": [
+      {
+        "id": "",
+        "text": ""
+      },
+      {
+        "id": "2",
+        "text": "Express"
+      },
+      {
+        "id": "10",
+        "text": "Express II"
+      },
+      {
+        "id": "1",
+        "text": "Reguler"
+      },
+      {
+        "id": "3",
+        "text": "Reguler-B"
+      },
+      {
+        "id": "8",
+        "text": "Reguler-C"
+      },
+      {
+        "id": "6",
+        "text": "Reguler-I"
+      },
+      {
+        "id": "5",
+        "text": "Reguler-M"
+      },
+      {
+        "id": "4",
+        "text": "Reguler-P"
+      },
+      {
+        "id": "7",
+        "text": "Reguler-W"
+      }
+    ],
+    "vehicle_group_type": [],
+    "vehicle_group": [],
+    "vehicle_class": [
+      {
+        "id": "4",
+        "name": "GOLONGAN I",
+        "type": "Roda dua",
+        "min_length": "0",
+        "max_length": "0",
+        "max_capacity": "3",
+        "description": "Sepeda Kayuh",
+        "id_number_required": "f"
+      },
+      {
+        "id": "7",
+        "name": "GOLONGAN II",
+        "type": "Roda dua",
+        "min_length": "0",
+        "max_length": "0",
+        "max_capacity": "3",
+        "description": "sepeda motor dibawah 500cc dan gerobak dorong",
+        "id_number_required": "t"
+      },
+      {
+        "id": "8",
+        "name": "GOLONGAN III",
+        "type": "Roda dua",
+        "min_length": "0",
+        "max_length": "0",
+        "max_capacity": "3",
+        "description": "Sepeda motor diatas 500cc dan kendaraan roda tiga",
+        "id_number_required": "t"
+      },
+      {
+        "id": "9",
+        "name": "GOLONGAN IVA",
+        "type": "Kecil",
+        "min_length": "0",
+        "max_length": "5300",
+        "max_capacity": "10",
+        "description": "Kendaraan penumpang (mobil, jeep, sedan, minicab, minibus, mikrolet, station wagon) <5 meter",
+        "id_number_required": "t"
+      },
+      {
+        "id": "10",
+        "name": "GOLONGAN IVB",
+        "type": "Kecil",
+        "min_length": "0",
+        "max_length": "5300",
+        "max_capacity": "5",
+        "description": "Kendaraan barang (pick up) <5 meter",
+        "id_number_required": "t"
+      },
+      {
+        "id": "11",
+        "name": "GOLONGAN VA",
+        "type": "Sedang",
+        "min_length": "5301",
+        "max_length": "7300",
+        "max_capacity": "35",
+        "description": "Kendaraan penumpang (mobil, bus sedang) <7 meter",
+        "id_number_required": "t"
+      },
+      {
+        "id": "12",
+        "name": "GOLONGAN VB",
+        "type": "Sedang",
+        "min_length": "5301",
+        "max_length": "7300",
+        "max_capacity": "3",
+        "description": "Kendaraan barang (mobil/truk barang/tangki) <7 meter",
+        "id_number_required": "t"
+      },
+      {
+        "id": "13",
+        "name": "GOLONGAN VIA",
+        "type": "Besar",
+        "min_length": "7301",
+        "max_length": "10300",
+        "max_capacity": "65",
+        "description": "Kendaraan penumpang (mobil, bus besar) <10 meter",
+        "id_number_required": "t"
+      },
+      {
+        "id": "14",
+        "name": "GOLONGAN VIB",
+        "type": "Besar",
+        "min_length": "7301",
+        "max_length": "10300",
+        "max_capacity": "3",
+        "description": "Kendaraan barang (mobil/truk barang/tangki, kereta penarik tanpa gandengan) <10 meter",
+        "id_number_required": "t"
+      },
+      {
+        "id": "15",
+        "name": "GOLONGAN VII",
+        "type": "Besar",
+        "min_length": "10301",
+        "max_length": "12300",
+        "max_capacity": "3",
+        "description": "Kendaraan (mobil barang, truk tronton, tangki, kereta penarik dengan gandengan, kendaraan alat berat) <12 meter",
+        "id_number_required": "t"
+      },
+      {
+        "id": "16",
+        "name": "GOLONGAN VIII",
+        "type": "Besar",
+        "min_length": "12301",
+        "max_length": "16300",
+        "max_capacity": "3",
+        "description": "Kendaraan (mobil barang, truk tronton, tangki, kereta penarik dengan gandengan, kendaraan alat berat) <16 meter",
+        "id_number_required": "t"
+      },
+      {
+        "id": "17",
+        "name": "GOLONGAN IX",
+        "type": "Besar",
+        "min_length": "16301",
+        "max_length": "20300",
+        "max_capacity": "3",
+        "description": "Kendaraan (mobil barang, truk tronton, tangki, kereta penarik dengan gandengan, kendaraan alat berat) >16 meter",
+        "id_number_required": "t"
+      }
+    ],
+    "config": {
+      "max_booking_passanger": "10",
+      "min_booking_date": "2026-08-19 12:15:03",
+      "max_booking_date": "2026-10-18 12:15:03"
+    }
+  }
+}

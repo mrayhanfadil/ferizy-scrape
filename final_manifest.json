@@ -1,0 +1,52 @@
+{
+  "source": "https://trip.ferizy.com/ + https://ferizy.com/",
+  "retrieved_at_wib": "2026-08-19T12:18:45.675343+07:00",
+  "scope": "public Ferizy unified: trip.ferizy.com (API Gateway, 65 origins/140 routes) + ferizy.com classic (4 origins/4 OD/6 ODxShip + live fares); authenticated account/order/payment excluded",
+  "counts": {
+    "origins": 65,
+    "unique_routes": 140,
+    "service_type_routes_http_200": 140,
+    "service_type_routes_not_200": 0,
+    "checkin_routes_http_200": 56,
+    "checkin_routes_not_200": 84,
+    "service_detail_rows": 2028,
+    "checkin_schedule_rows": 4513,
+    "parameter_files": 19,
+    "crawled_pages": 14,
+    "downloaded_media": 4,
+    "misc_public_files_total": 22,
+    "misc_public_files_http_200": 5,
+    "misc_public_files_not_200": 17,
+    "unified_origins": 69,
+    "unified_routes": 146,
+    "ferizy_classic_origins": 4,
+    "ferizy_classic_directed_OD": 4,
+    "ferizy_classic_ODxShip": 6,
+    "ferizy_classic_fares_live": 9
+  },
+  "files": {
+    "normalized_origins": "exports/origins.csv",
+    "normalized_routes": "exports/routes.csv",
+    "normalized_service_types": "exports/service_types.csv",
+    "normalized_checkin_schedules": "exports/checkin_schedules.jsonl",
+    "normalized_parameters": "exports/parameters.csv",
+    "raw_api": "data/",
+    "route_api": "data/route_details/<routeId>/",
+    "static_pages": "pages/",
+    "frontend_assets": "raw/",
+    "media": "media/",
+    "misc_public_api": "data/misc_public/",
+    "unified_origins": "exports/unified_origins.csv",
+    "unified_routes": "exports/unified_routes.csv",
+    "unified_fares_classic": "exports/unified_fares_ferizy_classic.csv",
+    "ferizy_classic_raw": "data/ferizy-classic/"
+  },
+  "limitations": [
+    "Ship schedule, price, quota, and availability responses are dynamic and depend on route, date/time, passenger type, and vehicle type.",
+    "A representative ship-schedule request was tested separately; exhaustive pricing would require a user-defined fare matrix and would create a very large, rapidly changing request set.",
+    "Authenticated account/order/payment/refund data was not collected.",
+    "Additional public master endpoints were probed: homepage/range/age, homepage/service-type, vaccine/self-assesment, logistic/form-parameter-setting, ticket/parameter (all HTTP 200 and archived under data/misc_public/).",
+    "Several other public paths returned 400/404 (homepage/layanan, homepage/verification, vaccine/reason without parameter, logistic list-* without required query/auth) — responses are archived but contain no dataset.",
+    "configuration/check is unstable (RemoteDisconnected) on this gateway at scrape time; response archived as error envelope."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/configuration/parameterize",
+    "headers_extra": {
+      "AIFParameterName": "popup_banner_link"
+    }
+  },
+  "status": 400,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:47:43.647263+07:00",
+  "body": {
+    "status": "false",
+    "message": "Error on input validation.",
+    "data": {
+      "errors": [
+        "Required request parameter 'name' for method parameter type String is not present"
+      ]
+    }
+  }
+}

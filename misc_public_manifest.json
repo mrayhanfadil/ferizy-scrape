@@ -1,0 +1,121 @@
+{
+  "retrieved_at_wib": "2026-08-19T11:48:07.813841+07:00",
+  "requested": 22,
+  "results": [
+    {
+      "name": "homepage_layanan",
+      "path": "/ferizy/homepage/layanan",
+      "status": 0,
+      "error": "RuntimeError(\"GET /ferizy/homepage/layanan failed after retries: HTTPSConnectionPool(host='api-gateway-1.ferizy.com', port=443): Read timed out. (read timeout=30)\")"
+    },
+    {
+      "name": "homepage_range_age",
+      "path": "/ferizy/homepage/range/age",
+      "status": 200
+    },
+    {
+      "name": "homepage_service_type_global",
+      "path": "/ferizy/homepage/service-type",
+      "status": 200
+    },
+    {
+      "name": "homepage_verification",
+      "path": "/ferizy/homepage/verification",
+      "status": 0,
+      "error": "RuntimeError(\"GET /ferizy/homepage/verification failed after retries: HTTPSConnectionPool(host='api-gateway-1.ferizy.com', port=443): Read timed out. (read timeout=30)\")"
+    },
+    {
+      "name": "homepage_vaccine_reason_global",
+      "path": "/ferizy/homepage/vaccine/reason",
+      "status": 0,
+      "error": "RuntimeError(\"GET /ferizy/homepage/vaccine/reason failed after retries: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))\")"
+    },
+    {
+      "name": "homepage_vaccine_self_assesment_global",
+      "path": "/ferizy/homepage/vaccine/self-assesment",
+      "status": 200
+    },
+    {
+      "name": "configuration_check",
+      "path": "/ferizy/configuration/check",
+      "status": 0,
+      "error": "RuntimeError(\"GET /ferizy/configuration/check failed after retries: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))\")"
+    },
+    {
+      "name": "configuration_parameterize_sample",
+      "path": "/ferizy/configuration/parameterize",
+      "status": 400
+    },
+    {
+      "name": "check_mitra",
+      "path": "/ferizy/check-mitra",
+      "status": 400
+    },
+    {
+      "name": "logistic_cargo_category",
+      "path": "/ferizy/logistic/cargo-category",
+      "status": 400
+    },
+    {
+      "name": "logistic_form_parameter_setting",
+      "path": "/ferizy/logistic/form-parameter-setting",
+      "status": 200
+    },
+    {
+      "name": "logistic_list_cargo_type",
+      "path": "/ferizy/logistic/list-cargo-type",
+      "status": 400
+    },
+    {
+      "name": "logistic_list_city",
+      "path": "/ferizy/logistic/list-city",
+      "status": 400
+    },
+    {
+      "name": "logistic_list_comodity",
+      "path": "/ferizy/logistic/list-comodity",
+      "status": 400
+    },
+    {
+      "name": "logistic_list_industry_type",
+      "path": "/ferizy/logistic/list-industry-type",
+      "status": 400
+    },
+    {
+      "name": "logistic_list_item_owner",
+      "path": "/ferizy/logistic/list-item-owner",
+      "status": 400
+    },
+    {
+      "name": "logistic_list_item_receiver",
+      "path": "/ferizy/logistic/list-item-receiver",
+      "status": 400
+    },
+    {
+      "name": "logistic_list_logistic_company",
+      "path": "/ferizy/logistic/list-logistic-company",
+      "status": 400
+    },
+    {
+      "name": "logistic_quickpick",
+      "path": "/ferizy/logistic/quickpick",
+      "status": 0,
+      "error": "RuntimeError('GET /ferizy/logistic/quickpick failed after retries: server status 596')"
+    },
+    {
+      "name": "logistic_setting_param",
+      "path": "/ferizy/logistic/setting-param",
+      "status": 400
+    },
+    {
+      "name": "payment_options",
+      "path": "/ferizy/payment/options",
+      "status": 400
+    },
+    {
+      "name": "ticket_parameter_sample",
+      "path": "/ferizy/ticket/parameter",
+      "status": 200
+    }
+  ]
+}

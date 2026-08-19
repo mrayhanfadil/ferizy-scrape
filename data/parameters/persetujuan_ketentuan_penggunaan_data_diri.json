@@ -1,0 +1,25 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/ticket/parameter",
+    "parameter": "persetujuan_ketentuan_penggunaan_data_diri",
+    "headers_extra": {
+      "AIFParameterName": "persetujuan_ketentuan_penggunaan_data_diri"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:38:00.329456+07:00",
+  "body": {
+    "responseCode": "200",
+    "responseMessage": "Success",
+    "responseReferenceNo": "4590be30db7a4abab94baffcf014cc6f",
+    "data": [
+      {
+        "parameterName": "persetujuan_ketentuan_penggunaan_data_diri",
+        "parameterValue": "Saya menyatakan bahwa data penumpang yang saya isi benar dan menyetujui data tersebut dapat digunakan untuk kebutuhan penanganan Pandemi Covid-19 oleh Pemerintah Republik Indonesia.",
+        "parameterDescription": "content alasan belum memenuhi verifikasi vaksin"
+      }
+    ]
+  }
+}

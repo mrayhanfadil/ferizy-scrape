@@ -1,0 +1,34 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/destination",
+    "origin": {
+      "harbourId": "2",
+      "harbourName": "Karimun Jawa",
+      "province": "Jawa Tengah"
+    },
+    "headers_extra": {
+      "AIFHarbourOriginId": "2"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:14:58.334097+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpDestinationRf - Success",
+    "ResponseReferenceNo": "365fb33faa6341f39c69579ff7c120eb",
+    "destinationHarbour": {
+      "id": "destination-harbour",
+      "name": "Destination Harbour",
+      "data": [
+        {
+          "routeId": "2003",
+          "origin": "Karimun Jawa",
+          "destination": "Jepara",
+          "destinationProvince": "Jawa Tengah"
+        }
+      ]
+    }
+  }
+}

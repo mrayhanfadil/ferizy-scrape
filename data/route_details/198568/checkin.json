@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/ticket/schedule/check_in",
+    "routeId": "198568",
+    "headers_extra": {
+      "AIFRouteId": "198568",
+      "AIFDeviceTime": "2026-08-19T11:35:12+07:00"
+    }
+  },
+  "status": 404,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:35:12.613724+07:00",
+  "body": {
+    "responseCode": "404",
+    "responseMessage": "Data not found",
+    "responseReferenceNo": "c0e8680274454b99bbe6afb2b295a88c"
+  }
+}

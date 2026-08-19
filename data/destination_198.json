@@ -1,0 +1,36 @@
+{
+  "status": 200,
+  "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/destination",
+  "extra": {
+    "AIFHarbourOriginId": "198"
+  },
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpDestinationRf - Success",
+    "ResponseReferenceNo": "b6e3ce931f8b41f1840950e40fe7c87b",
+    "destinationHarbour": {
+      "id": "destination-harbour",
+      "name": "Destination Harbour",
+      "data": [
+        {
+          "routeId": "198568",
+          "origin": "Lembar",
+          "destination": "Probolinggo",
+          "destinationProvince": "Jawa Timur"
+        },
+        {
+          "routeId": "198563",
+          "origin": "Lembar",
+          "destination": "Jangkar",
+          "destinationProvince": "Jawa Timur"
+        },
+        {
+          "routeId": "25",
+          "origin": "Lembar",
+          "destination": "Padang Bai",
+          "destinationProvince": "Bali"
+        }
+      ]
+    }
+  }
+}

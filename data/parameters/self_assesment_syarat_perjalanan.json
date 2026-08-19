@@ -1,0 +1,25 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/ticket/parameter",
+    "parameter": "self_assesment_syarat_perjalanan",
+    "headers_extra": {
+      "AIFParameterName": "self_assesment_syarat_perjalanan"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:38:20.240212+07:00",
+  "body": {
+    "responseCode": "200",
+    "responseMessage": "Success",
+    "responseReferenceNo": "db7e64a52363464582af61b369238fe6",
+    "data": [
+      {
+        "parameterName": "self_assesment_syarat_perjalanan",
+        "parameterValue": "<p style=\"text-align: justify;\">Sebelum melanjutkan proses pemesanan tiket, pastikan Anda telah membaca peraturan lengkap dan memenuhi seluruh syarat perjalanan agar diperbolehkan menyeberang, <a href=\"https://covid19.go.id/storage/app/media/Regulasi/2022/Agustus/se-satgas-penanganan-covid-19-no-23-tahun-2022-tentang-ketentuan-perjalanan-orang-dalam-negeri-dalam-masa-pandemi-corona-virus-disease-2019-covid-19.pdf\" target=\"_blank\">disini</a><a href=\"https://covid19.go.id/storage/app/media/Regulasi/2021/Agustus/inmendagri-no-30-tahun-2021-tentang-ppkm-level-4-level-3-level-2-jawa-bali.pdf\">.</a></p>",
+        "parameterDescription": "narasi popup sebelum melanjutkan proses pemesanan tiket"
+      }
+    ]
+  }
+}

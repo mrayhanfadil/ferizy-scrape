@@ -1,0 +1,58 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/destination",
+    "origin": {
+      "harbourId": "177",
+      "harbourName": "Waingapu",
+      "province": "Nusa Tenggara Timur"
+    },
+    "headers_extra": {
+      "AIFHarbourOriginId": "177"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:16:36.520811+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpDestinationRf - Success",
+    "ResponseReferenceNo": "d80623fd5c2f40719b462bd8aa4e5ca0",
+    "destinationHarbour": {
+      "id": "destination-harbour",
+      "name": "Destination Harbour",
+      "data": [
+        {
+          "routeId": "177342",
+          "origin": "Waingapu",
+          "destination": "Raijua",
+          "destinationProvince": "Nusa Tenggara Timur"
+        },
+        {
+          "routeId": "5443",
+          "origin": "Waingapu",
+          "destination": "Ende",
+          "destinationProvince": "Nusa Tenggara Timur"
+        },
+        {
+          "routeId": "5442",
+          "origin": "Waingapu",
+          "destination": "Aimere",
+          "destinationProvince": "Nusa Tenggara Timur"
+        },
+        {
+          "routeId": "5415",
+          "origin": "Waingapu",
+          "destination": "Kupang",
+          "destinationProvince": "Nusa Tenggara Timur"
+        },
+        {
+          "routeId": "5335",
+          "origin": "Waingapu",
+          "destination": "Sabu",
+          "destinationProvince": "Nusa Tenggara Timur"
+        }
+      ]
+    }
+  }
+}

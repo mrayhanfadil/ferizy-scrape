@@ -1,0 +1,52 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/destination",
+    "origin": {
+      "harbourId": "26",
+      "harbourName": "Tanjung Uban",
+      "province": "Kepulauan Riau"
+    },
+    "headers_extra": {
+      "AIFHarbourOriginId": "26"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:16:25.004824+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpDestinationRf - Success",
+    "ResponseReferenceNo": "7bdb0c86a4954687ba81f8afd70dde00",
+    "destinationHarbour": {
+      "id": "destination-harbour",
+      "name": "Destination Harbour",
+      "data": [
+        {
+          "routeId": "261032",
+          "origin": "Tanjung Uban",
+          "destination": "Letung",
+          "destinationProvince": "Kepulauan Riau"
+        },
+        {
+          "routeId": "5516",
+          "origin": "Tanjung Uban",
+          "destination": "Tambelan",
+          "destinationProvince": "Kepulauan Riau"
+        },
+        {
+          "routeId": "5515",
+          "origin": "Tanjung Uban",
+          "destination": "Matak",
+          "destinationProvince": "Kepulauan Riau"
+        },
+        {
+          "routeId": "5505",
+          "origin": "Tanjung Uban",
+          "destination": "Telaga Punggur",
+          "destinationProvince": "Kepulauan Riau"
+        }
+      ]
+    }
+  }
+}

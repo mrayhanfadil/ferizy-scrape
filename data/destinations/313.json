@@ -1,0 +1,34 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/destination",
+    "origin": {
+      "harbourId": "313",
+      "harbourName": "Garongkong",
+      "province": "Sulawesi Selatan"
+    },
+    "headers_extra": {
+      "AIFHarbourOriginId": "313"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:14:42.727369+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpDestinationRf - Success",
+    "ResponseReferenceNo": "45c2854d38e540dabfcf7ea8defa9f45",
+    "destinationHarbour": {
+      "id": "destination-harbour",
+      "name": "Destination Harbour",
+      "data": [
+        {
+          "routeId": "31383",
+          "origin": "Garongkong",
+          "destination": "Batulicin",
+          "destinationProvince": "Kalimantan Selatan"
+        }
+      ]
+    }
+  }
+}

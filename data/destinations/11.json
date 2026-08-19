@@ -1,0 +1,34 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/destination",
+    "origin": {
+      "harbourId": "11",
+      "harbourName": "Gresik",
+      "province": "Jawa Timur"
+    },
+    "headers_extra": {
+      "AIFHarbourOriginId": "11"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:14:45.213391+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpDestinationRf - Success",
+    "ResponseReferenceNo": "77c2e64485104944a60b86032a1304a3",
+    "destinationHarbour": {
+      "id": "destination-harbour",
+      "name": "Destination Harbour",
+      "data": [
+        {
+          "routeId": "19",
+          "origin": "Gresik",
+          "destination": "Bawean",
+          "destinationProvince": "Jawa Timur"
+        }
+      ]
+    }
+  }
+}

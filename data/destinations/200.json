@@ -1,0 +1,46 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/destination",
+    "origin": {
+      "harbourId": "200",
+      "harbourName": "Sape",
+      "province": "Nusa Tenggara Barat"
+    },
+    "headers_extra": {
+      "AIFHarbourOriginId": "200"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:15:59.302151+07:00",
+  "body": {
+    "ResponseCode": "200",
+    "ResponseMessage": "HomePage HpHpDestinationRf - Success",
+    "ResponseReferenceNo": "71610e6cd1804420a9210cdaa54ce3d6",
+    "destinationHarbour": {
+      "id": "destination-harbour",
+      "name": "Destination Harbour",
+      "data": [
+        {
+          "routeId": "200436",
+          "origin": "Sape",
+          "destination": "Waingapu",
+          "destinationProvince": "Nusa Tenggara Timur"
+        },
+        {
+          "routeId": "200201",
+          "origin": "Sape",
+          "destination": "Waikelo",
+          "destinationProvince": "Nusa Tenggara Timur"
+        },
+        {
+          "routeId": "5513",
+          "origin": "Sape",
+          "destination": "Labuan Bajo",
+          "destinationProvince": "Nusa Tenggara Timur"
+        }
+      ]
+    }
+  }
+}

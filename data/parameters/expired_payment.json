@@ -1,0 +1,25 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/ticket/parameter",
+    "parameter": "expired_payment",
+    "headers_extra": {
+      "AIFParameterName": "expired_payment"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:37:33.076992+07:00",
+  "body": {
+    "responseCode": "200",
+    "responseMessage": "Success",
+    "responseReferenceNo": "922c4bbc9da64784994d3b8b107a6cba",
+    "data": [
+      {
+        "parameterName": "expired_payment",
+        "parameterValue": "10",
+        "parameterDescription": "Maksimal waktu tunggu pemesanan sampai menjadi hangus, dihitung dari waktu kode pembayaran dibuat sampai dengan (n) kedepan"
+      }
+    ]
+  }
+}

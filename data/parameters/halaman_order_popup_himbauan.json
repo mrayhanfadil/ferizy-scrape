@@ -1,0 +1,25 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/ticket/parameter",
+    "parameter": "halaman_order_popup_himbauan",
+    "headers_extra": {
+      "AIFParameterName": "halaman_order_popup_himbauan"
+    }
+  },
+  "status": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-19T11:37:35.995995+07:00",
+  "body": {
+    "responseCode": "200",
+    "responseMessage": "Success",
+    "responseReferenceNo": "eec05186da054f1bba4f3a068dd0b6a9",
+    "data": [
+      {
+        "parameterName": "halaman_order_popup_himbauan",
+        "parameterValue": "<p style=\"text-align:center\"><strong>LARANGAN MEMBAWA BARANG BERBAHAYA</strong></p>\n\n<p style=\"text-align:justify\">Yang dimaksud atau termasuk <strong>Barang Berbahaya</strong> adalah sebagai berikut:</p>\n\n<ol>\n\t<li style=\"text-align:justify\">Bahan/barang peledak (<em>explosive</em>);</li>\n\t<li style=\"text-align:justify\">Gas yang dimampatkan, dicairkan, atau dilarutkan dengan tekanan (<em>compressed gases</em>, <em>liquified or dissolvedunder pressure</em>);</li>\n\t<li style=\"text-align:justify\">Cairan yang mudah menyala/terbakar (<em>flammable liquids</em>);</li>\n\t<li style=\"text-align:justify\">Bahan/barang padat mudah menyala/terbakar (flammable solids);</li>\n\t<li style=\"text-align:justify\">Bahan/barang pengoksidasi (<em>oxidizing substances</em>);</li>\n\t<li style=\"text-align:justify\">Bahan/barang beracun dan mudah menular (<em>toxic and infectious substances</em>);</li>\n\t<li style=\"text-align:justify\">Bahan/barang radioaktif;</li>\n\t<li style=\"text-align:justify\">Bahan atau barang perusak (<em>corrosive substances</em>);</li>\n\t<li style=\"text-align:justify\">Berbagai bahan atau zat berbahaya lainnya (<em>miscellanous dangerous substances</em>).</li>\n</ol>\n\n<p style=\"text-align:justify\"><strong>Apakah Anda telah membaca, memahami, dan menyatakan bahwa dalam perjalanan Anda tidak membawa Barang Berbahaya dan Beracun? </strong></p>\n\n<p style=\"text-align:justify\"><strong>Dengan menekan tombol &quot;Setuju&quot; di bawah ini maka Anda menyatakan telah membaca dan menyetujui <a href=\"https://trip.ferizy.com/termsandconditions\" target=\"_blank\">Syarat &amp; Ketentuan</a> Ferizy.</strong></p>\n",
+        "parameterDescription": "narasi halaman order popup himbauan"
+      }
+    ]
+  }
+}
