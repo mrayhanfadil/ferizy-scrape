@@ -1,0 +1,70 @@
+{
+  "origin": "5",
+  "destination": "4",
+  "ship_class": "1",
+  "vehicle_class": "14",
+  "depart_date": "2026-08-20",
+  "depart_time_start": "11:00:00",
+  "depart_time_end": "12:00:00",
+  "kuota": "422",
+  "response": {
+    "code": 1,
+    "message": "success",
+    "data": {
+      "quota": {
+        "available_quota_label": "Tiket Tersedia",
+        "unavailable_quota_label": "Kuota Telah Habis",
+        "quota_count": "10"
+      },
+      "scheduleInfo": {
+        "origin_name": "Ketapang",
+        "destination_name": "Gilimanuk",
+        "depart_date": "2026-08-20",
+        "depart_time_start": "11:00:00",
+        "depart_time_end": "12:00:00",
+        "kuota": "422",
+        "service_name": "Kendaraan",
+        "ship_class_name": "Reguler",
+        "ship_class_id": "1",
+        "vehicle": {
+          "class_id": "14",
+          "length": 0,
+          "vehicle_name": "GOLONGAN VIB",
+          "vehicle_desc": "Kendaraan barang (mobil/truk barang/tangki, kereta penarik tanpa gandengan) <10 meter",
+          "vehicle_capacity": "3"
+        },
+        "zone": {
+          "name": "KETAPANG",
+          "city": "JAWA TIMUR",
+          "time_zone": "WIB"
+        }
+      },
+      "fare": {
+        "vehicle": {
+          "count": 1,
+          "amount": 511100,
+          "totalAmount": 511100,
+          "currency": "IDR",
+          "label": "GOLONGAN VIB"
+        }
+      },
+      "totalFare": {
+        "amount": 511100,
+        "currency": "IDR"
+      },
+      "availability": {
+        "quota": 422,
+        "used_quota": "178",
+        "available_quota": 422,
+        "id": "337200",
+        "reserved_id": null,
+        "available_quota_reserved": "0"
+      },
+      "disclaimer": {
+        "shipSchedule": "Nama Kapal akan diinformasikan saat tiba di pelabuhan",
+        "policy": "&lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;&lt;u&gt;Kebijakan:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n\n&lt;ol&gt;\n\t&lt;li style=&quot;text-align:justify&quot;&gt;Kendaraan &lt;strong&gt;&lt;em&gt;Over Dimension&lt;/em&gt; dan &lt;em&gt;Over Loading&lt;/em&gt;&lt;/strong&gt; &lt;strong&gt;(ODOL) &lt;/strong&gt;tidak diperkenankan memasuki area pelabuhan;&lt;/li&gt;\n\t&lt;li style=&quot;text-align:justify&quot;&gt;Anda sudah dapat&amp;nbsp;&lt;strong&gt;Masuk Pelabuhan (Check In) mulai dari 2 (dua) jam sebelum&lt;/strong&gt; Jadwal Masuk Pelabuhan yang Anda pilih;&lt;/li&gt;\n\t&lt;li style=&quot;text-align:justify&quot;&gt;Tiket akan &lt;strong&gt;hangus (expired)&lt;/strong&gt; apabila Anda belum Masuk Pelabuhan (Check In) &lt;strong&gt;hingga&amp;nbsp;melewati batas waktu&lt;/strong&gt; Jadwal Masuk Pelabuhan yang Anda pilih;&lt;/li&gt;\n\t&lt;li style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;Nama Penumpang harus sesuai &lt;/strong&gt;dengan&lt;strong&gt; Kartu Identitas&lt;/strong&gt; (KTP/SIM/Passpor/Dll);&lt;/li&gt;\n\t&lt;li style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;Jumlah Penumpang &lt;/strong&gt;dan &lt;strong&gt;Nomor Polisi Kendaraan&lt;/strong&gt; &lt;strong&gt;harus sesuai&lt;/strong&gt; dengan Jumlah Penumpang dan Nomor Polisi Kendaraan yang akan &lt;strong&gt;menyeberang&lt;/strong&gt;;&lt;/li&gt;\n\t&lt;li style=&quot;text-align:justify&quot;&gt;Jadwal dan nama kapal keberangkatan dapat berubah sewaktu-waktu mengikuti kondisi cuaca dan operasional pelabuhan tanpa pemberitahuan terlebih dahulu.&lt;/li&gt;\n&lt;/ol&gt;\n"
+      },
+      "fareId": "2Ea4cOZA8vmQo4QyJc6c7BVMLjuvp/4C1X2J6DHb2/vb9NFkEOuvUovfwdT8NETKWWQxvYz6/iLOmZcGns9Zjboi57FM638/cfbSes7+y28KA3qKpHfLuA4r66MRPU/DSItEHFEoOcKnspHQpKAnvQV63LN7bH16WJ48Rc1PdxseViLno1Kbur6WtiE/cp2rFzVQRV0/ORGcJqpDLLhpi9lXwVu2iMBmBrNa1TsF/0p8Vm4OuOQP1WWK58hxj2CHIG7kbkG4pNhktj/60o/gRV+fT4xN1iL6lkT8XT+w6iXlfY2COlSItmbYkRtqQfWuWwCr3NK5zyD9bmsAPwfwys+NX+sueqXwKjVy+1xVequf3p4QIdxis6AnpJ3A4cqLXFw2ACtP62jdJBGvR6RF0ZS6hIjwmZC1mR1jDtspkQcm6o2KD95XMdZ7P0EgbfID9Bs1nNWH/9UNP6O/nRQ7b9l9EM84kLQBdfmGuCs8JpgPxS3PvFrdRLkYMtQWjQEoCeejLjJ+XJG1XButIazdAXx5kBomvCG5LziA131spAi6byJF8SUKFXZvwlom0bsfYuRsYQQW3tPpzbU/4sgrpVf5Wvy0bED4y05E9jrLQnWnGD4z4+V9pdIMHptYzGvDszU/C+Tdb/qFpfVx0o2UpOS5q+7jp2DCVmc+IGySMp3EMJAJMyQuIpxaFQfctWDrOqE9yNHtUZhBPY2oghd7eKul3OH4QuYnaRzuAP5vndVr9VCeIZ+dt82AzAW+0NIj+mZe86G0xCPU3vE9Ja2iy3dqyW12PGg1UjmEFKygLG9MRzcpGXZpmTBHfEpZSVWEhar1cKj9N+3+IZh/v66IL3g3BS4hJaEuBh31CdpRzZg="
+    }
+  }
+}

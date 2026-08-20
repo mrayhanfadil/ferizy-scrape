@@ -1,0 +1,70 @@
+{
+  "origin": "2",
+  "destination": "3",
+  "ship_class": "1",
+  "vehicle_class": "15",
+  "depart_date": "2026-08-20",
+  "depart_time_start": "11:00:00",
+  "depart_time_end": "12:00:00",
+  "kuota": "831",
+  "response": {
+    "code": 1,
+    "message": "success",
+    "data": {
+      "quota": {
+        "available_quota_label": "Tiket Tersedia",
+        "unavailable_quota_label": "Kuota Telah Habis",
+        "quota_count": "10"
+      },
+      "scheduleInfo": {
+        "origin_name": "Merak",
+        "destination_name": "Bakauheni",
+        "depart_date": "2026-08-20",
+        "depart_time_start": "11:00:00",
+        "depart_time_end": "12:00:00",
+        "kuota": "831",
+        "service_name": "Kendaraan",
+        "ship_class_name": "Reguler",
+        "ship_class_id": "1",
+        "vehicle": {
+          "class_id": "15",
+          "length": 0,
+          "vehicle_name": "GOLONGAN VII",
+          "vehicle_desc": "Kendaraan (mobil barang, truk tronton, tangki, kereta penarik dengan gandengan, kendaraan alat berat) <12 meter",
+          "vehicle_capacity": "3"
+        },
+        "zone": {
+          "name": "MERAK",
+          "city": "BANTEN",
+          "time_zone": "WIB"
+        }
+      },
+      "fare": {
+        "vehicle": {
+          "count": 1,
+          "amount": 1860400,
+          "totalAmount": 1860400,
+          "currency": "IDR",
+          "label": "GOLONGAN VII"
+        }
+      },
+      "totalFare": {
+        "amount": 1860400,
+        "currency": "IDR"
+      },
+      "availability": {
+        "quota": 831,
+        "used_quota": "169",
+        "available_quota": 831,
+        "id": "337080",
+        "reserved_id": null,
+        "available_quota_reserved": "0"
+      },
+      "disclaimer": {
+        "shipSchedule": "Nama Kapal akan diinformasikan saat tiba di pelabuhan",
+        "policy": "&lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;&lt;u&gt;Kebijakan:&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;\n\n&lt;ol&gt;\n\t&lt;li style=&quot;text-align:justify&quot;&gt;Kendaraan &lt;strong&gt;&lt;em&gt;Over Dimension&lt;/em&gt; dan &lt;em&gt;Over Loading&lt;/em&gt;&lt;/strong&gt; &lt;strong&gt;(ODOL) &lt;/strong&gt;tidak diperkenankan memasuki area pelabuhan;&lt;/li&gt;\n\t&lt;li style=&quot;text-align:justify&quot;&gt;Anda sudah dapat&amp;nbsp;&lt;strong&gt;Masuk Pelabuhan (Check In) mulai dari 2 (dua) jam sebelum&lt;/strong&gt; Jadwal Masuk Pelabuhan yang Anda pilih;&lt;/li&gt;\n\t&lt;li style=&quot;text-align:justify&quot;&gt;Tiket akan &lt;strong&gt;hangus (expired)&lt;/strong&gt; apabila Anda belum Masuk Pelabuhan (Check In) &lt;strong&gt;hingga&amp;nbsp;melewati batas waktu&lt;/strong&gt; Jadwal Masuk Pelabuhan yang Anda pilih;&lt;/li&gt;\n\t&lt;li style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;Nama Penumpang harus sesuai &lt;/strong&gt;dengan&lt;strong&gt; Kartu Identitas&lt;/strong&gt; (KTP/SIM/Passpor/Dll);&lt;/li&gt;\n\t&lt;li style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;Jumlah Penumpang &lt;/strong&gt;dan &lt;strong&gt;Nomor Polisi Kendaraan&lt;/strong&gt; &lt;strong&gt;harus sesuai&lt;/strong&gt; dengan Jumlah Penumpang dan Nomor Polisi Kendaraan yang akan &lt;strong&gt;menyeberang&lt;/strong&gt;;&lt;/li&gt;\n\t&lt;li style=&quot;text-align:justify&quot;&gt;Jadwal dan nama kapal keberangkatan dapat berubah sewaktu-waktu mengikuti kondisi cuaca dan operasional pelabuhan tanpa pemberitahuan terlebih dahulu.&lt;/li&gt;\n&lt;/ol&gt;\n"
+      },
+      "fareId": "5qbp2eMgCw5Sh5s7rL3a4r86eYc9ZzNPTQ3/4lPfAyQDPWlk5WI+CND8+8Aa/+G4RpQm9Xz2+lWNwv6J66JPbD/6iv61LWkhYuHcqjxXorvS6RQRs2lQb0pOvVp6HkO8n2VaSLSl/AgXm/YIbqZ2xABjP0cYVskIzhFrEvUDdEyhrJPjcu91JShAXG0WxZY/BHmh3UMncD5j5myyIDUZDxrOID/3RT4Iq2rNBijzzCVCeND096aIZFFdR6tOG6BuCnfkjmPyAaC+jz7lwaqeyO9G4KRq6Baao4IMSlN3dyRPwDw9wRD9APpaNZS+GCR/+5LmvP234CcxFtvZwuwrn4sq40Je7VrqhuMZ1uhwJSz5ELLl/sJYj4KeEqOSofYCevqvghYbFvBHDJskC/HrZBy+tgpJdIFn2X3YzAF+YiAe0f/IAq0fcOl1aLs7nUFLEyd4e+A9p7ZFqDoGIvZB9SfPgN9EolUhZGemUlCo7FJMOoqLq8Svd1cWIjZ8iXiTw04I1bmrTR743a3ctGozux1YT7DvFuXADX5qWYyw4Zu64h5nAmqRa1SqtemZMKURqCkrQ9h5KMYgLislvcPmOyZI78ZOePFvWzpHqlxUrIqaoGoFPdtRNlfIxzcT6yp1stu5DLGb+okBOidoBhKcPmuqosRRmSc1zTOEP8AIiNny7HJSXJQx49y3XE1CRqL/ThQrqNhvyuWRmaL2iW3iyUmBFx+k3e6hKgMdj88UlXwepW7LdNdLidHJirPdQBqntBLLgKTRFGRJdaNk+6nrbxPIg707mJtGeAuDSZa0dHZUeg99WdC1OqinAO5EsfaEiJddzHXBlnFg3JYxCzd0SSRhWq6fb60JYEi0kcfI4AoJsYUYKGtEumi72k6GNNXjG+d/Ipqhi9wZabQhj9mnDg=="
+    }
+  }
+}
