@@ -2,7 +2,8 @@
 
 Defensive-only scrape of **ASDP Ferizy** public master data. Two portals, one unified dataset. **No authenticated / personal / order / payment data**.
 
-> **Retrieved:** `2026-08-19T12:18:45+07:00` (WIB) · **Sources:** `https://trip.ferizy.com/` (Nuxt + `api-gateway-1.ferizy.com`) + `https://ferizy.com/` (classic PHP) · **Archive:** `ferizy-unified-scrape.zip` — **629 files, 3.18 MB sanitized**
+- **Live Explorer:** https://ferizy-explorer.pages.dev
+- **Retrieved:** `2026-08-19T12:18:45+07:00` (WIB) · **Sources:** `https://trip.ferizy.com/` (Nuxt + `api-gateway-1.ferizy.com`) + `https://ferizy.com/` (classic PHP) · **Archive:** `ferizy-unified-scrape.zip` — **629 files, 3.18 MB sanitized**
 
 ## Why two portals?
 
@@ -24,10 +25,10 @@ The `select2` dropdown you flagged (`Bakauheni, Lampung / Gilimanuk, Bali / Keta
 | Portal | Origins | Directed OD | OD × Ship | Notes |
 |---|---:|---:|---:|---|
 | **trip.ferizy.com** | **65** | **140** | 140 service_type (56 checkin OK / 84 `Data not found`) | Sulawesi/NTT/Maluku/Kalimantan/Bali-NTB etc. |
-| **ferizy.com (classic)** | **4** | **4** | **6** | `Merak ↔ Bakauheni` (Express+Reguler), `Gilimanuk ↔ Ketapang` (Reguler) |
+| **ferizy.com (classic)** | **4** | **4** | **6** | `Merak ↔ Bakauheni` (Express+Reguler), `Gilimanuk ↔ Ketapang` (Reguler) · 72 live fares (6 OD×Ship ×12 VC, 2026-08-20) |
 | **Unified** | **69** | **146** | — | Deduplicated harbours, `classic-*` IDs for classic |
 
-Other unified totals: **2,028** service detail rows · **4,513** check-in schedule rows · **19** parameter files · **14** crawled pages · **4** media · **22** misc public probes (5 × HTTP 200) · **9** live fare rows (classic, 2026-08-20).
+Other unified totals: **2,028** service detail rows · **4,513** check-in schedule rows · **19** parameter files · **14** crawled pages · **4** media · **22** misc public probes (5 × HTTP 200) · **72** live fare rows (classic, 2026-08-20).
 
 ## File layout
 
@@ -42,7 +43,8 @@ trip-ferizy-scrape/                  ← canonical live folder (this repo)
 │   │   └── checkin.json             ← 56 OK / 84 Data not found
 │   ├── misc_public/*.json           ← 22 probes (5 OK: homepage/range/age, homepage/service-type, vaccine/self-assesment, logistic/form-parameter-setting, ticket/parameter)
 │   ├── parameters/*.json            ← 19
-│   └── ferizy-classic/              ← 33 classic raw JSON (init, route_origin_*, ship_class_*, times_*, timesandkuota_*, fare_*)
+│   ├── ferizy-classic-all/          ← 72 full matrix fare JSON envelopes
+│   └── ferizy-classic/              ← 96 classic raw JSON (init, route_origin_*, ship_class_*, times_*, timesandkuota_*, fare_*)
 ├── exports/
 │   ├── origins.csv                  ← 65 trip origins (harbourId,harbourName,province)
 │   ├── routes.csv                   ← 140 trip routes (routeId,originHarbourId,originHarbourName,originProvince,origin,destination,destinationProvince)
@@ -51,11 +53,14 @@ trip-ferizy-scrape/                  ← canonical live folder (this repo)
 │   ├── parameters.csv               ← 19 rows
 │   ├── unified_origins.csv          ← 69 (adds classic Bakauheni/Merak/Gilimanuk/Ketapang as classic-3/2/4/5)
 │   ├── unified_routes.csv           ← 146 (140 trip + 6 classic `classic-{o}-{d}-{ship}`)
-│   ├── unified_fares_ferizy_classic.csv ← 9 live fares 2026-08-20 (see below)
+│   ├── unified_fares_ferizy_classic.csv ← 72 live fares (73 lines with header) 2026-08-20 (see below)
+│   ├── unified_fares_ferizy_classic_all_2026-08-20.csv ← 144 test matrix (72 OK / 72 empty Pejalan Kaki)
 │   └── ferizy-classic/ferizy_classic_routes.csv ← 6 OD×Ship
 ├── pages/                           ← 14 static page snapshots
 ├── media/                           ← 4 assets
 ├── raw/                             ← _nuxt entry 84d59672.js + chunks (AIFSignature slice 379745..381033 preserved)
+├── scripts/
+│   └── scrape_fares_all_vehicle_classes.py ← 3-step pipeline scraper (timesandkuota→ship_schedule→schedule)
 ├── final_manifest.json              ← unified counts + file map + limitations
 ├── scrape_master.py                 ← trip.ferizy.com master (origin→destination→service/checkin, retry 5×, checkpoint each response)
 ├── scrape_route_metadata*.py        ← trip route metadata (fast/4workers variants)
@@ -74,25 +79,30 @@ Classic-only mirror (prior to merge) preserved at `~/ferizy-scrape/` — already
 
 **`exports/unified_fares_ferizy_classic.csv`** — `origin,destination,shipClass,vehicleClass,departDate,departTime,kuota,fareAmount,totalFare,currency,sourceFile`
 
+**`exports/unified_fares_ferizy_classic_all_2026-08-20.csv`** — full 144 test matrix with `status,statusCode,message` (72 OK / 72 empty Pejalan Kaki combos / 0 failed)
+
 **`exports/service_types.csv`** — trip service metadata (Pejalan Kaki / Kendaraan, Gol I–IX, Dewasa/Anak/Bayi)
 
 **`exports/checkin_schedules.jsonl`** — trip check-in windows (`tanggalMulai/tanggalSelesai` + `data[]: {dateDeparture,timeDeparture,scheduleId}`)
 
-## Live fare — Bakauheni ↔ Merak Gol 5 (verified 2026-08-20)
+## Live fare — full 12 Golongan (verified 2026-08-20)
 
-Via `POST https://ferizy.com/schedule` with encrypted `window.searchData.data` (passphrase `60b858fe8ae649057bb997c4`, `ship_schedule?origin=…&vehicle_class=…` → `window.searchData.data` → decrypt server-side). Sample `data/fare_3_2_2_vc11_2026-08-20.json`:
+| Golongan | Description | Bakauheni → Merak (Express) | Bakauheni → Merak (Reguler) | Gilimanuk → Ketapang (Reguler) |
+|---|---|---:|---:|---:|
+| GOLONGAN I | Sepeda Kayuh | Rp 85.000 | Rp 26.500 | Rp 11.000 |
+| GOLONGAN II | Sepeda Motor <500cc | Rp 129.677 | Rp 62.100 | Rp 31.600 |
+| GOLONGAN III | Sepeda Motor >500cc / Roda 3 | Rp 187.853 | Rp 133.000 | Rp 45.000 |
+| GOLONGAN IVA | Penumpang <5m | Rp 749.128 | Rp 481.800 | Rp 213.400 |
+| GOLONGAN IVB | Barang <5m | Rp 491.800 | Rp 447.800 | Rp 182.400 |
+| GOLONGAN VA | Penumpang <7m | Rp 1.225.928 | Rp 963.800 | Rp 420.400 |
+| GOLONGAN VB | Barang <7m | Rp 904.923 | Rp 835.300 | Rp 309.500 |
+| GOLONGAN VIA | Penumpang <10m | Rp 2.015.985 | Rp 1.594.800 | Rp 637.800 |
+| GOLONGAN VIB | Barang <10m | Rp 1.366.620 | Rp 1.285.200 | Rp 511.100 |
+| GOLONGAN VII | Tronton <12m | Rp 1.975.580 | Rp 1.860.400 | Rp 630.300 |
+| GOLONGAN VIII | Gandeng <16m | Rp 2.619.845 | Rp 2.452.400 | Rp 888.300 |
+| GOLONGAN IX | Gandeng >16m | Rp 3.998.920 | Rp 3.755.000 | Rp 1.229.600 |
 
-| Route | Layanan | GOL VA (<7 m penumpang) | GOL VB (<7 m barang) | Kuota | Slot |
-|---|---:|---:|---:|---:|---|
-| **Bakauheni → Merak Express** | Express (id 2) | **Rp 1.225.928** | **Rp 904.923** | 400 | 00:18 discrete |
-| **Merak → Bakauheni Express** | Express (id 2) | **Rp 1.225.928** | **Rp 904.923** | 400 | 00:54 discrete |
-| Bakauheni → Merak Reguler | Reguler (id 1) | Rp 963.800 | Rp 835.300 | 1000 | 01:00–02:00 hourly |
-| Gilimanuk → Ketapang Reguler | Reguler | Rp 420.400 | — | 399 | 01:00–02:00 |
-| Ketapang → Gilimanuk Reguler | Reguler | Rp 420.400 | — | 600 | 01:00–02:00 |
-
-Raw envelopes: `data/ferizy-classic/fare_*.json` + `data/ferizy-classic/timesandkuota_*.json` + `data/ferizy-classic/times_*.json`.
-
-Schedule shape: **Express** = 38–39 discrete departures/day (00:15, 00:18, 00:54, 01:30 …), kuota 400. **Reguler** = 24 hourly windows (00:00–01:00 … 23:00–24:00), kuota 1000 (Bali 399/600).
+Raw envelopes: `data/ferizy-classic-all/fares/fare_*.json` + `data/ferizy-classic/fare_*.json` (72 JSON files). Pipeline: 3-step `POST /schedule/timesandkuota` → `GET /ship_schedule` → `POST /schedule` with dynamic slot selection.
 
 ## Reproduce
 
