@@ -1,0 +1,274 @@
+{
+  "source": "https://trip.ferizy.com/",
+  "start_date": "2026-08-20",
+  "end_date": "2026-08-26",
+  "dates_requested": 7,
+  "dates_completed": 7,
+  "dates": [
+    {
+      "date": "2026-08-20",
+      "returncode": 0,
+      "elapsed_seconds": 894.09,
+      "manifest": "exports/trip_fares_manifest_2026-08-20.json",
+      "daily": {
+        "source": "https://trip.ferizy.com/",
+        "gateway": "https://api-gateway-1.ferizy.com",
+        "target_date": "2026-08-20",
+        "total_routes": 140,
+        "routes_with_ok_fares": 49,
+        "total_tested_services": 2031,
+        "total_ok_fares": 742,
+        "total_empty_no_schedule": 1281,
+        "total_errors": 5,
+        "elapsed_seconds": 892.78,
+        "exported_files": [
+          "exports/trip_fares_fullscale_2026-08-20.csv",
+          "exports/trip_fares_fullscale_all_2026-08-20.csv"
+        ]
+      }
+    },
+    {
+      "date": "2026-08-21",
+      "returncode": 0,
+      "elapsed_seconds": 650.38,
+      "manifest": "exports/trip_fares_manifest_2026-08-21.json",
+      "daily": {
+        "source": "https://trip.ferizy.com/",
+        "gateway": "https://api-gateway-1.ferizy.com",
+        "target_date": "2026-08-21",
+        "total_routes": 140,
+        "routes_with_ok_fares": 39,
+        "total_tested_services": 2003,
+        "total_ok_fares": 597,
+        "total_empty_no_schedule": 1396,
+        "total_errors": 7,
+        "elapsed_seconds": 650.16,
+        "exported_files": [
+          "exports/trip_fares_fullscale_2026-08-21.csv",
+          "exports/trip_fares_fullscale_all_2026-08-21.csv"
+        ]
+      }
+    },
+    {
+      "date": "2026-08-22",
+      "returncode": 0,
+      "elapsed_seconds": 515.05,
+      "manifest": "exports/trip_fares_manifest_2026-08-22.json",
+      "daily": {
+        "source": "https://trip.ferizy.com/",
+        "gateway": "https://api-gateway-1.ferizy.com",
+        "target_date": "2026-08-22",
+        "total_routes": 140,
+        "routes_with_ok_fares": 34,
+        "total_tested_services": 1984,
+        "total_ok_fares": 516,
+        "total_empty_no_schedule": 1460,
+        "total_errors": 5,
+        "elapsed_seconds": 514.86,
+        "exported_files": [
+          "exports/trip_fares_fullscale_2026-08-22.csv",
+          "exports/trip_fares_fullscale_all_2026-08-22.csv"
+        ]
+      }
+    },
+    {
+      "date": "2026-08-23",
+      "returncode": 0,
+      "elapsed_seconds": 603.58,
+      "manifest": "exports/trip_fares_manifest_2026-08-23.json",
+      "daily": {
+        "source": "https://trip.ferizy.com/",
+        "gateway": "https://api-gateway-1.ferizy.com",
+        "target_date": "2026-08-23",
+        "total_routes": 140,
+        "routes_with_ok_fares": 35,
+        "total_tested_services": 1997,
+        "total_ok_fares": 529,
+        "total_empty_no_schedule": 1460,
+        "total_errors": 5,
+        "elapsed_seconds": 603.37,
+        "exported_files": [
+          "exports/trip_fares_fullscale_2026-08-23.csv",
+          "exports/trip_fares_fullscale_all_2026-08-23.csv"
+        ]
+      }
+    },
+    {
+      "date": "2026-08-24",
+      "returncode": 0,
+      "elapsed_seconds": 627.91,
+      "manifest": "exports/trip_fares_manifest_2026-08-24.json",
+      "daily": {
+        "source": "https://trip.ferizy.com/",
+        "gateway": "https://api-gateway-1.ferizy.com",
+        "target_date": "2026-08-24",
+        "total_routes": 140,
+        "routes_with_ok_fares": 30,
+        "total_tested_services": 1968,
+        "total_ok_fares": 452,
+        "total_empty_no_schedule": 1508,
+        "total_errors": 5,
+        "elapsed_seconds": 627.56,
+        "exported_files": [
+          "exports/trip_fares_fullscale_2026-08-24.csv",
+          "exports/trip_fares_fullscale_all_2026-08-24.csv"
+        ]
+      }
+    },
+    {
+      "date": "2026-08-25",
+      "returncode": 0,
+      "elapsed_seconds": 649.12,
+      "manifest": "exports/trip_fares_manifest_2026-08-25.json",
+      "daily": {
+        "source": "https://trip.ferizy.com/",
+        "gateway": "https://api-gateway-1.ferizy.com",
+        "target_date": "2026-08-25",
+        "total_routes": 140,
+        "routes_with_ok_fares": 31,
+        "total_tested_services": 2005,
+        "total_ok_fares": 469,
+        "total_empty_no_schedule": 1528,
+        "total_errors": 5,
+        "elapsed_seconds": 648.14,
+        "exported_files": [
+          "exports/trip_fares_fullscale_2026-08-25.csv",
+          "exports/trip_fares_fullscale_all_2026-08-25.csv"
+        ]
+      }
+    },
+    {
+      "date": "2026-08-26",
+      "returncode": 0,
+      "elapsed_seconds": 653.41,
+      "manifest": "exports/trip_fares_manifest_2026-08-26.json",
+      "daily": {
+        "source": "https://trip.ferizy.com/",
+        "gateway": "https://api-gateway-1.ferizy.com",
+        "target_date": "2026-08-26",
+        "total_routes": 140,
+        "routes_with_ok_fares": 26,
+        "total_tested_services": 2031,
+        "total_ok_fares": 395,
+        "total_empty_no_schedule": 1628,
+        "total_errors": 5,
+        "elapsed_seconds": 653.03,
+        "exported_files": [
+          "exports/trip_fares_fullscale_2026-08-26.csv",
+          "exports/trip_fares_fullscale_all_2026-08-26.csv"
+        ]
+      }
+    }
+  ],
+  "union": {
+    "start_date": "2026-08-20",
+    "end_date": "2026-08-26",
+    "dates": [
+      "2026-08-20",
+      "2026-08-21",
+      "2026-08-22",
+      "2026-08-23",
+      "2026-08-24",
+      "2026-08-25",
+      "2026-08-26"
+    ],
+    "dates_completed": 7,
+    "routes_expected": 140,
+    "routes_present": 140,
+    "routes_with_any_ok": 63,
+    "routes_without_ok": [
+      "1023206",
+      "106113",
+      "1407",
+      "174191",
+      "174531",
+      "177342",
+      "198563",
+      "198568",
+      "199436",
+      "199477",
+      "199478",
+      "199559",
+      "200201",
+      "200436",
+      "201027",
+      "201200",
+      "202204",
+      "208211",
+      "27",
+      "284296",
+      "296284",
+      "296300",
+      "31383",
+      "344049",
+      "35",
+      "40",
+      "42",
+      "436199",
+      "436200",
+      "441440",
+      "46",
+      "479541",
+      "5335",
+      "5350",
+      "5355",
+      "5363",
+      "5369",
+      "5373",
+      "5378",
+      "5408",
+      "5409",
+      "5410",
+      "5411051",
+      "5414",
+      "5415",
+      "5417",
+      "5418",
+      "5422",
+      "5425",
+      "5426",
+      "5427",
+      "5430",
+      "5431",
+      "5432",
+      "5433",
+      "5434",
+      "5435",
+      "5436",
+      "5437",
+      "5438",
+      "5439",
+      "5442",
+      "5443",
+      "5471",
+      "5476",
+      "5488",
+      "55057",
+      "55059",
+      "5513",
+      "5514",
+      "5515",
+      "5641003",
+      "5641004",
+      "5641005",
+      "58",
+      "83313",
+      "91"
+    ],
+    "route_service_keys": 2029,
+    "route_service_keys_with_any_ok": 959,
+    "vehicle_service_keys": 1622,
+    "vehicle_service_keys_with_any_ok": 760,
+    "live_fare_rows": 3700,
+    "matrix_rows": 14005,
+    "status_counts": {
+      "NO_SERVICE_TYPES": 21,
+      "SCHEDULE_DATA_NOT_FOUND": 7616,
+      "OK": 3700,
+      "NO_SCHEDULE_FOR_DATE": 2631,
+      "HTTP_400": 37
+    },
+    "clean_export": "exports/trip_fares_snapshot_2026-08-20_2026-08-26.csv",
+    "matrix_export": "exports/trip_fares_snapshot_matrix_2026-08-20_2026-08-26.csv"
+  }
+}

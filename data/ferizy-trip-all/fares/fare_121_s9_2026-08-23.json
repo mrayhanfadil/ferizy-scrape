@@ -1,0 +1,55 @@
+{
+  "request": {
+    "email": "",
+    "routeId": "121",
+    "departure": {
+      "scheduleId": "2627160930380750696",
+      "date": "2026-08-23",
+      "time": "04:30:00"
+    },
+    "services": {
+      "passengers": [
+        {
+          "serviceId": "9",
+          "capacity": 1
+        }
+      ],
+      "vehicleId": ""
+    }
+  },
+  "status_code": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T13:14:12.271867+07:00",
+  "body": {
+    "status": true,
+    "message": "Ship schedule found.",
+    "originDestination": "Pamatata - Bira",
+    "serviceType": "Pejalan Kaki",
+    "totalPassengers": "1 Penumpang",
+    "checkIn": {
+      "scheduleId": "2627160930380750696",
+      "date": "2026-08-23",
+      "time": "04:30:00"
+    },
+    "serviceUserType": "Reguler",
+    "totalPrice": 3700.0,
+    "totalPriceBeforeReduction": 3700.0,
+    "totalReduction": 0.0,
+    "pricingDetails": [
+      {
+        "serviceId": 9,
+        "serviceName": "Bayi Ekonomi",
+        "quantity": 1,
+        "reductionConfig": null,
+        "priceBeforeReduction": 3700.0,
+        "reduction": 0.0,
+        "price": 3700.0,
+        "quota": 30,
+        "description": "BERBAYAR",
+        "subTotal": 3700.0,
+        "subTotalReduction": 0.0
+      }
+    ],
+    "ships": []
+  }
+}

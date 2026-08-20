@@ -3,23 +3,20 @@
     "method": "GET",
     "url": "https://api-gateway-1.ferizy.com/ferizy/ticket/schedule/check_in",
     "routeId": "3002",
-    "headers_extra": {
-      "AIFRouteId": "3002",
-      "AIFDeviceTime": "2026-08-19T11:27:58+07:00"
-    }
+    "device_time": "2026-08-20T14:55:54+07:00"
   },
   "status": 200,
   "content_type": "application/json",
-  "retrieved_at_wib": "2026-08-19T11:27:59.485997+07:00",
+  "retrieved_at_wib": "2026-08-20T14:55:55.129091+07:00",
   "body": {
     "responseCode": "200",
     "responseMessage": "Ferizy Service - RsRsScheduleCheckInRf Success",
-    "responseReferenceNo": "b34d8e221e82489ab0253c5e59164cec",
+    "responseReferenceNo": "17388c8073524b5aa889a683a941f15e",
     "jadwalMasukPelabuhan": {
       "id": "jadwal-masuk-pelabuhan",
       "name": "Jadwal Masuk Pelabuhan (Check In)",
-      "tanggalMulai": "2026-08-20",
-      "tanggalSelesai": "2036-06-27",
+      "tanggalMulai": "2026-08-21",
+      "tanggalSelesai": "2036-06-28",
       "data": [
         {
           "routeId": "3002",
@@ -61,6 +58,108 @@
           "routeId": "3002",
           "scheduleId": "2627160930380735049",
           "dateDeparture": "2026-08-31",
+          "timeDeparture": "07:00"
+        },
+        {
+          "routeId": "3002",
+          "scheduleId": "2627160930380754165",
+          "dateDeparture": "2026-09-02",
+          "timeDeparture": "07:00"
+        },
+        {
+          "routeId": "3002",
+          "scheduleId": "2627160930380754166",
+          "dateDeparture": "2026-09-04",
+          "timeDeparture": "06:30"
+        },
+        {
+          "routeId": "3002",
+          "scheduleId": "2627160930380754167",
+          "dateDeparture": "2026-09-05",
+          "timeDeparture": "07:00"
+        },
+        {
+          "routeId": "3002",
+          "scheduleId": "2627160930380754168",
+          "dateDeparture": "2026-09-07",
+          "timeDeparture": "07:00"
+        },
+        {
+          "routeId": "3002",
+          "scheduleId": "2627160930380754169",
+          "dateDeparture": "2026-09-09",
+          "timeDeparture": "07:00"
+        },
+        {
+          "routeId": "3002",
+          "scheduleId": "2627160930380754170",
+          "dateDeparture": "2026-09-11",
+          "timeDeparture": "06:30"
+        },
+        {
+          "routeId": "3002",
+          "scheduleId": "2627160930380754171",
+          "dateDeparture": "2026-09-12",
+          "timeDeparture": "07:00"
+        },
+        {
+          "routeId": "3002",
+          "scheduleId": "2627160930380754172",
+          "dateDeparture": "2026-09-14",
+          "timeDeparture": "07:00"
+        },
+        {
+          "routeId": "3002",
+          "scheduleId": "2627160930380754173",
+          "dateDeparture": "2026-09-16",
+          "timeDeparture": "07:00"
+        },
+        {
+          "routeId": "3002",
+          "scheduleId": "2627160930380754174",
+          "dateDeparture": "2026-09-18",
+          "timeDeparture": "06:30"
+        },
+        {
+          "routeId": "3002",
+          "scheduleId": "2627160930380754175",
+          "dateDeparture": "2026-09-19",
+          "timeDeparture": "07:00"
+        },
+        {
+          "routeId": "3002",
+          "scheduleId": "2627160930380754177",
+          "dateDeparture": "2026-09-21",
+          "timeDeparture": "07:00"
+        },
+        {
+          "routeId": "3002",
+          "scheduleId": "2627160930380754178",
+          "dateDeparture": "2026-09-23",
+          "timeDeparture": "07:00"
+        },
+        {
+          "routeId": "3002",
+          "scheduleId": "2627160930380754179",
+          "dateDeparture": "2026-09-25",
+          "timeDeparture": "06:30"
+        },
+        {
+          "routeId": "3002",
+          "scheduleId": "2627160930380754180",
+          "dateDeparture": "2026-09-26",
+          "timeDeparture": "07:00"
+        },
+        {
+          "routeId": "3002",
+          "scheduleId": "2627160930380754182",
+          "dateDeparture": "2026-09-28",
+          "timeDeparture": "07:00"
+        },
+        {
+          "routeId": "3002",
+          "scheduleId": "2627160930380754183",
+          "dateDeparture": "2026-09-30",
           "timeDeparture": "07:00"
         }
       ]

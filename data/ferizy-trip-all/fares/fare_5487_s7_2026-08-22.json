@@ -1,0 +1,55 @@
+{
+  "request": {
+    "email": "",
+    "routeId": "5487",
+    "departure": {
+      "scheduleId": "2627160930380750595",
+      "date": "2026-08-22",
+      "time": "20:00:00"
+    },
+    "services": {
+      "passengers": [
+        {
+          "serviceId": "7",
+          "capacity": 1
+        }
+      ],
+      "vehicleId": ""
+    }
+  },
+  "status_code": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T13:01:03.873383+07:00",
+  "body": {
+    "status": true,
+    "message": "Ship schedule found.",
+    "originDestination": "Namlea - Galala",
+    "serviceType": "Pejalan Kaki",
+    "totalPassengers": "1 Penumpang",
+    "checkIn": {
+      "scheduleId": "2627160930380750595",
+      "date": "2026-08-22",
+      "time": "20:00:00"
+    },
+    "serviceUserType": "Reguler",
+    "totalPrice": 123600.0,
+    "totalPriceBeforeReduction": 123600.0,
+    "totalReduction": 0.0,
+    "pricingDetails": [
+      {
+        "serviceId": 7,
+        "serviceName": "Dewasa Ekonomi",
+        "quantity": 1,
+        "reductionConfig": null,
+        "priceBeforeReduction": 123600.0,
+        "reduction": 0.0,
+        "price": 123600.0,
+        "quota": 0,
+        "description": "BERBAYAR",
+        "subTotal": 123600.0,
+        "subTotalReduction": 0.0
+      }
+    ],
+    "ships": []
+  }
+}

@@ -3,12 +3,14 @@
     "method": "GET",
     "url": "https://api-gateway-1.ferizy.com/ferizy/ticket/schedule/check_in",
     "routeId": "5442",
-    "device_time": "2026-08-20T11:01:44+07:00"
+    "device_time": "2026-08-20T15:14:05+07:00"
   },
-  "status": 0,
-  "content_type": "error",
-  "retrieved_at_wib": "2026-08-20T11:02:38.941356+07:00",
+  "status": 404,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T15:14:21.535596+07:00",
   "body": {
-    "error": "ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))"
+    "responseCode": "404",
+    "responseMessage": "Data not found",
+    "responseReferenceNo": "84da3b1eb9e44ff48841352c058a1053"
   }
 }

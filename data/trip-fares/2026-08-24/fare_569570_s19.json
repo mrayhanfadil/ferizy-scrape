@@ -1,0 +1,55 @@
+{
+  "request": {
+    "email": "",
+    "routeId": "569570",
+    "departure": {
+      "scheduleId": "2627160930380748635",
+      "date": "2026-08-24",
+      "time": "07:00:00"
+    },
+    "services": {
+      "passengers": [
+        {
+          "serviceId": "7",
+          "capacity": 1
+        }
+      ],
+      "vehicleId": "19"
+    }
+  },
+  "status_code": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T13:29:15.552000+07:00",
+  "body": {
+    "status": true,
+    "message": "Ship schedule found.",
+    "originDestination": "Tanjung Api Api - Tanjung Kalian",
+    "serviceType": "Kendaraan",
+    "totalPassengers": "1 Penumpang",
+    "checkIn": {
+      "scheduleId": "2627160930380748635",
+      "date": "2026-08-24",
+      "time": "07:00:00"
+    },
+    "serviceUserType": "Reguler",
+    "totalPrice": 2599200.0,
+    "totalPriceBeforeReduction": 2599200.0,
+    "totalReduction": 0.0,
+    "pricingDetails": [
+      {
+        "serviceId": 19,
+        "serviceName": "Golongan VI - Barang",
+        "quantity": 1,
+        "reductionConfig": null,
+        "priceBeforeReduction": 2599200.0,
+        "reduction": 0.0,
+        "price": 2599200.0,
+        "quota": 2,
+        "description": "",
+        "subTotal": 2599200.0,
+        "subTotalReduction": 0.0
+      }
+    ],
+    "ships": []
+  }
+}

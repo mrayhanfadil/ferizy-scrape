@@ -1,0 +1,78 @@
+{
+  "request": {
+    "email": "",
+    "routeId": "234228",
+    "departure": {
+      "scheduleId": "2627160930380754005",
+      "date": "2026-08-20",
+      "time": "20:00:00"
+    },
+    "services": {
+      "passengers": [
+        {
+          "serviceId": "7",
+          "capacity": 1
+        }
+      ],
+      "vehicleId": "14"
+    }
+  },
+  "status_code": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T12:40:41.720576+07:00",
+  "body": {
+    "status": true,
+    "message": "Ship schedule found.",
+    "originDestination": "Pagimana - Gorontalo",
+    "serviceType": "Kendaraan",
+    "totalPassengers": "1 Penumpang",
+    "checkIn": {
+      "scheduleId": "2627160930380754005",
+      "date": "2026-08-20",
+      "time": "20:00:00"
+    },
+    "serviceUserType": "Reguler",
+    "totalPrice": 2228700.0,
+    "totalPriceBeforeReduction": 2228700.0,
+    "totalReduction": 0.0,
+    "pricingDetails": [
+      {
+        "serviceId": 14,
+        "serviceName": "Golongan IV - Penumpang",
+        "quantity": 1,
+        "reductionConfig": null,
+        "priceBeforeReduction": 2228700.0,
+        "reduction": 0.0,
+        "price": 2228700.0,
+        "quota": 2,
+        "description": "",
+        "subTotal": 2228700.0,
+        "subTotalReduction": 0.0
+      }
+    ],
+    "ships": [
+      {
+        "id": 84,
+        "code": "637",
+        "branch": {
+          "id": 730,
+          "code": "730",
+          "name": "Luwuk",
+          "status": 1,
+          "timeZone": "WIB",
+          "propId": 0
+        },
+        "company": {
+          "id": 1,
+          "code": "1",
+          "name": "PT. ASDP Indonesia Ferry"
+        },
+        "name": "KMP. Moinit",
+        "grt": 1687.0,
+        "type": 1,
+        "status": 1,
+        "beaTiket": null
+      }
+    ]
+  }
+}

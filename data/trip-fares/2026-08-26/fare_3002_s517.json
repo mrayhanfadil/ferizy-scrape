@@ -1,0 +1,55 @@
+{
+  "request": {
+    "email": "",
+    "routeId": "3002",
+    "departure": {
+      "scheduleId": "2627160930380735046",
+      "date": "2026-08-26",
+      "time": "07:00:00"
+    },
+    "services": {
+      "passengers": [
+        {
+          "serviceId": "517",
+          "capacity": 1
+        }
+      ],
+      "vehicleId": ""
+    }
+  },
+  "status_code": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T13:46:44.487362+07:00",
+  "body": {
+    "status": true,
+    "message": "Ship schedule found.",
+    "originDestination": "Jepara - Karimun Jawa",
+    "serviceType": "Pejalan Kaki",
+    "totalPassengers": "1 Penumpang",
+    "checkIn": {
+      "scheduleId": "2627160930380735046",
+      "date": "2026-08-26",
+      "time": "07:00:00"
+    },
+    "serviceUserType": "Reguler",
+    "totalPrice": 15000.0,
+    "totalPriceBeforeReduction": 15000.0,
+    "totalReduction": 0.0,
+    "pricingDetails": [
+      {
+        "serviceId": 517,
+        "serviceName": "Tenaga Kesehatan",
+        "quantity": 1,
+        "reductionConfig": null,
+        "priceBeforeReduction": 15000.0,
+        "reduction": 0.0,
+        "price": 15000.0,
+        "quota": 0,
+        "description": "BERBAYAR",
+        "subTotal": 15000.0,
+        "subTotalReduction": 0.0
+      }
+    ],
+    "ships": []
+  }
+}

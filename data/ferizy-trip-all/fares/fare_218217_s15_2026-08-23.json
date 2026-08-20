@@ -1,0 +1,78 @@
+{
+  "request": {
+    "email": "",
+    "routeId": "218217",
+    "departure": {
+      "scheduleId": "2627160930380753630",
+      "date": "2026-08-23",
+      "time": "12:30:00"
+    },
+    "services": {
+      "passengers": [
+        {
+          "serviceId": "7",
+          "capacity": 1
+        }
+      ],
+      "vehicleId": "15"
+    }
+  },
+  "status_code": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T13:13:03.091025+07:00",
+  "body": {
+    "status": true,
+    "message": "Ship schedule found.",
+    "originDestination": "Langara - Kendari",
+    "serviceType": "Kendaraan",
+    "totalPassengers": "1 Penumpang",
+    "checkIn": {
+      "scheduleId": "2627160930380753630",
+      "date": "2026-08-23",
+      "time": "12:30:00"
+    },
+    "serviceUserType": "Reguler",
+    "totalPrice": 760000.0,
+    "totalPriceBeforeReduction": 760000.0,
+    "totalReduction": 0.0,
+    "pricingDetails": [
+      {
+        "serviceId": 15,
+        "serviceName": "Golongan IV - Barang",
+        "quantity": 1,
+        "reductionConfig": null,
+        "priceBeforeReduction": 760000.0,
+        "reduction": 0.0,
+        "price": 760000.0,
+        "quota": 3,
+        "description": "",
+        "subTotal": 760000.0,
+        "subTotalReduction": 0.0
+      }
+    ],
+    "ships": [
+      {
+        "id": 7,
+        "code": "607",
+        "branch": {
+          "id": 720,
+          "code": "720",
+          "name": "Baubau",
+          "status": 0,
+          "timeZone": "WIB",
+          "propId": 0
+        },
+        "company": {
+          "id": 1,
+          "code": "1",
+          "name": "PT. ASDP Indonesia Ferry"
+        },
+        "name": "KMP. Bahtera Mas",
+        "grt": 628.0,
+        "type": 1,
+        "status": 1,
+        "beaTiket": null
+      }
+    ]
+  }
+}

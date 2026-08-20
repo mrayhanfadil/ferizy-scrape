@@ -3,12 +3,14 @@
     "method": "GET",
     "url": "https://api-gateway-1.ferizy.com/ferizy/ticket/schedule/check_in",
     "routeId": "5443",
-    "device_time": "2026-08-20T11:01:59+07:00"
+    "device_time": "2026-08-20T15:14:06+07:00"
   },
-  "status": 0,
-  "content_type": "error",
-  "retrieved_at_wib": "2026-08-20T11:03:09.965675+07:00",
+  "status": 404,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T15:14:41.000943+07:00",
   "body": {
-    "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='api-gateway-1.ferizy.com', port=443): Read timed out. (read timeout=45)\"))"
+    "responseCode": "404",
+    "responseMessage": "Data not found",
+    "responseReferenceNo": "f1a65f1d65b84fd1b32ed48744afea5b"
   }
 }

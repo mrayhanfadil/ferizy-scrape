@@ -1,0 +1,55 @@
+{
+  "request": {
+    "email": "",
+    "routeId": "5485",
+    "departure": {
+      "scheduleId": "2627160930380747738",
+      "date": "2026-08-26",
+      "time": "05:00:00"
+    },
+    "services": {
+      "passengers": [
+        {
+          "serviceId": "3",
+          "capacity": 1
+        }
+      ],
+      "vehicleId": ""
+    }
+  },
+  "status_code": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T13:55:37.175179+07:00",
+  "body": {
+    "status": true,
+    "message": "Ship schedule found.",
+    "originDestination": "Waipirit - Hunimua",
+    "serviceType": "Pejalan Kaki",
+    "totalPassengers": "1 Penumpang",
+    "checkIn": {
+      "scheduleId": "2627160930380747738",
+      "date": "2026-08-26",
+      "time": "05:00:00"
+    },
+    "serviceUserType": "Reguler",
+    "totalPrice": 58600.0,
+    "totalPriceBeforeReduction": 58600.0,
+    "totalReduction": 0.0,
+    "pricingDetails": [
+      {
+        "serviceId": 3,
+        "serviceName": "Dewasa Eksekutif",
+        "quantity": 1,
+        "reductionConfig": null,
+        "priceBeforeReduction": 58600.0,
+        "reduction": 0.0,
+        "price": 58600.0,
+        "quota": 0,
+        "description": "BERBAYAR",
+        "subTotal": 58600.0,
+        "subTotalReduction": 0.0
+      }
+    ],
+    "ships": []
+  }
+}

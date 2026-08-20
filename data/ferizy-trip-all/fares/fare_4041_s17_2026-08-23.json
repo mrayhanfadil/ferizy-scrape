@@ -1,0 +1,55 @@
+{
+  "request": {
+    "email": "",
+    "routeId": "4041",
+    "departure": {
+      "scheduleId": "2627160930380753870",
+      "date": "2026-08-23",
+      "time": "21:30:00"
+    },
+    "services": {
+      "passengers": [
+        {
+          "serviceId": "7",
+          "capacity": 1
+        }
+      ],
+      "vehicleId": "17"
+    }
+  },
+  "status_code": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T13:15:27.278962+07:00",
+  "body": {
+    "status": true,
+    "message": "Ship schedule found.",
+    "originDestination": "Sibolga - Gunungsitoli",
+    "serviceType": "Kendaraan",
+    "totalPassengers": "1 Penumpang",
+    "checkIn": {
+      "scheduleId": "2627160930380753870",
+      "date": "2026-08-23",
+      "time": "21:30:00"
+    },
+    "serviceUserType": "Reguler",
+    "totalPrice": 2568800.0,
+    "totalPriceBeforeReduction": 2568800.0,
+    "totalReduction": 0.0,
+    "pricingDetails": [
+      {
+        "serviceId": 17,
+        "serviceName": "Golongan V - Barang",
+        "quantity": 1,
+        "reductionConfig": null,
+        "priceBeforeReduction": 2568800.0,
+        "reduction": 0.0,
+        "price": 2568800.0,
+        "quota": 15,
+        "description": "",
+        "subTotal": 2568800.0,
+        "subTotalReduction": 0.0
+      }
+    ],
+    "ships": []
+  }
+}

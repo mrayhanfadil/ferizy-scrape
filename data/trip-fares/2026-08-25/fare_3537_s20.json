@@ -1,0 +1,55 @@
+{
+  "request": {
+    "email": "",
+    "routeId": "3537",
+    "departure": {
+      "scheduleId": "2627160930380737579",
+      "date": "2026-08-25",
+      "time": "07:00:00"
+    },
+    "services": {
+      "passengers": [
+        {
+          "serviceId": "7",
+          "capacity": 1
+        }
+      ],
+      "vehicleId": "20"
+    }
+  },
+  "status_code": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T13:42:15.040418+07:00",
+  "body": {
+    "status": true,
+    "message": "Ship schedule found.",
+    "originDestination": "Tanjung Kalian - Tanjung Api Api",
+    "serviceType": "Kendaraan",
+    "totalPassengers": "1 Penumpang",
+    "checkIn": {
+      "scheduleId": "2627160930380737579",
+      "date": "2026-08-25",
+      "time": "07:00:00"
+    },
+    "serviceUserType": "Reguler",
+    "totalPrice": 3093500.0,
+    "totalPriceBeforeReduction": 3093500.0,
+    "totalReduction": 0.0,
+    "pricingDetails": [
+      {
+        "serviceId": 20,
+        "serviceName": "Golongan VII",
+        "quantity": 1,
+        "reductionConfig": null,
+        "priceBeforeReduction": 3093500.0,
+        "reduction": 0.0,
+        "price": 3093500.0,
+        "quota": 0,
+        "description": "",
+        "subTotal": 3093500.0,
+        "subTotalReduction": 0.0
+      }
+    ],
+    "ships": []
+  }
+}

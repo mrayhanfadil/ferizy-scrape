@@ -3,28 +3,10 @@
     "method": "GET",
     "url": "https://api-gateway-1.ferizy.com/ferizy/ticket/schedule/check_in",
     "routeId": "441442",
-    "device_time": "2026-08-20T10:20:30+07:00"
+    "device_time": "2026-08-20T15:08:13+07:00"
   },
-  "status": 200,
-  "content_type": "application/json",
-  "retrieved_at_wib": "2026-08-20T10:20:30.488227+07:00",
-  "body": {
-    "responseCode": "200",
-    "responseMessage": "Ferizy Service - RsRsScheduleCheckInRf Success",
-    "responseReferenceNo": "ada012e560584de3bf3b98a68338a06b",
-    "jadwalMasukPelabuhan": {
-      "id": "jadwal-masuk-pelabuhan",
-      "name": "Jadwal Masuk Pelabuhan (Check In)",
-      "tanggalMulai": "2026-08-21",
-      "tanggalSelesai": "2036-06-28",
-      "data": [
-        {
-          "routeId": "441442",
-          "scheduleId": "2627160930380754181",
-          "dateDeparture": "2026-08-20",
-          "timeDeparture": "10:55"
-        }
-      ]
-    }
-  }
+  "status": 408,
+  "content_type": "text/html",
+  "retrieved_at_wib": "2026-08-20T15:08:44.966550+07:00",
+  "body": "<html><body><h1>408 Request Time-out</h1>\nYour browser didn't send a complete request in time.\n</body></html>\n"
 }

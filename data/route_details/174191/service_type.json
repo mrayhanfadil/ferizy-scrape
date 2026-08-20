@@ -6,11 +6,11 @@
   },
   "status": 200,
   "content_type": "application/json",
-  "retrieved_at_wib": "2026-08-20T10:56:40.527190+07:00",
+  "retrieved_at_wib": "2026-08-20T15:08:09.241005+07:00",
   "body": {
     "ResponseCode": "200",
     "ResponseMessage": "HomePage HpHpJenisPenggunaJasaRf - Success",
-    "ResponseReferenceNo": "9e4ca2b6e7dc4edeb6e1df40f4860a49",
+    "ResponseReferenceNo": "67ff19316ba346ebafafd96cd3e0a596",
     "jenisPenggunaJasa": {
       "id": "jenis-pengguna-jasa",
       "name": "Jenis Pengguna Jasa"

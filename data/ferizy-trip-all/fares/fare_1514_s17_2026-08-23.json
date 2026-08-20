@@ -1,0 +1,55 @@
+{
+  "request": {
+    "email": "",
+    "routeId": "1514",
+    "departure": {
+      "scheduleId": "2627160930380753790",
+      "date": "2026-08-23",
+      "time": "10:30:00"
+    },
+    "services": {
+      "passengers": [
+        {
+          "serviceId": "7",
+          "capacity": 1
+        }
+      ],
+      "vehicleId": "17"
+    }
+  },
+  "status_code": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T13:17:54.239367+07:00",
+  "body": {
+    "status": true,
+    "message": "Ship schedule found.",
+    "originDestination": "Ulee Lheue - Balohan",
+    "serviceType": "Kendaraan",
+    "totalPassengers": "1 Penumpang",
+    "checkIn": {
+      "scheduleId": "2627160930380753790",
+      "date": "2026-08-23",
+      "time": "10:30:00"
+    },
+    "serviceUserType": "Reguler",
+    "totalPrice": 627000.0,
+    "totalPriceBeforeReduction": 627000.0,
+    "totalReduction": 0.0,
+    "pricingDetails": [
+      {
+        "serviceId": 17,
+        "serviceName": "Golongan V - Barang",
+        "quantity": 1,
+        "reductionConfig": null,
+        "priceBeforeReduction": 627000.0,
+        "reduction": 0.0,
+        "price": 627000.0,
+        "quota": 1,
+        "description": "",
+        "subTotal": 627000.0,
+        "subTotalReduction": 0.0
+      }
+    ],
+    "ships": []
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "request": {
+    "email": "",
+    "routeId": "5496",
+    "departure": {
+      "scheduleId": "2627160930380748939",
+      "date": "2026-08-22",
+      "time": "14:00:00"
+    },
+    "services": {
+      "passengers": [
+        {
+          "serviceId": "7",
+          "capacity": 1
+        }
+      ],
+      "vehicleId": "21"
+    }
+  },
+  "status_code": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T13:04:21.613608+07:00",
+  "body": {
+    "status": true,
+    "message": "Ship schedule found.",
+    "originDestination": "Telaga Punggur - Mengkapan",
+    "serviceType": "Kendaraan",
+    "totalPassengers": "1 Penumpang",
+    "checkIn": {
+      "scheduleId": "2627160930380748939",
+      "date": "2026-08-22",
+      "time": "14:00:00"
+    },
+    "serviceUserType": "Reguler",
+    "totalPrice": 8082700.0,
+    "totalPriceBeforeReduction": 8082700.0,
+    "totalReduction": 0.0,
+    "pricingDetails": [
+      {
+        "serviceId": 21,
+        "serviceName": "Golongan VIII",
+        "quantity": 1,
+        "reductionConfig": null,
+        "priceBeforeReduction": 8082700.0,
+        "reduction": 0.0,
+        "price": 8082700.0,
+        "quota": 0,
+        "description": "",
+        "subTotal": 8082700.0,
+        "subTotalReduction": 0.0
+      }
+    ],
+    "ships": []
+  }
+}

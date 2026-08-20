@@ -1,0 +1,55 @@
+{
+  "request": {
+    "email": "",
+    "routeId": "3002",
+    "departure": {
+      "scheduleId": "2627160930380735044",
+      "date": "2026-08-22",
+      "time": "07:00:00"
+    },
+    "services": {
+      "passengers": [
+        {
+          "serviceId": "7",
+          "capacity": 1
+        }
+      ],
+      "vehicleId": "15"
+    }
+  },
+  "status_code": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T12:56:57.411025+07:00",
+  "body": {
+    "status": true,
+    "message": "Ship schedule found.",
+    "originDestination": "Jepara - Karimun Jawa",
+    "serviceType": "Kendaraan",
+    "totalPassengers": "1 Penumpang",
+    "checkIn": {
+      "scheduleId": "2627160930380735044",
+      "date": "2026-08-22",
+      "time": "07:00:00"
+    },
+    "serviceUserType": "Reguler",
+    "totalPrice": 1089000.0,
+    "totalPriceBeforeReduction": 1089000.0,
+    "totalReduction": 0.0,
+    "pricingDetails": [
+      {
+        "serviceId": 15,
+        "serviceName": "Golongan IV - Barang",
+        "quantity": 1,
+        "reductionConfig": null,
+        "priceBeforeReduction": 1089000.0,
+        "reduction": 0.0,
+        "price": 1089000.0,
+        "quota": 2,
+        "description": "",
+        "subTotal": 1089000.0,
+        "subTotalReduction": 0.0
+      }
+    ],
+    "ships": []
+  }
+}

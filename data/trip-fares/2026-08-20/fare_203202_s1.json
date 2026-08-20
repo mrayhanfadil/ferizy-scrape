@@ -1,0 +1,78 @@
+{
+  "request": {
+    "email": "",
+    "routeId": "203202",
+    "departure": {
+      "scheduleId": "2627160930380753328",
+      "date": "2026-08-20",
+      "time": "16:30:00"
+    },
+    "services": {
+      "passengers": [
+        {
+          "serviceId": "1",
+          "capacity": 1
+        }
+      ],
+      "vehicleId": ""
+    }
+  },
+  "status_code": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T13:59:42.012745+07:00",
+  "body": {
+    "status": true,
+    "message": "Ship schedule found.",
+    "originDestination": "Bajoe - Kolaka",
+    "serviceType": "Pejalan Kaki",
+    "totalPassengers": "1 Penumpang",
+    "checkIn": {
+      "scheduleId": "2627160930380753328",
+      "date": "2026-08-20",
+      "time": "16:30:00"
+    },
+    "serviceUserType": "Reguler",
+    "totalPrice": 105600.0,
+    "totalPriceBeforeReduction": 105600.0,
+    "totalReduction": 0.0,
+    "pricingDetails": [
+      {
+        "serviceId": 1,
+        "serviceName": "Dewasa",
+        "quantity": 1,
+        "reductionConfig": null,
+        "priceBeforeReduction": 105600.0,
+        "reduction": 0.0,
+        "price": 105600.0,
+        "quota": 0,
+        "description": "BERBAYAR",
+        "subTotal": 105600.0,
+        "subTotalReduction": 0.0
+      }
+    ],
+    "ships": [
+      {
+        "id": 1055,
+        "code": "113",
+        "branch": {
+          "id": 710,
+          "code": "710",
+          "name": "Bajoe",
+          "status": 1,
+          "timeZone": "WITA",
+          "propId": 0
+        },
+        "company": {
+          "id": 2,
+          "code": "1020000209",
+          "name": "PT. Jemla Ferry"
+        },
+        "name": "KMP KOTA BUMI",
+        "grt": 1080.0,
+        "type": 1,
+        "status": 1,
+        "beaTiket": null
+      }
+    ]
+  }
+}

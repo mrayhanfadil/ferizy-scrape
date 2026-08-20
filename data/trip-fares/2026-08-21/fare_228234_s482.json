@@ -1,0 +1,55 @@
+{
+  "request": {
+    "email": "",
+    "routeId": "228234",
+    "departure": {
+      "scheduleId": "2627160930380754155",
+      "date": "2026-08-21",
+      "time": "20:00:00"
+    },
+    "services": {
+      "passengers": [
+        {
+          "serviceId": "482",
+          "capacity": 1
+        }
+      ],
+      "vehicleId": ""
+    }
+  },
+  "status_code": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T14:16:03.004326+07:00",
+  "body": {
+    "status": true,
+    "message": "Ship schedule found.",
+    "originDestination": "Gorontalo - Pagimana",
+    "serviceType": "Pejalan Kaki",
+    "totalPassengers": "1 Penumpang",
+    "checkIn": {
+      "scheduleId": "2627160930380754155",
+      "date": "2026-08-21",
+      "time": "20:00:00"
+    },
+    "serviceUserType": "Reguler",
+    "totalPrice": 18000.0,
+    "totalPriceBeforeReduction": 18000.0,
+    "totalReduction": 0.0,
+    "pricingDetails": [
+      {
+        "serviceId": 482,
+        "serviceName": "EKSEKUTIF BAYI",
+        "quantity": 1,
+        "reductionConfig": null,
+        "priceBeforeReduction": 18000.0,
+        "reduction": 0.0,
+        "price": 18000.0,
+        "quota": 0,
+        "description": "BERBAYAR",
+        "subTotal": 18000.0,
+        "subTotalReduction": 0.0
+      }
+    ],
+    "ships": []
+  }
+}

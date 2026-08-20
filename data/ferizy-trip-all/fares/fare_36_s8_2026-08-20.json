@@ -1,0 +1,55 @@
+{
+  "request": {
+    "email": "",
+    "routeId": "36",
+    "departure": {
+      "scheduleId": "2627160930380753524",
+      "date": "2026-08-20",
+      "time": "18:00:00"
+    },
+    "services": {
+      "passengers": [
+        {
+          "serviceId": "8",
+          "capacity": 1
+        }
+      ],
+      "vehicleId": ""
+    }
+  },
+  "status_code": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T14:00:54.223856+07:00",
+  "body": {
+    "status": true,
+    "message": "Ship schedule found.",
+    "originDestination": "Bastiong - Sidangole",
+    "serviceType": "Pejalan Kaki",
+    "totalPassengers": "1 Penumpang",
+    "checkIn": {
+      "scheduleId": "2627160930380753524",
+      "date": "2026-08-20",
+      "time": "18:00:00"
+    },
+    "serviceUserType": "Reguler",
+    "totalPrice": 7000.0,
+    "totalPriceBeforeReduction": 7000.0,
+    "totalReduction": 0.0,
+    "pricingDetails": [
+      {
+        "serviceId": 8,
+        "serviceName": "Anak - Anak Ekonomi",
+        "quantity": 1,
+        "reductionConfig": null,
+        "priceBeforeReduction": 7000.0,
+        "reduction": 0.0,
+        "price": 7000.0,
+        "quota": 20,
+        "description": "BERBAYAR",
+        "subTotal": 7000.0,
+        "subTotalReduction": 0.0
+      }
+    ],
+    "ships": []
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "request": {
+    "email": "",
+    "routeId": "120",
+    "departure": {
+      "scheduleId": "2627160930380750627",
+      "date": "2026-08-20",
+      "time": "06:30:00"
+    },
+    "services": {
+      "passengers": [
+        {
+          "serviceId": "5",
+          "capacity": 1
+        }
+      ],
+      "vehicleId": ""
+    }
+  },
+  "status_code": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T12:33:15.162232+07:00",
+  "body": {
+    "status": true,
+    "message": "Ship schedule found.",
+    "originDestination": "Bira - Pamatata",
+    "serviceType": "Pejalan Kaki",
+    "totalPassengers": "1 Penumpang",
+    "checkIn": {
+      "scheduleId": "2627160930380750627",
+      "date": "2026-08-20",
+      "time": "06:30:00"
+    },
+    "serviceUserType": "Reguler",
+    "totalPrice": 44000.0,
+    "totalPriceBeforeReduction": 44000.0,
+    "totalReduction": 0.0,
+    "pricingDetails": [
+      {
+        "serviceId": 5,
+        "serviceName": "Dewasa Bisnis I",
+        "quantity": 1,
+        "reductionConfig": null,
+        "priceBeforeReduction": 44000.0,
+        "reduction": 0.0,
+        "price": 44000.0,
+        "quota": 0,
+        "description": "BERBAYAR",
+        "subTotal": 44000.0,
+        "subTotalReduction": 0.0
+      }
+    ],
+    "ships": []
+  }
+}

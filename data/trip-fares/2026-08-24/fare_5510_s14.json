@@ -1,0 +1,78 @@
+{
+  "request": {
+    "email": "",
+    "routeId": "5510",
+    "departure": {
+      "scheduleId": "2627160930380753875",
+      "date": "2026-08-24",
+      "time": "07:30:00"
+    },
+    "services": {
+      "passengers": [
+        {
+          "serviceId": "7",
+          "capacity": 1
+        }
+      ],
+      "vehicleId": "14"
+    }
+  },
+  "status_code": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T13:19:46.078399+07:00",
+  "body": {
+    "status": true,
+    "message": "Ship schedule found.",
+    "originDestination": "Ajibata - Ambarita",
+    "serviceType": "Kendaraan",
+    "totalPassengers": "1 Penumpang",
+    "checkIn": {
+      "scheduleId": "2627160930380753875",
+      "date": "2026-08-24",
+      "time": "07:30:00"
+    },
+    "serviceUserType": "Reguler",
+    "totalPrice": 232700.0,
+    "totalPriceBeforeReduction": 232700.0,
+    "totalReduction": 0.0,
+    "pricingDetails": [
+      {
+        "serviceId": 14,
+        "serviceName": "Golongan IV - Penumpang",
+        "quantity": 1,
+        "reductionConfig": null,
+        "priceBeforeReduction": 232700.0,
+        "reduction": 0.0,
+        "price": 232700.0,
+        "quota": 13,
+        "description": "",
+        "subTotal": 232700.0,
+        "subTotalReduction": 0.0
+      }
+    ],
+    "ships": [
+      {
+        "id": 1000,
+        "code": "674",
+        "branch": {
+          "id": 1011,
+          "code": "370",
+          "name": "Danau Toba",
+          "status": 1,
+          "timeZone": "WIB",
+          "propId": 10
+        },
+        "company": {
+          "id": 1,
+          "code": "1",
+          "name": "PT. ASDP Indonesia Ferry"
+        },
+        "name": "KMP. PORA PORA",
+        "grt": 462.0,
+        "type": 1,
+        "status": 1,
+        "beaTiket": null
+      }
+    ]
+  }
+}

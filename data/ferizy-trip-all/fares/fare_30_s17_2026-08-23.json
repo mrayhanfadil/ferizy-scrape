@@ -1,0 +1,55 @@
+{
+  "request": {
+    "email": "",
+    "routeId": "30",
+    "departure": {
+      "scheduleId": "2627160930380736357",
+      "date": "2026-08-23",
+      "time": "00:00:00"
+    },
+    "services": {
+      "passengers": [
+        {
+          "serviceId": "7",
+          "capacity": 1
+        }
+      ],
+      "vehicleId": "17"
+    }
+  },
+  "status_code": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T13:15:05.338549+07:00",
+  "body": {
+    "status": true,
+    "message": "Ship schedule found.",
+    "originDestination": "Pototano - Kayangan",
+    "serviceType": "Kendaraan",
+    "totalPassengers": "1 Penumpang",
+    "checkIn": {
+      "scheduleId": "2627160930380736357",
+      "date": "2026-08-23",
+      "time": "00:00:00"
+    },
+    "serviceUserType": "Reguler",
+    "totalPrice": 760000.0,
+    "totalPriceBeforeReduction": 760000.0,
+    "totalReduction": 0.0,
+    "pricingDetails": [
+      {
+        "serviceId": 17,
+        "serviceName": "Golongan V - Barang",
+        "quantity": 1,
+        "reductionConfig": null,
+        "priceBeforeReduction": 760000.0,
+        "reduction": 0.0,
+        "price": 760000.0,
+        "quota": 30,
+        "description": "",
+        "subTotal": 760000.0,
+        "subTotalReduction": 0.0
+      }
+    ],
+    "ships": []
+  }
+}

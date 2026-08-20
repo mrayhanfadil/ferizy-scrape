@@ -1,0 +1,55 @@
+{
+  "request": {
+    "email": "",
+    "routeId": "121",
+    "departure": {
+      "scheduleId": "2627160930380750700",
+      "date": "2026-08-25",
+      "time": "04:30:00"
+    },
+    "services": {
+      "passengers": [
+        {
+          "serviceId": "7",
+          "capacity": 1
+        }
+      ],
+      "vehicleId": "17"
+    }
+  },
+  "status_code": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T13:40:40.798338+07:00",
+  "body": {
+    "status": true,
+    "message": "Ship schedule found.",
+    "originDestination": "Pamatata - Bira",
+    "serviceType": "Kendaraan",
+    "totalPassengers": "1 Penumpang",
+    "checkIn": {
+      "scheduleId": "2627160930380750700",
+      "date": "2026-08-25",
+      "time": "04:30:00"
+    },
+    "serviceUserType": "Reguler",
+    "totalPrice": 643100.0,
+    "totalPriceBeforeReduction": 643100.0,
+    "totalReduction": 0.0,
+    "pricingDetails": [
+      {
+        "serviceId": 17,
+        "serviceName": "Golongan V - Barang",
+        "quantity": 1,
+        "reductionConfig": null,
+        "priceBeforeReduction": 643100.0,
+        "reduction": 0.0,
+        "price": 643100.0,
+        "quota": 0,
+        "description": "",
+        "subTotal": 643100.0,
+        "subTotalReduction": 0.0
+      }
+    ],
+    "ships": []
+  }
+}

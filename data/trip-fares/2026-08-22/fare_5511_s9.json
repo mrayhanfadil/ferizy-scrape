@@ -1,0 +1,78 @@
+{
+  "request": {
+    "email": "",
+    "routeId": "5511",
+    "departure": {
+      "scheduleId": "2627160930380753204",
+      "date": "2026-08-22",
+      "time": "07:30:00"
+    },
+    "services": {
+      "passengers": [
+        {
+          "serviceId": "9",
+          "capacity": 1
+        }
+      ],
+      "vehicleId": ""
+    }
+  },
+  "status_code": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T12:53:25.088681+07:00",
+  "body": {
+    "status": true,
+    "message": "Ship schedule found.",
+    "originDestination": "Ambarita - Ajibata",
+    "serviceType": "Pejalan Kaki",
+    "totalPassengers": "1 Penumpang",
+    "checkIn": {
+      "scheduleId": "2627160930380753204",
+      "date": "2026-08-22",
+      "time": "07:30:00"
+    },
+    "serviceUserType": "Reguler",
+    "totalPrice": 7000.0,
+    "totalPriceBeforeReduction": 7000.0,
+    "totalReduction": 0.0,
+    "pricingDetails": [
+      {
+        "serviceId": 9,
+        "serviceName": "Bayi Ekonomi",
+        "quantity": 1,
+        "reductionConfig": null,
+        "priceBeforeReduction": 7000.0,
+        "reduction": 0.0,
+        "price": 7000.0,
+        "quota": 50,
+        "description": "BERBAYAR",
+        "subTotal": 7000.0,
+        "subTotalReduction": 0.0
+      }
+    ],
+    "ships": [
+      {
+        "id": 1209,
+        "code": "",
+        "branch": {
+          "id": 1011,
+          "code": "370",
+          "name": "Danau Toba",
+          "status": 1,
+          "timeZone": "WIB",
+          "propId": 10
+        },
+        "company": {
+          "id": 57,
+          "code": "1020000596",
+          "name": "PT. Wira Jaya Logitama Lines"
+        },
+        "name": "KMP. Wira Toba",
+        "grt": 507.0,
+        "type": 1,
+        "status": 1,
+        "beaTiket": null
+      }
+    ]
+  }
+}

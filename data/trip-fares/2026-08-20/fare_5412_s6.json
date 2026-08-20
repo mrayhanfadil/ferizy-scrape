@@ -1,0 +1,55 @@
+{
+  "request": {
+    "email": "",
+    "routeId": "5412",
+    "departure": {
+      "scheduleId": "2627160930380753851",
+      "date": "2026-08-20",
+      "time": "11:00:00"
+    },
+    "services": {
+      "passengers": [
+        {
+          "serviceId": "6",
+          "capacity": 1
+        }
+      ],
+      "vehicleId": ""
+    }
+  },
+  "status_code": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T12:36:48.602396+07:00",
+  "body": {
+    "status": true,
+    "message": "Ship schedule found.",
+    "originDestination": "Kupang - Aimere",
+    "serviceType": "Pejalan Kaki",
+    "totalPassengers": "1 Penumpang",
+    "checkIn": {
+      "scheduleId": "2627160930380753851",
+      "date": "2026-08-20",
+      "time": "11:00:00"
+    },
+    "serviceUserType": "Reguler",
+    "totalPrice": 220500.0,
+    "totalPriceBeforeReduction": 220500.0,
+    "totalReduction": 0.0,
+    "pricingDetails": [
+      {
+        "serviceId": 6,
+        "serviceName": "Anak - Anak Bisnis I",
+        "quantity": 1,
+        "reductionConfig": null,
+        "priceBeforeReduction": 220500.0,
+        "reduction": 0.0,
+        "price": 220500.0,
+        "quota": 0,
+        "description": "BERBAYAR",
+        "subTotal": 220500.0,
+        "subTotalReduction": 0.0
+      }
+    ],
+    "ships": []
+  }
+}

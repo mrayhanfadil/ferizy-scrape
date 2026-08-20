@@ -191,14 +191,28 @@ def get_service_types(client: TripFerizyClient, route_id: str, force: bool = Fal
     return []
 
 
-def get_checkin_schedules(client: TripFerizyClient, route_id: str, force: bool = False) -> list[dict[str, Any]]:
+def get_checkin_schedules(
+    client: TripFerizyClient,
+    route_id: str,
+    force: bool = False,
+    target_date: str | None = None,
+) -> list[dict[str, Any]]:
     target = ROUTE_DIR / route_id / 'checkin.json'
     if target.exists() and not force:
         try:
             cached = json.loads(target.read_text(encoding='utf-8'))
             if cached.get('status') == 200:
-                data = cached.get('body', {}).get('jadwalMasukPelabuhan', {}).get('data', [])
-                if data:
+                cached_body = cached.get('body', {})
+                if isinstance(cached_body, dict):
+                    data = (cached_body.get('jadwalMasukPelabuhan') or {}).get('data', [])
+                else:
+                    data = []
+                has_target_date = any(
+                    str(item.get('dateDeparture', '')) == target_date
+                    for item in data
+                    if isinstance(item, dict)
+                )
+                if data and (target_date is None or has_target_date):
                     return data
         except Exception:
             pass
@@ -283,7 +297,7 @@ def scrape_route_fares(
         mature_service_id = str(pass_services[0].get('serviceId', '7'))
 
     # 2. Get checkin schedules
-    schedules = get_checkin_schedules(client, route_id, force=force)
+    schedules = get_checkin_schedules(client, route_id, force=force, target_date=target_date)
     date_schedules = [s for s in schedules if str(s.get('dateDeparture', '')) == target_date]
 
     if not schedules:
@@ -350,8 +364,18 @@ def scrape_route_fares(
             })
         return results
 
-    # Pick representative slot for target_date
+    # Pick a representative slot. On the current date, skip already-expired
+    # midnight slots; for future dates the first exposed slot is valid.
     slot = date_schedules[0]
+    current_wib = datetime.now(timezone(timedelta(hours=7)))
+    if target_date == current_wib.date().isoformat():
+        now_hhmm = current_wib.strftime('%H:%M')
+        future_slots = [
+            item for item in date_schedules
+            if str(item.get('timeDeparture', ''))[:5] >= now_hhmm
+        ]
+        if future_slots:
+            slot = future_slots[0]
     slot_time = str(slot.get('timeDeparture', '00:00'))
     if len(slot_time) == 5:
         slot_time_full = slot_time + ':00'
@@ -371,7 +395,15 @@ def scrape_route_fares(
         cached_payload = None
         if raw_file.exists() and not force:
             try:
-                cached_payload = json.loads(raw_file.read_text(encoding='utf-8'))
+                candidate = json.loads(raw_file.read_text(encoding='utf-8'))
+                request = candidate.get('request', {}) if isinstance(candidate, dict) else {}
+                departure = request.get('departure', {}) if isinstance(request, dict) else {}
+                if (
+                    str(departure.get('date', '')) == target_date
+                    and str(departure.get('scheduleId', '')) == schedule_id
+                    and str(departure.get('time', '')) == slot_time_full
+                ):
+                    cached_payload = candidate
             except Exception:
                 pass
 

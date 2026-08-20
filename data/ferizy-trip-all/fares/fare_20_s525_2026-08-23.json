@@ -1,0 +1,55 @@
+{
+  "request": {
+    "email": "",
+    "routeId": "20",
+    "departure": {
+      "scheduleId": "2627160930380752188",
+      "date": "2026-08-23",
+      "time": "21:00:00"
+    },
+    "services": {
+      "passengers": [
+        {
+          "serviceId": "525",
+          "capacity": 1
+        }
+      ],
+      "vehicleId": ""
+    }
+  },
+  "status_code": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T13:14:20.684570+07:00",
+  "body": {
+    "status": true,
+    "message": "Ship schedule found.",
+    "originDestination": "Paciran - Bawean",
+    "serviceType": "Pejalan Kaki",
+    "totalPassengers": "1 Penumpang",
+    "checkIn": {
+      "scheduleId": "2627160930380752188",
+      "date": "2026-08-23",
+      "time": "21:00:00"
+    },
+    "serviceUserType": "Reguler",
+    "totalPrice": 4000.0,
+    "totalPriceBeforeReduction": 4000.0,
+    "totalReduction": 0.0,
+    "pricingDetails": [
+      {
+        "serviceId": 525,
+        "serviceName": "SUPLESI BAYI EKONOMI KE BISNIS",
+        "quantity": 1,
+        "reductionConfig": null,
+        "priceBeforeReduction": 4000.0,
+        "reduction": 0.0,
+        "price": 4000.0,
+        "quota": 0,
+        "description": "BERBAYAR",
+        "subTotal": 4000.0,
+        "subTotalReduction": 0.0
+      }
+    ],
+    "ships": []
+  }
+}

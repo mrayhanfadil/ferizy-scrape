@@ -1,0 +1,55 @@
+{
+  "request": {
+    "email": "",
+    "routeId": "5484",
+    "departure": {
+      "scheduleId": "2627160930380753425",
+      "date": "2026-08-20",
+      "time": "15:00:00"
+    },
+    "services": {
+      "passengers": [
+        {
+          "serviceId": "7",
+          "capacity": 1
+        }
+      ],
+      "vehicleId": "18"
+    }
+  },
+  "status_code": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T14:03:35.993576+07:00",
+  "body": {
+    "status": true,
+    "message": "Ship schedule found.",
+    "originDestination": "Hunimua - Waipirit",
+    "serviceType": "Kendaraan",
+    "totalPassengers": "1 Penumpang",
+    "checkIn": {
+      "scheduleId": "2627160930380753425",
+      "date": "2026-08-20",
+      "time": "15:00:00"
+    },
+    "serviceUserType": "Reguler",
+    "totalPrice": 592150.0,
+    "totalPriceBeforeReduction": 592150.0,
+    "totalReduction": 0.0,
+    "pricingDetails": [
+      {
+        "serviceId": 18,
+        "serviceName": "Golongan VI - Penumpang",
+        "quantity": 1,
+        "reductionConfig": null,
+        "priceBeforeReduction": 592150.0,
+        "reduction": 0.0,
+        "price": 592150.0,
+        "quota": 6,
+        "description": "",
+        "subTotal": 592150.0,
+        "subTotalReduction": 0.0
+      }
+    ],
+    "ships": []
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "request": {
+    "email": "",
+    "routeId": "5511",
+    "departure": {
+      "scheduleId": "2627160930380753178",
+      "date": "2026-08-20",
+      "time": "15:45:00"
+    },
+    "services": {
+      "passengers": [
+        {
+          "serviceId": "7",
+          "capacity": 1
+        }
+      ],
+      "vehicleId": "16"
+    }
+  },
+  "status_code": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T13:59:52.031424+07:00",
+  "body": {
+    "status": true,
+    "message": "Ship schedule found.",
+    "originDestination": "Ambarita - Ajibata",
+    "serviceType": "Kendaraan",
+    "totalPassengers": "1 Penumpang",
+    "checkIn": {
+      "scheduleId": "2627160930380753178",
+      "date": "2026-08-20",
+      "time": "15:45:00"
+    },
+    "serviceUserType": "Reguler",
+    "totalPrice": 422900.0,
+    "totalPriceBeforeReduction": 422900.0,
+    "totalReduction": 0.0,
+    "pricingDetails": [
+      {
+        "serviceId": 16,
+        "serviceName": "Golongan V - Penumpang",
+        "quantity": 1,
+        "reductionConfig": null,
+        "priceBeforeReduction": 422900.0,
+        "reduction": 0.0,
+        "price": 422900.0,
+        "quota": 1,
+        "description": "",
+        "subTotal": 422900.0,
+        "subTotalReduction": 0.0
+      }
+    ],
+    "ships": [
+      {
+        "id": 1209,
+        "code": "",
+        "branch": {
+          "id": 1011,
+          "code": "370",
+          "name": "Danau Toba",
+          "status": 1,
+          "timeZone": "WIB",
+          "propId": 10
+        },
+        "company": {
+          "id": 57,
+          "code": "1020000596",
+          "name": "PT. Wira Jaya Logitama Lines"
+        },
+        "name": "KMP. Wira Toba",
+        "grt": 507.0,
+        "type": 1,
+        "status": 1,
+        "beaTiket": null
+      }
+    ]
+  }
+}

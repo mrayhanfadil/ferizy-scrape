@@ -1,0 +1,55 @@
+{
+  "request": {
+    "email": "",
+    "routeId": "18",
+    "departure": {
+      "scheduleId": "2627160930380752205",
+      "date": "2026-08-25",
+      "time": "21:00:00"
+    },
+    "services": {
+      "passengers": [
+        {
+          "serviceId": "8",
+          "capacity": 1
+        }
+      ],
+      "vehicleId": ""
+    }
+  },
+  "status_code": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T13:34:07.636136+07:00",
+  "body": {
+    "status": true,
+    "message": "Ship schedule found.",
+    "originDestination": "Bawean - Gresik",
+    "serviceType": "Pejalan Kaki",
+    "totalPassengers": "1 Penumpang",
+    "checkIn": {
+      "scheduleId": "2627160930380752205",
+      "date": "2026-08-25",
+      "time": "21:00:00"
+    },
+    "serviceUserType": "Reguler",
+    "totalPrice": 52000.0,
+    "totalPriceBeforeReduction": 52000.0,
+    "totalReduction": 0.0,
+    "pricingDetails": [
+      {
+        "serviceId": 8,
+        "serviceName": "Anak - Anak Ekonomi",
+        "quantity": 1,
+        "reductionConfig": null,
+        "priceBeforeReduction": 52000.0,
+        "reduction": 0.0,
+        "price": 52000.0,
+        "quota": 0,
+        "description": "BERBAYAR",
+        "subTotal": 52000.0,
+        "subTotalReduction": 0.0
+      }
+    ],
+    "ships": []
+  }
+}

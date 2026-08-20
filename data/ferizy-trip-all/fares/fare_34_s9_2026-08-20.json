@@ -1,0 +1,55 @@
+{
+  "request": {
+    "email": "",
+    "routeId": "34",
+    "departure": {
+      "scheduleId": "5907",
+      "date": "2026-08-20",
+      "time": "18:00:00"
+    },
+    "services": {
+      "passengers": [
+        {
+          "serviceId": "9",
+          "capacity": 1
+        }
+      ],
+      "vehicleId": ""
+    }
+  },
+  "status_code": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T14:10:40.658544+07:00",
+  "body": {
+    "status": true,
+    "message": "Ship schedule found.",
+    "originDestination": "Rum - Bastiong",
+    "serviceType": "Pejalan Kaki",
+    "totalPassengers": "1 Penumpang",
+    "checkIn": {
+      "scheduleId": "5907",
+      "date": "2026-08-20",
+      "time": "18:00:00"
+    },
+    "serviceUserType": "Reguler",
+    "totalPrice": 6000.0,
+    "totalPriceBeforeReduction": 6000.0,
+    "totalReduction": 0.0,
+    "pricingDetails": [
+      {
+        "serviceId": 9,
+        "serviceName": "Bayi Ekonomi",
+        "quantity": 1,
+        "reductionConfig": null,
+        "priceBeforeReduction": 6000.0,
+        "reduction": 0.0,
+        "price": 6000.0,
+        "quota": 0,
+        "description": "BERBAYAR",
+        "subTotal": 6000.0,
+        "subTotalReduction": 0.0
+      }
+    ],
+    "ships": []
+  }
+}

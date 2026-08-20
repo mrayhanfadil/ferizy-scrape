@@ -3,28 +3,12 @@
     "method": "GET",
     "url": "https://api-gateway-1.ferizy.com/ferizy/ticket/schedule/check_in",
     "routeId": "1406",
-    "device_time": "2026-08-20T10:22:10+07:00"
+    "device_time": "2026-08-20T15:08:51+07:00"
   },
-  "status": 200,
-  "content_type": "application/json",
-  "retrieved_at_wib": "2026-08-20T10:22:11.103556+07:00",
+  "status": 0,
+  "content_type": "error",
+  "retrieved_at_wib": "2026-08-20T15:09:03.350282+07:00",
   "body": {
-    "responseCode": "200",
-    "responseMessage": "Ferizy Service - RsRsScheduleCheckInRf Success",
-    "responseReferenceNo": "05c12f8b11f44503ab2ccf888d5e811b",
-    "jadwalMasukPelabuhan": {
-      "id": "jadwal-masuk-pelabuhan",
-      "name": "Jadwal Masuk Pelabuhan (Check In)",
-      "tanggalMulai": "2026-08-21",
-      "tanggalSelesai": "2036-06-28",
-      "data": [
-        {
-          "routeId": "1406",
-          "scheduleId": "2627160930380754010",
-          "dateDeparture": "2026-08-20",
-          "timeDeparture": "12:00"
-        }
-      ]
-    }
+    "error": "ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))"
   }
 }

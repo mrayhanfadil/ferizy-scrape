@@ -4,11 +4,11 @@
   "target_date": "2026-08-21",
   "total_routes": 140,
   "routes_with_ok_fares": 39,
-  "total_tested_services": 2031,
-  "total_ok_fares": 593,
-  "total_empty_no_schedule": 1428,
+  "total_tested_services": 2003,
+  "total_ok_fares": 597,
+  "total_empty_no_schedule": 1396,
   "total_errors": 7,
-  "routes_present_in_matrix": 140,
+  "elapsed_seconds": 650.16,
   "exported_files": [
     "exports/trip_fares_fullscale_2026-08-21.csv",
     "exports/trip_fares_fullscale_all_2026-08-21.csv"

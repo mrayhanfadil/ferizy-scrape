@@ -1,0 +1,16 @@
+{
+  "source": "https://trip.ferizy.com/",
+  "gateway": "https://api-gateway-1.ferizy.com",
+  "target_date": "2026-08-20",
+  "total_routes": 140,
+  "routes_with_ok_fares": 49,
+  "total_tested_services": 2031,
+  "total_ok_fares": 742,
+  "total_empty_no_schedule": 1281,
+  "total_errors": 5,
+  "elapsed_seconds": 892.78,
+  "exported_files": [
+    "exports/trip_fares_fullscale_2026-08-20.csv",
+    "exports/trip_fares_fullscale_all_2026-08-20.csv"
+  ]
+}

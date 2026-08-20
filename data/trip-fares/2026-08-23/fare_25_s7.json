@@ -1,0 +1,55 @@
+{
+  "request": {
+    "email": "",
+    "routeId": "25",
+    "departure": {
+      "scheduleId": "2627160930380751725",
+      "date": "2026-08-23",
+      "time": "00:00:00"
+    },
+    "services": {
+      "passengers": [
+        {
+          "serviceId": "7",
+          "capacity": 1
+        }
+      ],
+      "vehicleId": ""
+    }
+  },
+  "status_code": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T13:13:19.262145+07:00",
+  "body": {
+    "status": true,
+    "message": "Ship schedule found.",
+    "originDestination": "Lembar - Padang Bai",
+    "serviceType": "Pejalan Kaki",
+    "totalPassengers": "1 Penumpang",
+    "checkIn": {
+      "scheduleId": "2627160930380751725",
+      "date": "2026-08-23",
+      "time": "00:00:00"
+    },
+    "serviceUserType": "Reguler",
+    "totalPrice": 65300.0,
+    "totalPriceBeforeReduction": 65300.0,
+    "totalReduction": 0.0,
+    "pricingDetails": [
+      {
+        "serviceId": 7,
+        "serviceName": "Dewasa Ekonomi",
+        "quantity": 1,
+        "reductionConfig": null,
+        "priceBeforeReduction": 65300.0,
+        "reduction": 0.0,
+        "price": 65300.0,
+        "quota": 100,
+        "description": "BERBAYAR",
+        "subTotal": 65300.0,
+        "subTotalReduction": 0.0
+      }
+    ],
+    "ships": []
+  }
+}

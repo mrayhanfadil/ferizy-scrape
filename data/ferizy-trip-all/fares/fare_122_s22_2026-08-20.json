@@ -1,0 +1,78 @@
+{
+  "request": {
+    "email": "",
+    "routeId": "122",
+    "departure": {
+      "scheduleId": "2627160930380750830",
+      "date": "2026-08-20",
+      "time": "17:00:00"
+    },
+    "services": {
+      "passengers": [
+        {
+          "serviceId": "7",
+          "capacity": 1
+        }
+      ],
+      "vehicleId": "22"
+    }
+  },
+  "status_code": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T12:40:03.738686+07:00",
+  "body": {
+    "status": true,
+    "message": "Ship schedule found.",
+    "originDestination": "Padang - Tua Pejat",
+    "serviceType": "Kendaraan",
+    "totalPassengers": "1 Penumpang",
+    "checkIn": {
+      "scheduleId": "2627160930380750830",
+      "date": "2026-08-20",
+      "time": "17:00:00"
+    },
+    "serviceUserType": "Reguler",
+    "totalPrice": 11420000.0,
+    "totalPriceBeforeReduction": 11420000.0,
+    "totalReduction": 0.0,
+    "pricingDetails": [
+      {
+        "serviceId": 22,
+        "serviceName": "Golongan IX",
+        "quantity": 1,
+        "reductionConfig": null,
+        "priceBeforeReduction": 11420000.0,
+        "reduction": 0.0,
+        "price": 11420000.0,
+        "quota": 0,
+        "description": "",
+        "subTotal": 11420000.0,
+        "subTotalReduction": 0.0
+      }
+    ],
+    "ships": [
+      {
+        "id": 36,
+        "code": "641",
+        "branch": {
+          "id": 11,
+          "code": "350",
+          "name": "Padang",
+          "status": 1,
+          "timeZone": "WIB",
+          "propId": 6
+        },
+        "company": {
+          "id": 1,
+          "code": "1",
+          "name": "PT. ASDP Indonesia Ferry"
+        },
+        "name": "KMP. Gambolo",
+        "grt": 560.0,
+        "type": 1,
+        "status": 1,
+        "beaTiket": null
+      }
+    ]
+  }
+}

@@ -3,55 +3,14 @@
     "method": "GET",
     "url": "https://api-gateway-1.ferizy.com/ferizy/ticket/schedule/check_in",
     "routeId": "33",
-    "headers_extra": {
-      "AIFRouteId": "33",
-      "AIFDeviceTime": "2026-08-19T11:21:51+07:00"
-    }
+    "device_time": "2026-08-20T15:05:43+07:00"
   },
-  "status": 200,
+  "status": 404,
   "content_type": "application/json",
-  "retrieved_at_wib": "2026-08-19T11:21:51.886208+07:00",
+  "retrieved_at_wib": "2026-08-20T15:07:05.292451+07:00",
   "body": {
-    "responseCode": "200",
-    "responseMessage": "Ferizy Service - RsRsScheduleCheckInRf Success",
-    "responseReferenceNo": "f9842a33d5054823ae9136830e786cee",
-    "jadwalMasukPelabuhan": {
-      "id": "jadwal-masuk-pelabuhan",
-      "name": "Jadwal Masuk Pelabuhan (Check In)",
-      "tanggalMulai": "2026-08-20",
-      "tanggalSelesai": "2036-06-27",
-      "data": [
-        {
-          "routeId": "33",
-          "scheduleId": "2627160930380753517",
-          "dateDeparture": "2026-08-19",
-          "timeDeparture": "14:00"
-        },
-        {
-          "routeId": "33",
-          "scheduleId": "2627160930380753518",
-          "dateDeparture": "2026-08-19",
-          "timeDeparture": "17:00"
-        },
-        {
-          "routeId": "33",
-          "scheduleId": "2627160930380753519",
-          "dateDeparture": "2026-08-20",
-          "timeDeparture": "08:00"
-        },
-        {
-          "routeId": "33",
-          "scheduleId": "2627160930380753520",
-          "dateDeparture": "2026-08-20",
-          "timeDeparture": "14:00"
-        },
-        {
-          "routeId": "33",
-          "scheduleId": "2627160930380753521",
-          "dateDeparture": "2026-08-20",
-          "timeDeparture": "17:00"
-        }
-      ]
-    }
+    "responseCode": "404",
+    "responseMessage": "Data not found",
+    "responseReferenceNo": "053bb2de66bc4c42b852dcd84ab9545b"
   }
 }

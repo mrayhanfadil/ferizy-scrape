@@ -1,0 +1,55 @@
+{
+  "request": {
+    "email": "",
+    "routeId": "22",
+    "departure": {
+      "scheduleId": "2627160930380747319",
+      "date": "2026-08-22",
+      "time": "07:00:00"
+    },
+    "services": {
+      "passengers": [
+        {
+          "serviceId": "7",
+          "capacity": 1
+        }
+      ],
+      "vehicleId": "16"
+    }
+  },
+  "status_code": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T13:04:42.485808+07:00",
+  "body": {
+    "status": true,
+    "message": "Ship schedule found.",
+    "originDestination": "Ujung - Kamal",
+    "serviceType": "Kendaraan",
+    "totalPassengers": "1 Penumpang",
+    "checkIn": {
+      "scheduleId": "2627160930380747319",
+      "date": "2026-08-22",
+      "time": "07:00:00"
+    },
+    "serviceUserType": "Reguler",
+    "totalPrice": 74000.0,
+    "totalPriceBeforeReduction": 74000.0,
+    "totalReduction": 0.0,
+    "pricingDetails": [
+      {
+        "serviceId": 16,
+        "serviceName": "Golongan V - Penumpang",
+        "quantity": 1,
+        "reductionConfig": null,
+        "priceBeforeReduction": 74000.0,
+        "reduction": 0.0,
+        "price": 74000.0,
+        "quota": 10,
+        "description": "",
+        "subTotal": 74000.0,
+        "subTotalReduction": 0.0
+      }
+    ],
+    "ships": []
+  }
+}
