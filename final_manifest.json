@@ -1,6 +1,7 @@
 {
   "source": "https://trip.ferizy.com/ + https://ferizy.com/",
   "retrieved_at_wib": "2026-08-19T12:18:45.675343+07:00",
+  "updated_at_wib": "2026-08-20T11:09:11+07:00",
   "scope": "public Ferizy unified: trip.ferizy.com (API Gateway, 65 origins/140 routes) + ferizy.com classic (4 origins/4 OD/6 ODxShip + live fares); authenticated account/order/payment excluded",
   "counts": {
     "origins": 65,
@@ -22,7 +23,46 @@
     "ferizy_classic_origins": 4,
     "ferizy_classic_directed_OD": 4,
     "ferizy_classic_ODxShip": 6,
-    "ferizy_classic_fares_live": 9
+    "ferizy_classic_fares_live": 72,
+    "ferizy_classic_matrix_tested": 144,
+    "trip_fullscale_routes_tested": 140,
+    "trip_fullscale_service_rows_tested": 2031,
+    "trip_fullscale_fares_live": 593,
+    "trip_fullscale_routes_with_fares": 39,
+    "trip_fullscale_scheduled_or_source_status_rows": 2031
+  },
+  "fare_snapshots": {
+    "classic": {
+      "target_date": "2026-08-20",
+      "live_fares": 72,
+      "matrix_rows": 144,
+      "matrix_status": {
+        "OK": 72,
+        "empty": 72,
+        "failed": 0
+      },
+      "export": "exports/unified_fares_ferizy_classic.csv",
+      "matrix_export": "exports/unified_fares_ferizy_classic_all_2026-08-20.csv"
+    },
+    "trip": {
+      "target_date": "2026-08-21",
+      "routes_tested": 140,
+      "service_rows_tested": 2031,
+      "live_fares": 593,
+      "routes_with_fares": 39,
+      "status_counts": {
+        "OK": 593,
+        "SCHEDULE_DATA_NOT_FOUND": 998,
+        "NO_SCHEDULE_FOR_DATE": 430,
+        "HTTP_400": 7,
+        "NO_SERVICE_TYPES": 3
+      },
+      "exports": [
+        "exports/trip_fares_fullscale_2026-08-21.csv",
+        "exports/trip_fares_fullscale_all_2026-08-21.csv",
+        "exports/trip_fares_manifest_2026-08-21.json"
+      ]
+    }
   },
   "files": {
     "normalized_origins": "exports/origins.csv",
@@ -39,11 +79,19 @@
     "unified_origins": "exports/unified_origins.csv",
     "unified_routes": "exports/unified_routes.csv",
     "unified_fares_classic": "exports/unified_fares_ferizy_classic.csv",
+    "unified_fares_classic_matrix": "exports/unified_fares_ferizy_classic_all_2026-08-20.csv",
+    "trip_fares_clean": "exports/trip_fares_fullscale_2026-08-21.csv",
+    "trip_fares_matrix": "exports/trip_fares_fullscale_all_2026-08-21.csv",
+    "trip_fares_manifest": "exports/trip_fares_manifest_2026-08-21.json",
+    "trip_fares_raw": "data/trip-fares/2026-08-21/",
+    "trip_fares_raw_mirror": "data/ferizy-trip-all/fares/",
+    "trip_fares_script": "scripts/scrape_fares_trip_fullscale.py",
     "ferizy_classic_raw": "data/ferizy-classic/"
   },
   "limitations": [
     "Ship schedule, price, quota, and availability responses are dynamic and depend on route, date/time, passenger type, and vehicle type.",
-    "A representative ship-schedule request was tested separately; exhaustive pricing would require a user-defined fare matrix and would create a very large, rapidly changing request set.",
+    "The classic 2026-08-20 snapshot tested 144 service/vehicle combinations and returned 72 live fares plus 72 valid empty passenger combinations.",
+    "The trip 2026-08-21 snapshot enumerated all 140 routes and 2,031 exposed service rows; 593 live fares were available across 39 routes. Remaining rows preserve source statuses and are not zero-price assumptions.",
     "Authenticated account/order/payment/refund data was not collected.",
     "Additional public master endpoints were probed: homepage/range/age, homepage/service-type, vaccine/self-assesment, logistic/form-parameter-setting, ticket/parameter (all HTTP 200 and archived under data/misc_public/).",
     "Several other public paths returned 400/404 (homepage/layanan, homepage/verification, vaccine/reason without parameter, logistic list-* without required query/auth) — responses are archived but contain no dataset.",
