@@ -1,0 +1,28 @@
+{
+  "request": {
+    "email": "",
+    "routeId": "3002",
+    "departure": {
+      "scheduleId": "2627160930380735041",
+      "date": "2026-08-21",
+      "time": "06:30:00"
+    },
+    "services": {
+      "passengers": [
+        {
+          "serviceId": "7",
+          "capacity": 1
+        }
+      ],
+      "vehicleId": "518"
+    }
+  },
+  "status_code": 400,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T10:19:24.620237+07:00",
+  "body": {
+    "status": "false",
+    "message": "Ship schedule not found.",
+    "data": null
+  }
+}

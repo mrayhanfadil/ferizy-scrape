@@ -1,0 +1,55 @@
+{
+  "request": {
+    "email": "",
+    "routeId": "202203",
+    "departure": {
+      "scheduleId": "2627160930380753607",
+      "date": "2026-08-21",
+      "time": "11:00:00"
+    },
+    "services": {
+      "passengers": [
+        {
+          "serviceId": "1",
+          "capacity": 1
+        }
+      ],
+      "vehicleId": ""
+    }
+  },
+  "status_code": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T10:21:27.156696+07:00",
+  "body": {
+    "status": true,
+    "message": "Ship schedule found.",
+    "originDestination": "Kolaka - Bajoe",
+    "serviceType": "Pejalan Kaki",
+    "totalPassengers": "1 Penumpang",
+    "checkIn": {
+      "scheduleId": "2627160930380753607",
+      "date": "2026-08-21",
+      "time": "11:00:00"
+    },
+    "serviceUserType": "Reguler",
+    "totalPrice": 96000.0,
+    "totalPriceBeforeReduction": 96000.0,
+    "totalReduction": 0.0,
+    "pricingDetails": [
+      {
+        "serviceId": 1,
+        "serviceName": "Dewasa",
+        "quantity": 1,
+        "reductionConfig": null,
+        "priceBeforeReduction": 96000.0,
+        "reduction": 0.0,
+        "price": 96000.0,
+        "quota": 0,
+        "description": "BERBAYAR",
+        "subTotal": 96000.0,
+        "subTotalReduction": 0.0
+      }
+    ],
+    "ships": []
+  }
+}

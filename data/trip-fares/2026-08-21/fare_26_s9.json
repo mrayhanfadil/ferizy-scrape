@@ -1,0 +1,55 @@
+{
+  "request": {
+    "email": "",
+    "routeId": "26",
+    "departure": {
+      "scheduleId": "2627160930380745824",
+      "date": "2026-08-21",
+      "time": "00:00:00"
+    },
+    "services": {
+      "passengers": [
+        {
+          "serviceId": "9",
+          "capacity": 1
+        }
+      ],
+      "vehicleId": ""
+    }
+  },
+  "status_code": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T10:25:57.442358+07:00",
+  "body": {
+    "status": true,
+    "message": "Ship schedule found.",
+    "originDestination": "Padang Bai - Lembar",
+    "serviceType": "Pejalan Kaki",
+    "totalPassengers": "1 Penumpang",
+    "checkIn": {
+      "scheduleId": "2627160930380745824",
+      "date": "2026-08-21",
+      "time": "00:00:00"
+    },
+    "serviceUserType": "Reguler",
+    "totalPrice": 6100.0,
+    "totalPriceBeforeReduction": 6100.0,
+    "totalReduction": 0.0,
+    "pricingDetails": [
+      {
+        "serviceId": 9,
+        "serviceName": "Bayi Ekonomi",
+        "quantity": 1,
+        "reductionConfig": null,
+        "priceBeforeReduction": 6100.0,
+        "reduction": 0.0,
+        "price": 6100.0,
+        "quota": 30,
+        "description": "BERBAYAR",
+        "subTotal": 6100.0,
+        "subTotalReduction": 0.0
+      }
+    ],
+    "ships": []
+  }
+}

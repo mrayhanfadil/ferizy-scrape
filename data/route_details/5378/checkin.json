@@ -3,17 +3,14 @@
     "method": "GET",
     "url": "https://api-gateway-1.ferizy.com/ferizy/ticket/schedule/check_in",
     "routeId": "5378",
-    "headers_extra": {
-      "AIFRouteId": "5378",
-      "AIFDeviceTime": "2026-08-19T11:28:59+07:00"
-    }
+    "device_time": "2026-08-20T10:57:29+07:00"
   },
   "status": 404,
   "content_type": "application/json",
-  "retrieved_at_wib": "2026-08-19T11:29:06.669231+07:00",
+  "retrieved_at_wib": "2026-08-20T10:58:24.664637+07:00",
   "body": {
     "responseCode": "404",
     "responseMessage": "Data not found",
-    "responseReferenceNo": "de5be480f28c45598dbeecafb1260bf6"
+    "responseReferenceNo": "4e1c8e7914bb4572a5cf33eeb9e01293"
   }
 }

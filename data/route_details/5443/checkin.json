@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://api-gateway-1.ferizy.com/ferizy/ticket/schedule/check_in",
+    "routeId": "5443",
+    "device_time": "2026-08-20T11:01:59+07:00"
+  },
+  "status": 0,
+  "content_type": "error",
+  "retrieved_at_wib": "2026-08-20T11:03:09.965675+07:00",
+  "body": {
+    "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='api-gateway-1.ferizy.com', port=443): Read timed out. (read timeout=45)\"))"
+  }
+}

@@ -24,11 +24,11 @@ The `select2` dropdown you flagged (`Bakauheni, Lampung / Gilimanuk, Bali / Keta
 
 | Portal | Origins | Directed OD | OD × Ship | Notes |
 |---|---:|---:|---:|---|
-| **trip.ferizy.com** | **65** | **140** | 140 service_type (56 checkin OK / 84 `Data not found`) | Sulawesi/NTT/Maluku/Kalimantan/Bali-NTB etc. |
+| **trip.ferizy.com** | **65** | **140** | 140 service_type (56 checkin OK / 84 `Data not found`) | Sulawesi/NTT/Maluku/Kalimantan/Bali-NTB etc. · 593 live fares (39 routes, 2026-08-21) |
 | **ferizy.com (classic)** | **4** | **4** | **6** | `Merak ↔ Bakauheni` (Express+Reguler), `Gilimanuk ↔ Ketapang` (Reguler) · 72 live fares (6 OD×Ship ×12 VC, 2026-08-20) |
 | **Unified** | **69** | **146** | — | Deduplicated harbours, `classic-*` IDs for classic |
 
-Other unified totals: **2,028** service detail rows · **4,513** check-in schedule rows · **19** parameter files · **14** crawled pages · **4** media · **22** misc public probes (5 × HTTP 200) · **72** live fare rows (classic, 2026-08-20).
+Other unified totals: **2,028** service detail rows · **4,513** check-in schedule rows · **19** parameter files · **14** crawled pages · **4** media · **22** misc public probes (5 × HTTP 200) · **72** live fare rows (classic, 2026-08-20) · **593** live fare rows (trip, 2026-08-21 across 39 routes / 2,031 tested service rows).
 
 ## File layout
 
@@ -43,6 +43,11 @@ trip-ferizy-scrape/                  ← canonical live folder (this repo)
 │   │   └── checkin.json             ← 56 OK / 84 Data not found
 │   ├── misc_public/*.json           ← 22 probes (5 OK: homepage/range/age, homepage/service-type, vaccine/self-assesment, logistic/form-parameter-setting, ticket/parameter)
 │   ├── parameters/*.json            ← 19
+│   ├── trip-fares/
+│   │   ├── 2026-08-21/              ← checkpointed raw trip fare JSON envelopes (fare_<routeId>_s<serviceId>.json)
+│   │   └── manifest_2026-08-21.json ← trip fare snapshot summary manifest
+│   ├── ferizy-trip-all/
+│   │   └── fares/                   ← checkpointed raw trip fare JSON envelopes (fare_<routeId>_s<serviceId>_2026-08-21.json)
 │   ├── ferizy-classic-all/          ← 72 full matrix fare JSON envelopes
 │   └── ferizy-classic/              ← 96 classic raw JSON (init, route_origin_*, ship_class_*, times_*, timesandkuota_*, fare_*)
 ├── exports/
@@ -55,12 +60,16 @@ trip-ferizy-scrape/                  ← canonical live folder (this repo)
 │   ├── unified_routes.csv           ← 146 (140 trip + 6 classic `classic-{o}-{d}-{ship}`)
 │   ├── unified_fares_ferizy_classic.csv ← 72 live fares (73 lines with header) 2026-08-20 (see below)
 │   ├── unified_fares_ferizy_classic_all_2026-08-20.csv ← 144 test matrix (72 OK / 72 empty Pejalan Kaki)
+│   ├── trip_fares_fullscale_2026-08-21.csv ← 593 live fares (594 lines with header) 2026-08-21 (39 routes)
+│   ├── trip_fares_fullscale_all_2026-08-21.csv ← 2,031 tested service rows across 140 routes with source status
+│   ├── trip_fares_manifest_2026-08-21.json ← trip fare run manifest
 │   └── ferizy-classic/ferizy_classic_routes.csv ← 6 OD×Ship
 ├── pages/                           ← 14 static page snapshots
 ├── media/                           ← 4 assets
 ├── raw/                             ← _nuxt entry 84d59672.js + chunks (AIFSignature slice 379745..381033 preserved)
 ├── scripts/
-│   └── scrape_fares_all_vehicle_classes.py ← 3-step pipeline scraper (timesandkuota→ship_schedule→schedule)
+│   ├── scrape_fares_all_vehicle_classes.py ← classic 3-step pipeline scraper (timesandkuota→ship_schedule→schedule)
+│   └── scrape_fares_trip_fullscale.py      ← trip full-scale scraper (140 routes, HMAC-SHA512 AIFSignature, retry/checkpoint)
 ├── final_manifest.json              ← unified counts + file map + limitations
 ├── scrape_master.py                 ← trip.ferizy.com master (origin→destination→service/checkin, retry 5×, checkpoint each response)
 ├── scrape_route_metadata*.py        ← trip route metadata (fast/4workers variants)
@@ -80,6 +89,12 @@ Classic-only mirror (prior to merge) preserved at `~/ferizy-scrape/` — already
 **`exports/unified_fares_ferizy_classic.csv`** — `origin,destination,shipClass,vehicleClass,departDate,departTime,kuota,fareAmount,totalFare,currency,sourceFile`
 
 **`exports/unified_fares_ferizy_classic_all_2026-08-20.csv`** — full 144 test matrix with `status,statusCode,message` (72 OK / 72 empty Pejalan Kaki combos / 0 failed)
+
+**`exports/trip_fares_fullscale_2026-08-21.csv`** — `routeId,originHarbourId,origin,destination,destinationProvince,serviceCategory,serviceId,serviceName,vehicleClass,departDate,departTime,scheduleId,quota,fareAmount,totalPrice,currency,status` (593 live fare rows across 39 routes)
+
+**`exports/trip_fares_fullscale_all_2026-08-21.csv`** — `routeId,originHarbourId,origin,destination,destinationProvince,serviceCategory,serviceId,serviceName,vehicleClass,departDate,departTime,scheduleId,quota,fareAmount,totalPrice,currency,status,statusCode,message` (2,031 tested service rows across all 140 routes with raw API status: 593 OK, 998 SCHEDULE_DATA_NOT_FOUND, 430 NO_SCHEDULE_FOR_DATE, 7 HTTP_400, 3 NO_SERVICE_TYPES)
+
+**`exports/trip_fares_manifest_2026-08-21.json`** & **`data/trip-fares/manifest_2026-08-21.json`** — metadata and summary tallies of the trip fare run.
 
 **`exports/service_types.csv`** — trip service metadata (Pejalan Kaki / Kendaraan, Gol I–IX, Dewasa/Anak/Bayi)
 
@@ -104,6 +119,30 @@ Classic-only mirror (prior to merge) preserved at `~/ferizy-scrape/` — already
 
 Raw envelopes: `data/ferizy-classic-all/fares/fare_*.json` + `data/ferizy-classic/fare_*.json` (72 JSON files). Pipeline: 3-step `POST /schedule/timesandkuota` → `GET /ship_schedule` → `POST /schedule` with dynamic slot selection.
 
+## Trip full-scale fare snapshot (verified 2026-08-21)
+
+| Metric | Result |
+|---|---:|
+| Trip routes enumerated | 140 / 140 |
+| Service rows tested | 2,031 |
+| Live fare rows (`OK`) | 593 |
+| Routes with at least one live fare | 39 |
+| `SCHEDULE_DATA_NOT_FOUND` | 998 |
+| `NO_SCHEDULE_FOR_DATE` | 430 |
+| `HTTP_400` source responses | 7 |
+| `NO_SERVICE_TYPES` | 3 |
+| Scrape errors | 0 after route 5515 retry |
+
+`Kendaraan` rows cover each route's exposed vehicle service definitions (GOL I/II/III/IVA/IVB/VA/VB/VIA/VIB/VII/VIII/IX); passenger services such as DEWASA/BAYI are included when exposed. Do not label it a universal tariff table. The public endpoint exposes live fares for 39 routes on this snapshot date (2026-08-21); the remaining 101 routes are explicitly retained with their source status codes (`SCHEDULE_DATA_NOT_FOUND`, `NO_SCHEDULE_FOR_DATE`, `HTTP_400`, `NO_SERVICE_TYPES`) because pricing and schedules on `trip.ferizy.com` are volatile and schedule-dependent.
+
+| Route | Service rows OK | Example fares |
+|---|---:|---|
+| Kayangan → Pototano (route 29) | 14 | GOL I Rp32,000; GOL IVA Rp563,000; GOL IX Rp2,265,000; Dewasa Rp18,800 |
+| Lembar → Padang Bai (route 25) | 14 | GOL I Rp81,600; GOL IVA Rp1,184,100; GOL IX Rp8,265,800; Dewasa Rp65,300 |
+
+> [!NOTE]
+> **Fare Snapshot Limitations:** Fares, quotas, and ship schedules are dynamic and dependent on departure date, departure time, route, and service type. The date `2026-08-21` represents a specific point-in-time snapshot; non-OK status codes reflect raw source API responses and must not be interpreted as free or zero-price routes. No authenticated, customer, order, or payment data was requested or scraped.
+
 ## Reproduce
 
 ```bash
@@ -114,11 +153,15 @@ python3 scrape_public_parameters.py       # 19 params
 python3 scrape_misc_public.py             # 22 extra public endpoints
 python3 crawl_pages.py                    # 14 static pages
 
+# trip.ferizy.com — full-scale fare snapshot (140 routes, HMAC-SHA512 AIFSignature, checkpointed)
+python3 scripts/scrape_fares_trip_fullscale.py
+
 # ferizy.com classic — west corridor + live fares (already merged, but re-runnable)
 # see ~/ferizy-scrape scrape (schedule/init → schedule/route → schedule/ship_class → schedule/times → schedule/timesandkuota → ship_schedule → POST /schedule)
+python3 scripts/scrape_fares_all_vehicle_classes.py
 ```
 
-Requirements: Python 3 + `requests`, `openssl` CLI (`enc -aes-128-ecb -K <hex> -a -A` for `AIFSignature` with key `61643163343938653932313434326366`). Headers: `AIFClient`, `AIFSignature`, `Referer: https://trip.ferizy.com/`, `Connection: close`, retry `min(2*attempt,10)s`.
+Requirements: Python 3 + `requests`, `cryptography` (for AES-128-CBC / token crypto) or `openssl` CLI (`enc -aes-128-ecb -K <hex> -a -A` for legacy `AIFSignature` with key `61643163343938653932313434326366`). Headers: `AIFClient`, `AIFSignature`, `Referer: https://trip.ferizy.com/`, `Connection: close`, retry `min(2*attempt,10)s`.
 
 ## Scope & sanitization
 

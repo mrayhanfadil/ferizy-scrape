@@ -1,0 +1,78 @@
+{
+  "request": {
+    "email": "",
+    "routeId": "4140",
+    "departure": {
+      "scheduleId": "2627160930380753436",
+      "date": "2026-08-21",
+      "time": "22:00:00"
+    },
+    "services": {
+      "passengers": [
+        {
+          "serviceId": "9",
+          "capacity": 1
+        }
+      ],
+      "vehicleId": ""
+    }
+  },
+  "status_code": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T10:18:35.183850+07:00",
+  "body": {
+    "status": true,
+    "message": "Ship schedule found.",
+    "originDestination": "Gunungsitoli - Sibolga",
+    "serviceType": "Pejalan Kaki",
+    "totalPassengers": "1 Penumpang",
+    "checkIn": {
+      "scheduleId": "2627160930380753436",
+      "date": "2026-08-21",
+      "time": "22:00:00"
+    },
+    "serviceUserType": "Reguler",
+    "totalPrice": 9500.0,
+    "totalPriceBeforeReduction": 9500.0,
+    "totalReduction": 0.0,
+    "pricingDetails": [
+      {
+        "serviceId": 9,
+        "serviceName": "Bayi Ekonomi",
+        "quantity": 1,
+        "reductionConfig": null,
+        "priceBeforeReduction": 9500.0,
+        "reduction": 0.0,
+        "price": 9500.0,
+        "quota": 14,
+        "description": "BERBAYAR",
+        "subTotal": 9500.0,
+        "subTotalReduction": 0.0
+      }
+    ],
+    "ships": [
+      {
+        "id": 1150,
+        "code": "436",
+        "branch": {
+          "id": 1011,
+          "code": "370",
+          "name": "Danau Toba",
+          "status": 1,
+          "timeZone": "WIB",
+          "propId": 10
+        },
+        "company": {
+          "id": 1,
+          "code": "1",
+          "name": "PT. ASDP Indonesia Ferry"
+        },
+        "name": "KMP. Jatra II",
+        "grt": 3902.0,
+        "type": 1,
+        "status": 1,
+        "beaTiket": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "request": {
+    "email": "",
+    "routeId": "2003",
+    "departure": {
+      "scheduleId": "2627160930380734955",
+      "date": "2026-08-21",
+      "time": "13:30:00"
+    },
+    "services": {
+      "passengers": [
+        {
+          "serviceId": "9",
+          "capacity": 1
+        }
+      ],
+      "vehicleId": ""
+    }
+  },
+  "status_code": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T10:57:15.037630+07:00",
+  "body": {
+    "status": true,
+    "message": "Ship schedule found.",
+    "originDestination": "Karimun Jawa - Jepara",
+    "serviceType": "Pejalan Kaki",
+    "totalPassengers": "1 Penumpang",
+    "checkIn": {
+      "scheduleId": "2627160930380734955",
+      "date": "2026-08-21",
+      "time": "13:30:00"
+    },
+    "serviceUserType": "Reguler",
+    "totalPrice": 15000.0,
+    "totalPriceBeforeReduction": 15000.0,
+    "totalReduction": 0.0,
+    "pricingDetails": [
+      {
+        "serviceId": 9,
+        "serviceName": "Bayi Ekonomi",
+        "quantity": 1,
+        "reductionConfig": null,
+        "priceBeforeReduction": 15000.0,
+        "reduction": 0.0,
+        "price": 15000.0,
+        "quota": 9,
+        "description": "BERBAYAR",
+        "subTotal": 15000.0,
+        "subTotalReduction": 0.0
+      }
+    ],
+    "ships": []
+  }
+}

@@ -2,18 +2,15 @@
   "request": {
     "method": "GET",
     "url": "https://api-gateway-1.ferizy.com/ferizy/homepage/service-type",
-    "routeId": "1023206",
-    "headers_extra": {
-      "AIFRouteId": "1023206"
-    }
+    "routeId": "1023206"
   },
   "status": 200,
   "content_type": "application/json",
-  "retrieved_at_wib": "2026-08-19T11:30:36.684854+07:00",
+  "retrieved_at_wib": "2026-08-20T11:00:39.065795+07:00",
   "body": {
     "ResponseCode": "200",
     "ResponseMessage": "HomePage HpHpJenisPenggunaJasaRf - Success",
-    "ResponseReferenceNo": "241bee22085c4b5ca11d85e61e09812e",
+    "ResponseReferenceNo": "e28aefd718684bd6863dd8c3bc43d2f9",
     "jenisPenggunaJasa": {
       "id": "jenis-pengguna-jasa",
       "name": "Jenis Pengguna Jasa"

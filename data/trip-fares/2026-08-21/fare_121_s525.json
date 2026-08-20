@@ -1,0 +1,55 @@
+{
+  "request": {
+    "email": "",
+    "routeId": "121",
+    "departure": {
+      "scheduleId": "2627160930380750692",
+      "date": "2026-08-21",
+      "time": "04:30:00"
+    },
+    "services": {
+      "passengers": [
+        {
+          "serviceId": "525",
+          "capacity": 1
+        }
+      ],
+      "vehicleId": ""
+    }
+  },
+  "status_code": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T10:26:08.227552+07:00",
+  "body": {
+    "status": true,
+    "message": "Ship schedule found.",
+    "originDestination": "Pamatata - Bira",
+    "serviceType": "Pejalan Kaki",
+    "totalPassengers": "1 Penumpang",
+    "checkIn": {
+      "scheduleId": "2627160930380750692",
+      "date": "2026-08-21",
+      "time": "04:30:00"
+    },
+    "serviceUserType": "Reguler",
+    "totalPrice": 11800.0,
+    "totalPriceBeforeReduction": 11800.0,
+    "totalReduction": 0.0,
+    "pricingDetails": [
+      {
+        "serviceId": 525,
+        "serviceName": "SUPLESI BAYI EKONOMI KE BISNIS",
+        "quantity": 1,
+        "reductionConfig": null,
+        "priceBeforeReduction": 11800.0,
+        "reduction": 0.0,
+        "price": 11800.0,
+        "quota": 0,
+        "description": "BERBAYAR",
+        "subTotal": 11800.0,
+        "subTotalReduction": 0.0
+      }
+    ],
+    "ships": []
+  }
+}

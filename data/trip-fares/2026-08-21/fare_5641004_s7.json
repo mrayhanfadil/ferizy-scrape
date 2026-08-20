@@ -1,0 +1,78 @@
+{
+  "request": {
+    "email": "",
+    "routeId": "5641004",
+    "departure": {
+      "scheduleId": "2627160930380754187",
+      "date": "2026-08-21",
+      "time": "08:00:00"
+    },
+    "services": {
+      "passengers": [
+        {
+          "serviceId": "7",
+          "capacity": 1
+        }
+      ],
+      "vehicleId": ""
+    }
+  },
+  "status_code": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T10:55:52.406575+07:00",
+  "body": {
+    "status": true,
+    "message": "Ship schedule found.",
+    "originDestination": "Jangkar - Sapudi",
+    "serviceType": "Pejalan Kaki",
+    "totalPassengers": "1 Penumpang",
+    "checkIn": {
+      "scheduleId": "2627160930380754187",
+      "date": "2026-08-21",
+      "time": "08:00:00"
+    },
+    "serviceUserType": "Reguler",
+    "totalPrice": 52500.0,
+    "totalPriceBeforeReduction": 52500.0,
+    "totalReduction": 0.0,
+    "pricingDetails": [
+      {
+        "serviceId": 7,
+        "serviceName": "Dewasa Ekonomi",
+        "quantity": 1,
+        "reductionConfig": null,
+        "priceBeforeReduction": 52500.0,
+        "reduction": 0.0,
+        "price": 52500.0,
+        "quota": 114,
+        "description": "BERBAYAR",
+        "subTotal": 52500.0,
+        "subTotalReduction": 0.0
+      }
+    ],
+    "ships": [
+      {
+        "id": 1221,
+        "code": "",
+        "branch": {
+          "id": 2,
+          "code": "150",
+          "name": "Ketapang",
+          "status": 1,
+          "timeZone": "WIB",
+          "propId": 12
+        },
+        "company": {
+          "id": 64,
+          "code": "1020004707",
+          "name": "PT. Dharma Dwipa Utama"
+        },
+        "name": "KMP. Dharma Ferry I",
+        "grt": 571.0,
+        "type": 1,
+        "status": 1,
+        "beaTiket": null
+      }
+    ]
+  }
+}

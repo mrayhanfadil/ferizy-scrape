@@ -1,0 +1,55 @@
+{
+  "request": {
+    "email": "",
+    "routeId": "26",
+    "departure": {
+      "scheduleId": "2627160930380745824",
+      "date": "2026-08-21",
+      "time": "00:00:00"
+    },
+    "services": {
+      "passengers": [
+        {
+          "serviceId": "7",
+          "capacity": 1
+        }
+      ],
+      "vehicleId": "16"
+    }
+  },
+  "status_code": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T10:27:04.733271+07:00",
+  "body": {
+    "status": true,
+    "message": "Ship schedule found.",
+    "originDestination": "Padang Bai - Lembar",
+    "serviceType": "Kendaraan",
+    "totalPassengers": "1 Penumpang",
+    "checkIn": {
+      "scheduleId": "2627160930380745824",
+      "date": "2026-08-21",
+      "time": "00:00:00"
+    },
+    "serviceUserType": "Reguler",
+    "totalPrice": 2251300.0,
+    "totalPriceBeforeReduction": 2251300.0,
+    "totalReduction": 0.0,
+    "pricingDetails": [
+      {
+        "serviceId": 16,
+        "serviceName": "Golongan V - Penumpang",
+        "quantity": 1,
+        "reductionConfig": null,
+        "priceBeforeReduction": 2251300.0,
+        "reduction": 0.0,
+        "price": 2251300.0,
+        "quota": 30,
+        "description": "",
+        "subTotal": 2251300.0,
+        "subTotalReduction": 0.0
+      }
+    ],
+    "ships": []
+  }
+}

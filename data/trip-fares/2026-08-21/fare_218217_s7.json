@@ -1,0 +1,78 @@
+{
+  "request": {
+    "email": "",
+    "routeId": "218217",
+    "departure": {
+      "scheduleId": "2627160930380753627",
+      "date": "2026-08-21",
+      "time": "08:00:00"
+    },
+    "services": {
+      "passengers": [
+        {
+          "serviceId": "7",
+          "capacity": 1
+        }
+      ],
+      "vehicleId": ""
+    }
+  },
+  "status_code": 200,
+  "content_type": "application/json",
+  "retrieved_at_wib": "2026-08-20T10:23:19.932589+07:00",
+  "body": {
+    "status": true,
+    "message": "Ship schedule found.",
+    "originDestination": "Langara - Kendari",
+    "serviceType": "Pejalan Kaki",
+    "totalPassengers": "1 Penumpang",
+    "checkIn": {
+      "scheduleId": "2627160930380753627",
+      "date": "2026-08-21",
+      "time": "08:00:00"
+    },
+    "serviceUserType": "Reguler",
+    "totalPrice": 31000.0,
+    "totalPriceBeforeReduction": 31000.0,
+    "totalReduction": 0.0,
+    "pricingDetails": [
+      {
+        "serviceId": 7,
+        "serviceName": "Dewasa Ekonomi",
+        "quantity": 1,
+        "reductionConfig": null,
+        "priceBeforeReduction": 31000.0,
+        "reduction": 0.0,
+        "price": 31000.0,
+        "quota": 97,
+        "description": "BERBAYAR",
+        "subTotal": 31000.0,
+        "subTotalReduction": 0.0
+      }
+    ],
+    "ships": [
+      {
+        "id": 7,
+        "code": "607",
+        "branch": {
+          "id": 720,
+          "code": "720",
+          "name": "Baubau",
+          "status": 0,
+          "timeZone": "WIB",
+          "propId": 0
+        },
+        "company": {
+          "id": 1,
+          "code": "1",
+          "name": "PT. ASDP Indonesia Ferry"
+        },
+        "name": "KMP. Bahtera Mas",
+        "grt": 628.0,
+        "type": 1,
+        "status": 1,
+        "beaTiket": null
+      }
+    ]
+  }
+}
