@@ -67,6 +67,7 @@ trip-ferizy-scrape/                  ← canonical live folder (this repo)
 │   ├── ferizy_all_fares_2026-08-20_2026-08-26.csv ← 3,772 normalized live tariffs (Trip + Classic, one file)
 │   ├── ferizy_all_fares_matrix_2026-08-20_2026-08-26.csv ← 14,149 normalized matrix rows (Trip + Classic, one file)
 │   ├── ferizy_all_fares_manifest_2026-08-20_2026-08-26.json ← unified export manifest
+│   ├── ferizy_all_routes.csv     ← 146 normalized routes (140 Trip + 6 Classic, one file)
 │   ├── trip_fares_fullscale_2026-08-21.csv ← 597 live fares single-day snapshot (39 routes)
 │   ├── trip_fares_fullscale_all_2026-08-21.csv ← 2,003 tested service rows across 140 routes single-day
 │   ├── trip_fares_manifest_2026-08-21.json ← single-day run manifest
@@ -104,6 +105,8 @@ Classic-only mirror (prior to merge) preserved at `~/ferizy-scrape/` — already
 **`exports/ferizy_all_fares_2026-08-20_2026-08-26.csv`** — one normalized tariff CSV across both portals: **3,772 live rows** (3,700 Trip + 72 Classic). The `source` column is provenance only; the data is not split by portal.
 
 **`exports/ferizy_all_fares_matrix_2026-08-20_2026-08-26.csv`** — one normalized full matrix across both portals: **14,149 rows** (14,005 Trip + 144 Classic), including `OK`, empty, and source-error statuses.
+
+**`exports/ferizy_all_routes.csv`** — one normalized route master across both portals: **146 routes** (140 Trip + 6 Classic). Classic rows include numeric origin and destination harbour IDs; Trip rows retain the source route schema, where destination harbour IDs are not exposed by the public route export.
 
 **`exports/trip_fares_snapshot_matrix_2026-08-20_2026-08-26.csv`** — `date,routeId,originHarbourId,origin,destination,destinationProvince,serviceCategory,serviceId,serviceName,vehicleClass,departDate,departTime,scheduleId,quota,fareAmount,totalPrice,currency,status,statusCode,message` (14,005 tested matrix rows across all 140 routes: 3,700 OK, 7,616 SCHEDULE_DATA_NOT_FOUND, 2,631 NO_SCHEDULE_FOR_DATE, 37 HTTP_400, 21 NO_SERVICE_TYPES)
 
@@ -220,6 +223,9 @@ python3 scripts/scrape_fares_trip_fullscale.py --date 2026-08-21
 
 # Trip + Classic — one normalized all-portal CSV
 python3 scripts/merge_all_ferizy_fares.py --start-date 2026-08-20 --end-date 2026-08-26
+
+# Trip + Classic — one normalized route master
+python3 scripts/merge_all_ferizy_routes.py
 
 # trip.ferizy.com — public masters (needs no auth; AIFSignature via openssl AES-128-ECB)
 python3 scrape_master.py                  # 65 origins → 140 routes (checkpointed)

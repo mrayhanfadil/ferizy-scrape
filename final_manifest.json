@@ -39,6 +39,7 @@
     "trip_snapshot_matrix_rows": 14005,
     "all_portal_live_fares": 3772,
     "all_portal_matrix_rows": 14149,
+    "all_portal_routes": 146,
     "trip_single_day_fares_live_2026_08_21": 597,
     "trip_single_day_routes_with_fares_2026_08_21": 39,
     "trip_single_day_service_rows_tested_2026_08_21": 2003
@@ -134,7 +135,9 @@
     "all_portal_fares_clean": "exports/ferizy_all_fares_2026-08-20_2026-08-26.csv",
     "all_portal_fares_matrix": "exports/ferizy_all_fares_matrix_2026-08-20_2026-08-26.csv",
     "all_portal_fares_manifest": "exports/ferizy_all_fares_manifest_2026-08-20_2026-08-26.json",
+    "all_portal_routes": "exports/ferizy_all_routes.csv",
     "all_portal_merge_script": "scripts/merge_all_ferizy_fares.py",
+    "all_portal_route_merge_script": "scripts/merge_all_ferizy_routes.py",
     "ferizy_classic_raw": "data/ferizy-classic/"
   },
   "limitations": [
