@@ -37,6 +37,8 @@
     "trip_snapshot_vehicle_service_keys_with_ok": 760,
     "trip_snapshot_fares_live": 3700,
     "trip_snapshot_matrix_rows": 14005,
+    "all_portal_live_fares": 3772,
+    "all_portal_matrix_rows": 14149,
     "trip_single_day_fares_live_2026_08_21": 597,
     "trip_single_day_routes_with_fares_2026_08_21": 39,
     "trip_single_day_service_rows_tested_2026_08_21": 2003
@@ -129,6 +131,10 @@
     "trip_fares_raw_mirror": "data/ferizy-trip-all/fares/",
     "trip_fares_script": "scripts/scrape_fares_trip_fullscale.py",
     "trip_fares_range_script": "scripts/scrape_fares_trip_snapshot_range.py",
+    "all_portal_fares_clean": "exports/ferizy_all_fares_2026-08-20_2026-08-26.csv",
+    "all_portal_fares_matrix": "exports/ferizy_all_fares_matrix_2026-08-20_2026-08-26.csv",
+    "all_portal_fares_manifest": "exports/ferizy_all_fares_manifest_2026-08-20_2026-08-26.json",
+    "all_portal_merge_script": "scripts/merge_all_ferizy_fares.py",
     "ferizy_classic_raw": "data/ferizy-classic/"
   },
   "limitations": [
@@ -136,6 +142,7 @@
     "The classic 2026-08-20 snapshot tested 144 service/vehicle combinations and returned 72 live fares plus 72 valid empty passenger combinations across 4 OD corridors / 6 ship class routes.",
     "The 7-day period snapshot (2026-08-20 to 2026-08-26) enumerated all 140 route IDs and 2,029 unique route/service keys across 7 daily runs (14,005 test matrix rows). Live tariffs were returned for 63 routes (3,700 live fare rows across 959 route/service keys and 760 vehicle/service keys). 77 routes returned no schedule or valid source error (SCHEDULE_DATA_NOT_FOUND: 7,616, NO_SCHEDULE_FOR_DATE: 2,631, HTTP_400: 37, NO_SERVICE_TYPES: 21) across the entire 7-day window. Fares are date- and schedule-dependent point-in-time snapshots, not universal static tariffs.",
     "The trip single-day 2026-08-21 snapshot enumerated all 140 routes and 2,003 exposed service rows; 597 live fares were available across 39 routes. Remaining rows preserve source statuses and are not zero-price assumptions.",
+    "The normalized all-portal CSV merges Trip and Classic without separate datasets: 3,772 live tariff rows and 14,149 matrix rows. The source column is retained for provenance only.",
     "Authenticated account/order/payment/refund data was not collected.",
     "Additional public master endpoints were probed: homepage/range/age, homepage/service-type, vaccine/self-assesment, logistic/form-parameter-setting, ticket/parameter (all HTTP 200 and archived under data/misc_public/).",
     "Several other public paths returned 400/404 (homepage/layanan, homepage/verification, vaccine/reason without parameter, logistic list-* without required query/auth) — responses are archived but contain no dataset.",
